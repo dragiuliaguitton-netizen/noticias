@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Semanal de Dermatologia</title>
+<style>
+  body{margin:0;background:#f6f3f0;font-family:Georgia,'Times New Roman',serif;color:#2b2522;line-height:1.55}
+  .wrap{max-width:720px;margin:0 auto;padding:24px 16px}
+  header{border-bottom:2px solid #c9a99a;padding-bottom:12px;margin-bottom:8px}
+  h1{font-size:24px;margin:0 0 4px;letter-spacing:.3px}
+  h2{font-size:18px;margin:32px 0 10px;padding-bottom:4px;border-bottom:1px solid #e3d6cf;color:#7a4b3a}
+  h3{font-size:16px;margin:0 0 6px}
+  .meta{font:13px/1.4 Helvetica,Arial,sans-serif;color:#7d706a}
+  .card{background:#fff;border-radius:10px;padding:14px 16px;margin:12px 0;border-left:4px solid #d8c7bf}
+  .card.muito_relevante{border-left-color:#c0392b}.card.relevante{border-left-color:#e67e22}.card.interessante{border-left-color:#e2b93b}
+  .card p{margin:6px 0;font-size:15px}
+  .lbl{font:600 12px Helvetica,Arial,sans-serif;text-transform:uppercase;letter-spacing:.5px;color:#9a857b}
+  .tag{display:inline-block;font:12px Helvetica,Arial,sans-serif;background:#f1e8e3;border-radius:10px;padding:1px 8px;margin-right:4px}
+  .aviso{font:13px Helvetica,Arial,sans-serif;background:#fff6e5;border-radius:6px;padding:6px 10px;margin-top:6px}
+  a{color:#8a4f3c;word-break:break-all}
+  ul{padding-left:20px} li{margin:4px 0}
+  .vazio{color:#8d817b;font-style:italic}
+  footer{margin-top:36px;font:12px/1.5 Helvetica,Arial,sans-serif;color:#8d817b}
+</style>
+</head>
+<body><div class="wrap">
+{% macro links(i) -%}
+<a href="{{ i.url }}">{{ i.url }}</a>{% if i.url_doi %} · <a href="{{ i.url_doi }}">DOI</a>{% endif %}{% if i.identificadores.pmid %} · PMID {{ i.identificadores.pmid }}{% endif %}{% if i.identificadores.nct %} · {{ i.identificadores.nct }}{% endif %}
+{%- endmacro %}
+{% macro avisos(i) -%}
+{% if i.atualizacao_de %}<div class="aviso">Atualização de assunto já monitorado.</div>{% endif %}
+{% if i.divergencias %}<div class="aviso">As fontes divergem sobre: {{ i.divergencias }}</div>{% endif %}
+{% for o in i.observacoes_validacao or [] %}<div class="aviso">⚠️ {{ o }}</div>{% endfor %}
+{%- endmacro %}
+<header>
+  <h1>🧴 Radar Semanal — Dermatologia</h1>
+  <div class="meta">Semana encerrada em {{ r.data | data_br }} · últimos {{ r.dias }} dias{% if not r.auditoria.modo_ia %} · modo heurístico (sem IA): resumos são trechos originais dos autores{% endif %}</div>
+  <div class="aviso">Informações com implicação clínica devem ser conferidas na fonte original antes do uso profissional.</div>
+</header>
+
+<h2>1. O que você precisa saber esta semana</h2>
+{% for i in r.destaques %}
+<div class="card {{ i.relevancia }}">
+  <h3>{{ EMOJI[i.relevancia] }} {{ i.titulo or i.titulo_original }}</h3>
+  <p><span class="lbl">Resumo</span><br>{{ i.resumo or "—" }}</p>
+  {% if i.por_que_importa %}<p><span class="lbl">Por que importa</span><br>{{ i.por_que_importa }}</p>{% endif %}
+  <p><span class="tag">{{ RELEVANCIAS[i.relevancia] }}</span><span class="tag">{{ i.tipo_evidencia }}</span>{% if i.status_terapia %}<span class="tag">{{ i.status_terapia }}</span>{% endif %}</p>
+  <p class="meta">{{ i.fonte }}{% if i.agregador %} (via {{ i.agregador }}){% endif %} · {{ ROTULO_NIVEL[i.nivel_fonte] }} · publicado {{ i.publicado_em | data_br }}<br>{{ links(i) }}</p>
+  {{ avisos(i) }}
+</div>
+{% else %}<p class="vazio">Nenhum acontecimento com relevância suficiente nesta semana.</p>
+{% endfor %}
+
+<h2>2. Novidades em tratamentos</h2>
+{% for status, itens in r.tratamentos %}
+<p><strong>{{ status | upper }}</strong>{% if status == "experimental" %} — <em>não é tratamento estabelecido</em>{% elif status == "em estudo" %} — <em>ainda sem aprovação</em>{% endif %}</p>
+<ul>{% for i in itens %}<li>{{ EMOJI[i.relevancia] }} {{ i.titulo or i.titulo_original }} — <span class="meta">{{ i.fonte }}, {{ i.publicado_em | data_br }}</span> · <a href="{{ i.url }}">link</a></li>{% endfor %}</ul>
+{% else %}<p class="vazio">Sem novidades terapêuticas relevantes nesta semana.</p>
+{% endfor %}
+
+<h2>3. Estudos que valem a leitura</h2>
+{% for i in r.estudos %}
+<div class="card {{ i.relevancia }}">
+  <h3>{{ i.titulo or i.titulo_original }}</h3>
+  {% if i.titulo and i.titulo != i.titulo_original %}<p class="meta"><em>{{ i.titulo_original }}</em></p>{% endif %}
+  <p class="meta">{{ i.periodico or i.fonte }} · {{ i.publicado_em | data_br }} · {{ i.tipo_evidencia }}</p>
+  <p><span class="lbl">Principal achado</span><br>{{ i.resumo or "—" }}</p>
+  <p><span class="lbl">Limitação principal</span><br>{{ (i.limitacoes or ["não identificada no resumo — ler o texto completo"])[0] }}</p>
+  <p class="meta">{{ links(i) }}</p>
+</div>
+{% else %}<p class="vazio">Nenhum estudo com relevância suficiente nesta semana.</p>
+{% endfor %}
+
+<h2>4. Alertas de segurança</h2>
+{% for i in r.alertas %}
+<div class="card {{ i.relevancia }}"><h3>{{ EMOJI[i.relevancia] }} {{ i.titulo or i.titulo_original }}</h3>
+<p>{{ i.resumo | truncar(400) }}</p><p class="meta">{{ i.fonte }} · {{ i.publicado_em | data_br }} · <a href="{{ i.fonte_primaria_url or i.url }}">fonte</a></p></div>
+{% else %}<p class="vazio">Nenhum alerta de segurança dermatológico de fonte oficial ou científica nesta semana.</p>
+{% endfor %}
+
+<h2>5. Oportunidades para meu Instagram</h2>
+{% for i in r.ideias %}{% set c = i.ideia_conteudo %}
+<div class="card">
+  <h3>{{ c.tema }}</h3>
+  {% if c.origem != "ia" %}<div class="aviso">{{ c.origem }}</div>{% endif %}
+  <p><span class="tag">{{ c.formato }}</span></p>
+  <p><span class="lbl">Gancho</span><br>{{ c.gancho }}</p>
+  <p><span class="lbl">Mensagem principal</span><br>{{ c.mensagem_principal }}</p>
+  <p><span class="lbl">O que o público precisa entender</span><br>{{ c.o_que_o_publico_precisa_entender }}</p>
+  <p><span class="lbl">CTA possível</span><br>{{ c.cta }}</p>
+  <p class="meta">Fonte médica: {{ c.fonte_medica }}</p>
+</div>
+{% else %}<p class="vazio">Nenhuma oportunidade de conteúdo com base sólida nesta semana.</p>
+{% endfor %}
+
+<h2>6. Assuntos que estão ganhando atenção</h2>
+{% if r.em_alta %}<p class="meta">Frequência em fontes confiáveis — quantidade de publicações não equivale a força de evidência.</p>
+<ul>{% for a, n in r.em_alta %}<li><strong>{{ a }}</strong> — {{ n }} registros</li>{% endfor %}</ul>
+{% else %}<p class="vazio">Nenhum tema apareceu repetidamente em fontes confiáveis nesta semana.</p>{% endif %}
+
+<h2>7. Muito barulho, pouca evidência</h2>
+{% for b in r.barulho %}
+<p><strong>{{ b.assunto }}</strong> — {{ b.total }} menções em imprensa/redes. Motivo: {{ b.motivos | join("; ") }}.<br>
+<span class="meta">Exemplos: {% for e in b.exemplos %}“{{ e.titulo_original | truncar(90) }}” ({{ e.fonte }}){% if not loop.last %}; {% endif %}{% endfor %}</span></p>
+{% else %}<p class="vazio">Nada relevante a sinalizar nesta semana.</p>
+{% endfor %}
+
+<footer>
+  <strong>Auditoria</strong><br>
+  Execuções diárias: {{ r.auditoria.execucoes }} · itens registrados: {{ r.auditoria.itens_semana }} · elegíveis: {{ r.auditoria.elegiveis }}<br>
+  🔴 {{ r.auditoria.por_relevancia.muito_relevante or 0 }} · 🟠 {{ r.auditoria.por_relevancia.relevante or 0 }} · 🟡 {{ r.auditoria.por_relevancia.interessante or 0 }} · ⚪ {{ r.auditoria.por_relevancia.baixa or 0 }}<br>
+  Fontes com falha: {% for f, n in r.auditoria.erros %}{{ f }} ({{ n }}×){% if not loop.last %}, {% endif %}{% else %}nenhuma{% endfor %}<br>
+  IDs de rastreio (data/historico.json): {% for id in r.todos %}<code>{{ id }}</code> {% endfor %}
+</footer>
+</div></body></html>
