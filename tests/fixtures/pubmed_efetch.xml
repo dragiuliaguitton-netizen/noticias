@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!-- DADOS FICTÍCIOS PARA TESTE — não representam estudos reais -->
+<PubmedArticleSet>
+<PubmedArticle>
+  <MedlineCitation Status="Publisher" Owner="NLM">
+    <PMID Version="1">99000001</PMID>
+    <Article PubModel="Print-Electronic">
+      <Journal><Title>JAMA dermatology</Title><ISOAbbreviation>JAMA Dermatol</ISOAbbreviation>
+        <JournalIssue><PubDate><Year>2026</Year><Month>Sep</Month></PubDate></JournalIssue></Journal>
+      <ArticleTitle>Exemplimab vs Placebo in Moderate-to-Severe Atopic Dermatitis: A Phase 3 Randomized Clinical Trial</ArticleTitle>
+      <ELocationID EIdType="doi" ValidYN="Y">10.9999/jamadermatol.2026.0001</ELocationID>
+      <Abstract>
+        <AbstractText Label="IMPORTANCE">Test fixture importance.</AbstractText>
+        <AbstractText Label="DESIGN, SETTING, AND PARTICIPANTS">This randomized clinical trial included 812 patients (NCT09999991).</AbstractText>
+        <AbstractText Label="CONCLUSIONS AND RELEVANCE">In this fictional trial, exemplimab improved EASI-75 response versus placebo at week 16.</AbstractText>
+      </Abstract>
+      <PublicationTypeList><PublicationType UI="D016449">Randomized Controlled Trial</PublicationType><PublicationType UI="D017427">Clinical Trial, Phase III</PublicationType></PublicationTypeList>
+      <ArticleDate DateType="Electronic"><Year>2026</Year><Month>09</Month><Day>20</Day></ArticleDate>
+    </Article>
+  </MedlineCitation>
+  <PubmedData><History><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>9</Month><Day>20</Day></PubMedPubDate></History>
+    <ArticleIdList><ArticleId IdType="pubmed">99000001</ArticleId><ArticleId IdType="doi">10.9999/jamadermatol.2026.0001</ArticleId></ArticleIdList></PubmedData>
+</PubmedArticle>
+<PubmedArticle>
+  <MedlineCitation Status="Publisher" Owner="NLM">
+    <PMID Version="1">99000002</PMID>
+    <Article PubModel="Electronic">
+      <Journal><Title>The British journal of dermatology</Title><JournalIssue><PubDate><Year>2026</Year><Month>Sep</Month><Day>19</Day></PubDate></JournalIssue></Journal>
+      <ArticleTitle>Sunscreen use and melanoma risk: a population-based cohort study</ArticleTitle>
+      <Abstract><AbstractText>BACKGROUND: Fictional. METHODS: Retrospective cohort of 40 000 adults. CONCLUSIONS: Regular sunscreen use was associated with lower melanoma incidence in this fictional cohort.</AbstractText></Abstract>
+      <PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D064888">Observational Study</PublicationType></PublicationTypeList>
+    </Article>
+  </MedlineCitation>
+  <PubmedData><History><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>9</Month><Day>19</Day></PubMedPubDate></History>
+    <ArticleIdList><ArticleId IdType="pubmed">99000002</ArticleId><ArticleId IdType="doi">10.9999/bjd.2026.0002</ArticleId></ArticleIdList></PubmedData>
+</PubmedArticle>
+<PubmedArticle>
+  <MedlineCitation Status="Publisher" Owner="NLM">
+    <PMID Version="1">99000003</PMID>
+    <Article PubModel="Electronic">
+      <Journal><Title>Journal of Investigative Dermatology</Title><JournalIssue><PubDate><Year>2026</Year><Month>Sep</Month></PubDate></JournalIssue></Journal>
+      <ArticleTitle>A novel topical compound reverses hair follicle miniaturization in mice</ArticleTitle>
+      <Abstract><AbstractText>In a murine model, the fictional compound restored hair growth. These preclinical findings require confirmation.</AbstractText></Abstract>
+      <PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList>
+    </Article>
+  </MedlineCitation>
+  <PubmedData><History><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>9</Month><Day>21</Day></PubMedPubDate></History>
+    <ArticleIdList><ArticleId IdType="pubmed">99000003</ArticleId></ArticleIdList></PubmedData>
+</PubmedArticle>
+<PubmedArticle>
+  <MedlineCitation Status="Publisher" Owner="NLM">
+    <PMID Version="1">99000004</PMID>
+    <Article PubModel="Electronic">
+      <Journal><Title>Journal of the European Academy of Dermatology and Venereology</Title><JournalIssue><PubDate><Year>2026</Year><Month>Sep</Month></PubDate></JournalIssue></Journal>
+      <ArticleTitle>European guideline on the management of acne: 2026 update</ArticleTitle>
+      <Abstract><AbstractText Label="CONCLUSION">This fictional guideline updates recommendations for acne management.</AbstractText></Abstract>
+      <PublicationTypeList><PublicationType UI="D017065">Practice Guideline</PublicationType></PublicationTypeList>
+    </Article>
+  </MedlineCitation>
+  <PubmedData><History><PubMedPubDate PubStatus="entrez"><Year>2026</Year><Month>9</Month><Day>21</Day></PubMedPubDate></History>
+    <ArticleIdList><ArticleId IdType="pubmed">99000004</ArticleId></ArticleIdList></PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

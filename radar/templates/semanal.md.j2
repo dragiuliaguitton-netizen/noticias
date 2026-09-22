@@ -1,0 +1,123 @@
+{% macro fonte(i) -%}
+{{ i.fonte }}{% if i.agregador %} (via {{ i.agregador }}){% endif %} — {{ ROTULO_NIVEL[i.nivel_fonte] }}
+{%- endmacro %}
+{% macro links(i) -%}
+{{ i.url }}{% if i.url_doi %} · {{ i.url_doi }}{% endif %}{% if i.identificadores.pmid %} · PMID {{ i.identificadores.pmid }}{% endif %}{% if i.identificadores.nct %} · {{ i.identificadores.nct }}{% endif %}
+{%- endmacro %}
+{% macro obs(i) -%}
+{% if i.atualizacao_de %}> Atualização de assunto já monitorado.
+{% endif %}
+{% if i.divergencias %}> As fontes divergem sobre: {{ i.divergencias }}
+{% endif %}
+{% for o in i.observacoes_validacao or [] %}> ⚠️ {{ o }}
+{% endfor %}
+{%- endmacro %}
+# 🧴 RADAR SEMANAL — DERMATOLOGIA
+**Semana encerrada em {{ r.data | data_br }}** · últimos {{ r.dias }} dias{% if not r.auditoria.modo_ia %} · _modo heurístico (sem IA): resumos são trechos originais dos autores, em geral em inglês_{% endif %}
+
+
+> Informações com implicação clínica devem ser conferidas na fonte original antes do uso profissional.
+
+## 1. O que você precisa saber esta semana
+{% if not r.destaques %}
+_Nenhum acontecimento com relevância suficiente nesta semana. Preferimos não incluir informações pouco confiáveis._
+{% endif %}
+{% for i in r.destaques %}
+
+### {{ loop.index }}. {{ EMOJI[i.relevancia] }} {{ i.titulo or i.titulo_original }}
+- **Resumo:** {{ i.resumo or "—" }}
+{% if i.por_que_importa %}- **Por que importa:** {{ i.por_que_importa }}
+{% endif %}
+- **Evidência:** {{ i.tipo_evidencia }}{% if i.status_terapia %} · **Status:** {{ i.status_terapia }}{% endif %}
+
+- **Relevância:** {{ RELEVANCIAS[i.relevancia] }}
+- **Fonte:** {{ fonte(i) }} · publicado {{ i.publicado_em | data_br }}
+- **Link:** {{ links(i) }}
+{{ obs(i) }}
+{% endfor %}
+
+## 2. Novidades em tratamentos
+{% if not r.tratamentos %}
+_Sem novidades terapêuticas relevantes nesta semana._
+{% endif %}
+{% for status, itens in r.tratamentos %}
+
+**{{ status | upper }}**{% if status == "experimental" %} — _não é tratamento estabelecido_{% endif %}{% if status == "em estudo" %} — _ainda sem aprovação_{% endif %}
+
+{% for i in itens %}
+- {{ EMOJI[i.relevancia] }} {{ i.titulo or i.titulo_original }} — {{ i.fonte }}, {{ i.publicado_em | data_br }} · {{ i.url }}
+{% endfor %}
+{% endfor %}
+
+## 3. Estudos que valem a leitura
+{% if not r.estudos %}
+_Nenhum estudo com relevância suficiente nesta semana._
+{% endif %}
+{% for i in r.estudos %}
+
+**{{ loop.index }}. {{ i.titulo or i.titulo_original }}**
+{% if i.titulo and i.titulo != i.titulo_original %}_Título original: {{ i.titulo_original }}_
+{% endif %}
+- **Periódico:** {{ i.periodico or i.fonte }} · **Data:** {{ i.publicado_em | data_br }}
+- **Tipo de estudo:** {{ i.tipo_evidencia }}
+- **Principal achado:** {{ i.resumo or "—" }}
+- **Limitação principal:** {{ (i.limitacoes or ["não identificada no resumo — ler o texto completo"])[0] }}
+- **Link:** {{ links(i) }}
+{% endfor %}
+
+## 4. Alertas de segurança
+{% if not r.alertas %}
+_Nenhum alerta de segurança dermatológico de fonte oficial ou científica nesta semana._
+{% endif %}
+{% for i in r.alertas %}
+- {{ EMOJI[i.relevancia] }} **{{ i.titulo or i.titulo_original }}** — {{ i.resumo | truncar(300) }} ({{ i.fonte }}, {{ i.publicado_em | data_br }}) · {{ i.fonte_primaria_url or i.url }}
+{% endfor %}
+
+## 5. Oportunidades para meu Instagram
+{% if not r.ideias %}
+_Nenhuma oportunidade de conteúdo com base sólida nesta semana._
+{% endif %}
+{% for i in r.ideias %}
+{% set c = i.ideia_conteudo %}
+
+**{{ loop.index }}. {{ c.tema }}**{% if c.origem != "ia" %} _({{ c.origem }})_{% endif %}
+
+- **Formato:** {{ c.formato }}
+- **Gancho:** {{ c.gancho }}
+- **Mensagem principal:** {{ c.mensagem_principal }}
+- **O que o público precisa entender:** {{ c.o_que_o_publico_precisa_entender }}
+- **CTA possível:** {{ c.cta }}
+- **Fonte médica:** {{ c.fonte_medica }}
+{% endfor %}
+
+## 6. Assuntos que estão ganhando atenção
+{% if not r.em_alta %}
+_Nenhum tema apareceu repetidamente em fontes confiáveis nesta semana._
+{% else %}
+_Frequência em fontes confiáveis — quantidade de publicações não equivale a força de evidência._
+
+{% for a, n in r.em_alta %}
+- **{{ a }}** — {{ n }} registros
+{% endfor %}
+{% endif %}
+
+## 7. Muito barulho, pouca evidência
+{% if not r.barulho %}
+_Nada relevante a sinalizar nesta semana._
+{% endif %}
+{% for b in r.barulho %}
+- **{{ b.assunto }}** — {{ b.total }} menções em imprensa/redes; motivo: {{ b.motivos | join("; ") }}. Exemplos: {% for e in b.exemplos %}“{{ e.titulo_original | truncar(90) }}” ({{ e.fonte }}){% if not loop.last %}; {% endif %}{% endfor %}.
+{% endfor %}
+
+---
+### Auditoria
+- Execuções diárias na semana: {{ r.auditoria.execucoes }} · itens registrados: {{ r.auditoria.itens_semana }} · elegíveis ao relatório: {{ r.auditoria.elegiveis }}
+- Por relevância: 🔴 {{ r.auditoria.por_relevancia.muito_relevante or 0 }} · 🟠 {{ r.auditoria.por_relevancia.relevante or 0 }} · 🟡 {{ r.auditoria.por_relevancia.interessante or 0 }} · ⚪ {{ r.auditoria.por_relevancia.baixa or 0 }}
+- Itens por fonte: {% for f, n in r.auditoria.por_fonte %}{{ f }} ({{ n }}){% if not loop.last %}, {% endif %}{% else %}—{% endfor %}
+
+- Fontes com falha: {% for f, n in r.auditoria.erros %}{{ f }} ({{ n }}×){% if not loop.last %}, {% endif %}{% else %}nenhuma{% endfor %}
+
+- Rastreio: cada item tem ID no histórico (`data/historico.json`) com fonte, link, data de publicação e data em que foi encontrado.
+{% for id, i in r.todos.items() %}
+  - `{{ id }}` → {{ i.fonte }} · publicado {{ i.publicado_em | data_br }} · encontrado {{ i.encontrado_em | data_br }} · consulta: {{ i.consulta }}
+{% endfor %}

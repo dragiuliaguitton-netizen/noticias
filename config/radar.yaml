@@ -1,0 +1,242 @@
+# =============================================================================
+# RADAR AUTÔNOMO DE DERMATOLOGIA — configuração editável
+# -----------------------------------------------------------------------------
+# Tudo o que muda o comportamento do radar (palavras-chave, fontes, janelas de
+# tempo, tamanho do relatório) fica aqui. Credenciais NUNCA ficam neste arquivo:
+# use variáveis de ambiente / GitHub Secrets (veja .env.example).
+# =============================================================================
+
+# Janela de busca: quantos dias para trás cada execução diária considera.
+# 3 dias dá margem para fins de semana e falhas pontuais; a deduplicação
+# impede que o mesmo item entre duas vezes.
+janela_dias: 3
+
+# Janela do relatório semanal (dias).
+janela_relatorio_dias: 7
+
+# Limites do relatório semanal
+relatorio:
+  max_destaques: 10        # seção 1 (5–10)
+  min_destaques: 5
+  max_estudos: 5           # seção 3
+  max_ideias_instagram: 5  # seção 5 (3–5)
+  incluir_baixa_relevancia: false
+
+# Limiar de similaridade de títulos (0–1) para considerar dois itens como o
+# mesmo assunto na deduplicação.
+limiar_similaridade_titulo: 0.82
+
+# -----------------------------------------------------------------------------
+# PUBMED (NCBI E-utilities) — fonte científica principal
+# Cada consulta usa a sintaxe do PubMed. As datas são adicionadas
+# automaticamente pelo sistema (janela_dias).
+# -----------------------------------------------------------------------------
+pubmed:
+  max_por_consulta: 25
+  # Periódicos prioritários (monitorados integralmente dentro da janela)
+  periodicos:
+    - "JAMA Dermatol"
+    - "Br J Dermatol"
+    - "J Am Acad Dermatol"
+    - "J Invest Dermatol"
+    - "J Eur Acad Dermatol Venereol"
+    - "Dermatology"
+    - "Clin Exp Dermatol"
+    - "An Bras Dermatol"
+    - "Dermatol Surg"
+    - "Lasers Surg Med"
+    - "J Cosmet Dermatol"
+  # Grandes periódicos gerais: só entram artigos com termo dermatológico
+  periodicos_gerais:
+    - "N Engl J Med"
+    - "Lancet"
+    - "JAMA"
+    - "BMJ"
+    - "Nature"
+    - "Nat Med"
+  termo_dermatologico: >-
+    (skin[tiab] OR dermatol*[tiab] OR melanoma[tiab] OR psoriasis[tiab] OR
+    "atopic dermatitis"[tiab] OR eczema[tiab] OR acne[tiab] OR alopecia[tiab] OR
+    vitiligo[tiab] OR urticaria[tiab] OR hidradenitis[tiab] OR "basal cell"[tiab] OR
+    "squamous cell carcinoma"[tiab] OR rosacea[tiab] OR pemphig*[tiab] OR leprosy[tiab])
+  # Consultas temáticas (combinadas com filtro de tipo de publicação forte)
+  consultas_tematicas:
+    - "(acne vulgaris[mh] OR acne[ti]) AND (randomized[tiab] OR trial[ti] OR guideline[pt] OR meta-analysis[pt])"
+    - "(rosacea[ti]) AND (trial[tiab] OR guideline[pt] OR meta-analysis[pt])"
+    - "(dermatitis, atopic[mh] OR atopic dermatitis[ti]) AND (phase 3[tiab] OR randomized[tiab] OR guideline[pt])"
+    - "(psoriasis[ti]) AND (phase 3[tiab] OR randomized[tiab] OR guideline[pt] OR meta-analysis[pt])"
+    - "(hidradenitis suppurativa[ti]) AND (trial[tiab] OR guideline[pt])"
+    - "(vitiligo[ti]) AND (trial[tiab] OR guideline[pt])"
+    - "(alopecia[ti]) AND (trial[tiab] OR guideline[pt] OR meta-analysis[pt])"
+    - "(urticaria[ti]) AND (trial[tiab] OR guideline[pt])"
+    - "(melanoma[ti]) AND (phase 3[tiab] OR randomized[tiab] OR guideline[pt] OR screening[ti])"
+    - "(carcinoma, basal cell[mh] OR carcinoma, squamous cell[mh]) AND skin[ti] AND (trial[tiab] OR guideline[pt])"
+    - "(dermoscopy[mh] OR dermoscop*[ti] OR dermatoscop*[ti])"
+    - "(artificial intelligence[mh] OR deep learning[ti]) AND (skin[ti] OR dermatol*[ti] OR melanoma[ti])"
+    - "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR dermal filler*[tiab]) AND (complication*[tiab] OR adverse[tiab] OR trial[tiab])"
+    - "(laser therapy[mh] OR microneedling[tiab] OR radiofrequency[ti] OR chemical peel*[tiab]) AND skin[tiab] AND (randomized[tiab] OR complication*[ti])"
+    - "(sunscreening agents[mh] OR sunscreen*[ti] OR photoprotection[ti])"
+    - "(retinoids[ti] OR azelaic acid[ti] OR niacinamide[ti] OR ascorbic acid[ti]) AND skin[tiab] AND (trial[tiab] OR review[pt])"
+    - "(leprosy[ti] OR hanseni*[ti])"
+    - "(pemphig*[ti] OR bullous pemphigoid[ti])"
+    - "(pregnan*[ti]) AND (dermatos*[ti] OR skin[ti])"
+    - "(child*[ti] OR pediatric[ti]) AND (dermatitis[ti] OR skin[ti]) AND (trial[tiab] OR guideline[pt])"
+
+# -----------------------------------------------------------------------------
+# NOTÍCIAS (Google News RSS) — usado para DETECTAR acontecimentos;
+# notícias NUNCA são tratadas como evidência sem fonte primária.
+# idioma: pt ou en
+# -----------------------------------------------------------------------------
+noticias:
+  max_por_consulta: 15
+  consultas:
+    en:
+      - "dermatology FDA approval"
+      - "dermatology EMA approval"
+      - "dermatology safety alert"
+      - "dermatology new drug"
+      - "dermatology guideline"
+      - "dermatology consensus"
+      - "dermatology clinical trial results"
+      - "melanoma latest research"
+      - "skin cancer latest research"
+      - "acne new treatment"
+      - "androgenetic alopecia new treatment"
+      - "psoriasis latest research"
+      - "atopic dermatitis latest research"
+      - "hidradenitis suppurativa latest research"
+      - "vitiligo new treatment"
+      - "aesthetic dermatology complications"
+      - "dermal filler complications"
+      - "dermatology laser research"
+      - "dermatology artificial intelligence"
+      - "dermoscopy research"
+      - "sunscreen study"
+      - "site:aad.org news"
+      - "site:bad.org.uk news"
+      - "site:eadv.org news"
+      - "site:fda.gov skin"
+      - "site:ema.europa.eu dermatitis OR psoriasis OR skin"
+    pt:
+      - "dermatologia novidade"
+      - "Sociedade Brasileira de Dermatologia"
+      - "Anvisa dermatologia"
+      - "Anvisa cosmético alerta"
+      - "Anvisa protetor solar"
+      - "Anvisa aprova medicamento pele"
+      - "câncer de pele estudo"
+      - "melanoma tratamento"
+      - "psoríase tratamento novo"
+      - "dermatite atópica tratamento"
+      - "hanseníase Ministério da Saúde"
+      - "harmonização facial complicações"
+      - "preenchimento ácido hialurônico complicação"
+      - "queda de cabelo tratamento estudo"
+      - "site:sbd.org.br"
+
+# -----------------------------------------------------------------------------
+# FEEDS RSS DIRETOS (fontes primárias / regulatórias)
+# tipo: regulatorio | sociedade | periodico | noticia
+# filtrar: se true, só entram itens com termo dermatológico no título/resumo
+# -----------------------------------------------------------------------------
+feeds:
+  - nome: "FDA — Press Releases"
+    url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+    tipo: regulatorio
+    filtrar: true
+  - nome: "FDA — MedWatch Safety Alerts"
+    url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml"
+    tipo: regulatorio
+    filtrar: true
+  - nome: "FDA — Recalls"
+    url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml"
+    tipo: regulatorio
+    filtrar: true
+  - nome: "EMA — News"
+    url: "https://www.ema.europa.eu/en/news.xml"
+    tipo: regulatorio
+    filtrar: true
+  - nome: "JAMA Dermatology — Online First"
+    url: "https://jamanetwork.com/rss/site_12/onlineFirst_68.xml"
+    tipo: periodico
+    filtrar: false
+  - nome: "JAMA Dermatology — Current Issue"
+    url: "https://jamanetwork.com/rss/site_12/68.xml"
+    tipo: periodico
+    filtrar: false
+
+# -----------------------------------------------------------------------------
+# CLINICALTRIALS.GOV — ensaios com resultados recém-publicados
+# -----------------------------------------------------------------------------
+clinicaltrials:
+  ativo: true
+  condicoes:
+    - "psoriasis"
+    - "atopic dermatitis"
+    - "hidradenitis suppurativa"
+    - "vitiligo"
+    - "alopecia areata"
+    - "androgenetic alopecia"
+    - "acne vulgaris"
+    - "chronic spontaneous urticaria"
+    - "melanoma"
+    - "basal cell carcinoma"
+    - "cutaneous squamous cell carcinoma"
+    - "prurigo nodularis"
+    - "rosacea"
+  max_por_condicao: 10
+
+# -----------------------------------------------------------------------------
+# DOMÍNIOS CONFIÁVEIS (validação de fonte)
+# nivel 1 = fonte primária/oficial; 2 = periódico/base científica;
+# 3 = imprensa médica reconhecida; demais = imprensa geral (nivel 4)
+# -----------------------------------------------------------------------------
+dominios:
+  nivel1:
+    - fda.gov
+    - ema.europa.eu
+    - gov.br
+    - anvisa.gov.br
+    - saude.gov.br
+    - sbd.org.br
+    - aad.org
+    - eadv.org
+    - bad.org.uk
+    - dermoscopy-ids.org
+    - who.int
+    - nice.org.uk
+    - clinicaltrials.gov
+  nivel2:
+    - pubmed.ncbi.nlm.nih.gov
+    - ncbi.nlm.nih.gov
+    - doi.org
+    - nejm.org
+    - jamanetwork.com
+    - bmj.com
+    - thelancet.com
+    - nature.com
+    - academic.oup.com
+    - onlinelibrary.wiley.com
+    - jaad.org
+    - jidonline.org
+    - sciencedirect.com
+    - karger.com
+    - springer.com
+    - cochranelibrary.com
+  nivel3:
+    - medscape.com
+    - healio.com
+    - dermatologytimes.com
+    - mdedge.com
+    - medpagetoday.com
+    - statnews.com
+    - fiercepharma.com
+    - reuters.com
+    - pebmed.com.br
+    - medicinasa.com.br
+
+# Modelo Claude usado para resumir/classificar (pode sobrescrever com a
+# variável de ambiente RADAR_MODEL). Sem ANTHROPIC_API_KEY o radar funciona
+# em modo heurístico (sem IA).
+modelo_ia: "claude-opus-5"
+max_itens_ia_por_dia: 40

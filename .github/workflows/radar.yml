@@ -1,0 +1,125 @@
+# Radar Autônomo de Dermatologia — agendamento automático
+#   • Busca diária:      todos os dias às 06:00 (Brasília) = 09:00 UTC
+#   • Relatório semanal: toda segunda-feira às 08:00 (Brasília) = 11:00 UTC
+# Para mudar a frequência, edite as linhas "cron" (formato UTC).
+# Execução manual: aba Actions → "Radar Dermatologia" → Run workflow.
+name: Radar Dermatologia
+
+on:
+  schedule:
+    - cron: "0 9 * * *"    # diário
+    - cron: "0 11 * * 1"   # semanal (segunda)
+  workflow_dispatch:
+    inputs:
+      acao:
+        description: "O que executar"
+        type: choice
+        default: diario
+        options: [diario, semanal, testar-email, verificar-fontes, primeira-execucao]
+      janela:
+        description: "Dias para trás na busca (só para 'diario'; vazio = padrão do YAML)"
+        required: false
+
+permissions:
+  contents: write   # para salvar o histórico (data/) e os relatórios no repositório
+
+concurrency:
+  group: radar-dermatologia
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      RADAR_MODEL: ${{ vars.RADAR_MODEL }}
+      NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      RADAR_CONTACT_EMAIL: ${{ secrets.EMAIL_TO }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      RADAR_ALERTAS: ${{ vars.RADAR_ALERTAS || '1' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Definir ação
+        id: acao
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "acao=${{ inputs.acao }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 11 * * 1" ]; then
+            echo "acao=semanal" >> "$GITHUB_OUTPUT"
+          else
+            echo "acao=diario" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Testes automáticos
+        run: python -m unittest discover -s tests -t .
+
+      - name: Busca diária
+        if: steps.acao.outputs.acao == 'diario'
+        run: |
+          JANELA="${{ inputs.janela }}"
+          python -m radar diario ${JANELA:+--janela $JANELA}
+
+      - name: Primeira execução (verificação + busca ampla de 30 dias + e-mail de teste + prévia do relatório)
+        if: steps.acao.outputs.acao == 'primeira-execucao'
+        run: |
+          python -m radar verificar-fontes
+          python -m radar diario --janela 30
+          python -m radar testar-email
+          python -m radar semanal --exigir-envio
+
+      - name: Relatório semanal
+        if: steps.acao.outputs.acao == 'semanal'
+        run: python -m radar semanal --exigir-envio
+
+      - name: Testar e-mail
+        if: steps.acao.outputs.acao == 'testar-email'
+        run: python -m radar testar-email
+
+      - name: Verificar fontes
+        if: steps.acao.outputs.acao == 'verificar-fontes'
+        run: python -m radar verificar-fontes
+
+      - name: Status
+        if: always()
+        run: python -m radar status || true
+
+      - name: Salvar histórico e relatórios no repositório
+        if: always()
+        run: |
+          git config user.name "radar-dermatologia[bot]"
+          git config user.email "radar-dermatologia@users.noreply.github.com"
+          git add data relatorios || true
+          if git diff --cached --quiet; then
+            echo "Nada novo para salvar."
+            exit 0
+          fi
+          git commit -m "radar: ${{ steps.acao.outputs.acao }} $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((2 ** i))
+          done
+          echo "::error::Não foi possível salvar o histórico"; exit 1
+
+      - name: Guardar cópias dos e-mails (.eml) como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: emails-${{ github.run_id }}
+          path: saida/
+          if-no-files-found: ignore
+          retention-days: 30
