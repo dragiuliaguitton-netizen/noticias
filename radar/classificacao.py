@@ -76,9 +76,11 @@ def identificar_assuntos(texto: str) -> list[str]:
 
 def nivel_fonte(item: dict, cfg: dict) -> int:
     """1 = oficial/primária; 2 = científica; 3 = imprensa médica; 4 = geral."""
-    if item.get("tipo_fonte") in ("regulatorio", "sociedade", "registro_ensaios"):
+    if item.get("tipo_fonte") in ("regulatorio", "sociedade"):
         return 1
-    if item.get("agregador") == "PubMed" or item.get("tipo_fonte") == "periodico":
+    # registro de ensaios é fonte primária de DADOS, mas não é comunicado oficial:
+    # pesa como fonte científica (resultados ainda sem revisão por pares)
+    if item.get("agregador") == "PubMed" or item.get("tipo_fonte") in ("periodico", "registro_ensaios"):
         return 2
     doms = cfg.get("dominios", {})
     for url in (item.get("url_veiculo"), item.get("url")):
@@ -139,7 +141,7 @@ def tipo_evidencia(item: dict) -> str:
 
 
 PESO_EVIDENCIA = {
-    "guideline": 4, "consenso": 3, "comunicado regulatório": 4, "comunicado oficial": 4, "metanálise": 3,
+    "guideline": 4, "consenso": 3, "comunicado regulatório": 4, "comunicado oficial": 1, "metanálise": 3,
     "revisão sistemática": 3, "ensaio clínico randomizado": 3, "ensaio clínico": 2,
     "ensaio clínico (registro com resultados)": 2, "estudo observacional": 1,
     "revisão narrativa": 1, "retratação": 3, "estudo experimental (pré-clínico)": 0,
@@ -194,6 +196,23 @@ _MARKETING = re.compile(
     r"best (sunscreen|serum|moisturizer)|melhores? (protetor|s[eé]rum|hidratante)|review of the)\b", re.I)
 
 
+# anúncios institucionais que não são novidade científica/clínica
+_EVENTO = re.compile(
+    r"\b(course|curso\w*|capacita\w*|treinamento|webinar|webin[aá]rio|congress\w*|congresso|"
+    r"annual meeting|symposium|simp[oó]sio|jornada|workshop|oficina|inscri[cç]\w*|registration|"
+    r"circular|newsletter|boletim informativo|evento|event|award\w*|pr[eê]mio|campanha|campaign|"
+    r"mutir[aã]o|palestra|live)\b", re.I)
+
+# comunicado oficial com peso clínico real (diretriz, nota técnica, recomendação)
+_NORMATIVO = re.compile(
+    r"\b(guideline|guidance|diretriz\w*|consenso|consensus|nota t[eé]cnica|protocolo cl[ií]nico|"
+    r"pcdt|recomenda\w*|recommendation\w*|position statement|resolu[cç][aã]o|rdc)\b", re.I)
+
+
+def eh_evento(item: dict) -> bool:
+    return bool(_EVENTO.search(item.get("titulo_original", "")))
+
+
 def eh_alerta_seguranca(item: dict) -> bool:
     txt = f"{item.get('titulo_original', '')} {item.get('resumo_original', '')[:500]}"
     return bool(_SEGURANCA.search(txt))
@@ -236,8 +255,17 @@ def pontuar(item: dict) -> tuple[int, list[str]]:
         pts += 1
         porque.append("terapia em análise regulatória (+1)")
     if item.get("alerta_seguranca"):
-        pts += 3 if nv == 1 else 1
-        porque.append("tema de segurança")
+        pts += 4 if nv == 1 else 1
+        porque.append(f"tema de segurança (+{4 if nv == 1 else 1})")
+    if ev == "comunicado oficial" and _NORMATIVO.search(item.get("titulo_original", "")):
+        pts += 3
+        porque.append("comunicado normativo: diretriz/recomendação (+3)")
+    if item.get("tipo_fonte") == "registro_ensaios" and re.search(r"PHASE3|PHASE4", " ".join(item.get("tipos_publicacao") or [])):
+        pts += 2
+        porque.append("resultados de ensaio fase 3/4 (+2)")
+    if eh_evento(item):
+        pts -= 3
+        porque.append("anúncio de evento/curso institucional (−3)")
     if item.get("marketing"):
         pts -= 3
         porque.append("tom publicitário (−3)")
