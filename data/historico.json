@@ -1,7 +1,7 @@
 {
  "versao": 1,
- "atualizado_em": "2026-09-27T09:09:24+00:00",
- "total_itens": 1071,
+ "atualizado_em": "2026-09-28T09:12:42+00:00",
+ "total_itens": 1097,
  "execucoes": [
   {
    "tipo": "diaria",
@@ -226,9 +226,1300 @@
     "interessante": 7,
     "baixa": 43
    }
+  },
+  {
+   "tipo": "diaria",
+   "inicio": "2026-09-28T09:12:14+00:00",
+   "fim": "2026-09-28T09:12:42+00:00",
+   "modo": "heuristico",
+   "stats": {
+    "brutos": 183,
+    "novos": 26,
+    "duplicados": 153,
+    "nao_dermatologicos": 4,
+    "atualizacoes": 0,
+    "antigos": 0,
+    "analisados_ia": 0,
+    "fontes_primarias_localizadas": 0,
+    "alertas": 0
+   },
+   "por_fonte": {
+    "PubMed": 62,
+    "FDA — Press Releases": 1,
+    "FDA — MedWatch Safety Alerts": 0,
+    "FDA — Recalls": 0,
+    "EMA — News": 0,
+    "JAMA Dermatology — Online First": 7,
+    "JAMA Dermatology — Current Issue": 0,
+    "Google News (en)": 72,
+    "Google News (pt)": 41,
+    "ClinicalTrials.gov": 0
+   },
+   "erros": [],
+   "relevancia": {
+    "muito_relevante": 0,
+    "relevante": 0,
+    "interessante": 0,
+    "baixa": 26
+   }
   }
  ],
  "itens": [
+  {
+   "titulo_original": "Sunscreen breaks down in sunlight, but a South African tea may slow down that process",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNi16RUEtSVIyTDY3MEJBczN4SHNoZjNfeHpiTVRVazR0QkxBUlJUOE1UUkdGRk9vVHlZQ09ZOWZJRUp6enRFNU5mbDlKUGpQWmxkMEVUUERZUk13Y3pRVm90Uk80OFM5ZVZpQkNDckdFWi1FZnRsVnpPak5pdGMxazhLcjc5MGM?oc=5",
+   "url_veiculo": "https://www.aol.com",
+   "fonte": "AOL.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T04:35:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Sunscreen breaks down in sunlight, but a South African tea may slow down that process AOL.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "ed5f991c32ea6234",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Sunscreen breaks down in sunlight, but a South African tea may slow down that process AOL.com",
+   "titulo": "Sunscreen breaks down in sunlight, but a South African tea may slow down that process",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Wrinkles 10 years earlier? Japan research finds men's skin may be more vulnerable",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE55dmZuc3h3S2NqQXVPaFpsNXBhOWp6X25TdDVibGhjSU04djlxUHdlcDViNXdSMUNuSk1uQ1pXMnpwTzhhLWwwVi1SM19nNkJmQ2xxNlRHMmI5SmVYVWZtTElLakZLNVlkY3ZQVXFvWWpQbUk?oc=5",
+   "url_veiculo": "https://mainichi.jp",
+   "fonte": "毎日新聞",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T22:05:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Wrinkles 10 years earlier? Japan research finds men's skin may be more vulnerable 毎日新聞",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "565cc92278b7b94e",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Wrinkles 10 years earlier? Japan research finds men's skin may be more vulnerable 毎日新聞",
+   "titulo": "Wrinkles 10 years earlier? Japan research finds men's skin may be more vulnerable",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Pacientes com alopecia areata contam trajetória para reaver autoestima",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZTBVRXhMS2xqT2hXV1I0TklSZWhuel9zZjlmSjFsOUx5NEp2eE96VWVSbktfZk5wSDhPNWNPQWZDSkFXVFNscHJiaEpPNU1TRnRBeXB1c1B4U1BrWmlFMkFtNEJSN0RlVW52Szc4Y3pmdFUtX013V1Z2MkljS3dZNG8yTURodm5wN1ZSNnNKV3pMMU12UXljNVFIQXVOQlVKTk1OOHF4Qk1GQ2NoWEozbVI0cjJmNkpsSURjcDZ4RDlfeWM?oc=5",
+   "url_veiculo": "https://agenciabrasil.ebc.com.br",
+   "fonte": "Agência Brasil",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T18:40:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pacientes com alopecia areata contam trajetória para reaver autoestima Agência Brasil",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatologia novidade",
+   "id": "69e1dffe9161780a",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Pacientes com alopecia areata contam trajetória para reaver autoestima Agência Brasil",
+   "titulo": "Pacientes com alopecia areata contam trajetória para reaver autoestima",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Primavera pede novos cuidados com a pele; veja o que muda",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fWVBqaEJ1djNEbDltdHhjQ0pVUUYzUF9GdkNaRGk2N2JkVDBXbWUtV1RSYWQtdlFKYnV3NENwdUd4ZGNtVDcxTDJ2cnpFWVBpM2xHOFN1RkQ0WWpZOFpMc0lfRHAxVmJ6azNoTXp4WGpIRlRFUWg5NHRiQjRUdw?oc=5",
+   "url_veiculo": "https://gpsbrasilia.com.br",
+   "fonte": "GPS Brasília",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T12:00:07+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Primavera pede novos cuidados com a pele; veja o que muda GPS Brasília",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatologia novidade",
+   "id": "c2168d566b1a291a",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Primavera pede novos cuidados com a pele; veja o que muda GPS Brasília",
+   "titulo": "Primavera pede novos cuidados com a pele; veja o que muda",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "O setor de dermatologia na cidade de Ho Chi Minh está aprimorando a qualidade profissional e otimizando os resultados dos tratamentos.",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORExOZHNfUjBIWTBQNG9JUW9RbHR6RjhQay1JNFpsRXNZR1QteW40cVNEMEdZcVBYTzRiS29STUdFVVpodkpzSmFsTUN1UlBEV0pEMDlEd3NjVmpDTDY3SDRPQUdCYnBZYktIa2xUTDVyTmp2N01OZUM0bDROZnpNcGs0OFZWOWhTNFJoXzJETmxCLTM3dXp2VjFHZ3lzN2szalU3X19VeGM4S2VpSVFDb2hza3JVNTQ?oc=5",
+   "url_veiculo": "https://www.vietnam.vn",
+   "fonte": "Vietnam.vn",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T09:58:30+00:00",
+   "atualizado_em": null,
+   "resumo_original": "O setor de dermatologia na cidade de Ho Chi Minh está aprimorando a qualidade profissional e otimizando os resultados dos tratamentos. Vietnam.vn",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatologia novidade",
+   "id": "c42e8bdd2aeb7d75",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "O setor de dermatologia na cidade de Ho Chi Minh está aprimorando a qualidade profissional e otimizando os resultados dos tratamentos. Vietnam.vn",
+   "titulo": "O setor de dermatologia na cidade de Ho Chi Minh está aprimorando a qualidade profissional e otimizando os resultados dos tratamentos.",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Pele bronzeada começa pela alimentação e pode ganhar cor sem excesso de sol",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSjRVbXVFS2pIOC1qSk94bkFzdEtaNGROTlR2eThqeld4Zk9pWVNqX3NOR1dNNXNwbGJzdTRlVlNFX0dEMWJXM3VlWUh3SWtxTmFlQWlRWnZzTElHWmdiY2tsTUlTU3ZYQnBtZElFRXpqVWRPMnRNNW9SaXpOakwtbmw4WmplUVN3d01idUdBWlRFRVlSaC16QTAwXzc1a3NwV0M4VkNMLTBSOFJCaTlkMUdXVGR6WHpDQWZnag?oc=5",
+   "url_veiculo": "https://www.itatiaia.com.br",
+   "fonte": "Rádio Itatiaia",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T17:00:01+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pele bronzeada começa pela alimentação e pode ganhar cor sem excesso de sol Rádio Itatiaia",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "câncer de pele estudo",
+   "id": "48303dc4cb322a9e",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Pele bronzeada começa pela alimentação e pode ganhar cor sem excesso de sol Rádio Itatiaia",
+   "titulo": "Pele bronzeada começa pela alimentação e pode ganhar cor sem excesso de sol",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Estresse e ansiedade podem agravar doenças de pele, explica dermatologista",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEliUXVJNHRBUE02Vko2MlFTS2t4bXU1a1JzNDVSY3hJRjc1WDRFZG9UMGJLVmpTSzkycHJjSlFpY1ZTeDhlbFVncU1ucEQ3cXlXUVJaSHFyakt6djdvVEpITWNXNm8wbjcyQVRtcDZhaXBoQ25zR2VKalJrb2dYVy1HZ0VWQzRIVnRUbnJzVDVka0pVTnU3OXhOaWZ4S2hTVGNlZFJHaVZNNHNNQlNpQ3dDaEc?oc=5",
+   "url_veiculo": "https://www.oliberal.com",
+   "fonte": "O Liberal",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T13:27:36+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Estresse e ansiedade podem agravar doenças de pele, explica dermatologista O Liberal",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "psoríase tratamento novo",
+   "id": "a32a3fb811aad56b",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Estresse e ansiedade podem agravar doenças de pele, explica dermatologista O Liberal",
+   "titulo": "Estresse e ansiedade podem agravar doenças de pele, explica dermatologista",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Ministério tenta avançar com tombamento de cinco ex-colônias de pacientes com hanseníase",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTWFVLTV5VXVyUGZ1SG5HZVNTNU9CeWhFLTdGMVdPbnF6Y3hCaWo0azdHVkdkY3d4X3loQ1I0dmNZbEEtMHVNbmxYQ0pRMWFLQUdTTndGNE5PZ1R4MlZYRElEa3VZRkdNeURjTGpBUDZHUklNUjZLcEl6NVkxcTEwY0tjeFI3OWRPc2djeml4V1hxeGx2YTF0bHdKNG5EREh4THQ2b2w3UU9WN21rSEw0TmRHTEc2LWR3QWhkbzRuaW84OUZ3MzFSUFVJQXRzSmU5UXEyTHA2aGE?oc=5",
+   "url_veiculo": "https://noticias.r7.com",
+   "fonte": "R7",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T18:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Ministério tenta avançar com tombamento de cinco ex-colônias de pacientes com hanseníase R7",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "hanseníase Ministério da Saúde",
+   "id": "8332f02c392df26c",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Hanseníase"
+   ],
+   "assunto": "Hanseníase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Ministério tenta avançar com tombamento de cinco ex-colônias de pacientes com hanseníase R7",
+   "titulo": "Ministério tenta avançar com tombamento de cinco ex-colônias de pacientes com hanseníase",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Preenchimentos genitais alegam aumento do pênis e prazer feminino, mas têm riscos graves",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE85Q0JRUUdHdk94TmxibFhTSmVtSHF4R1hGMHVDWkpKVi1XM3EwWmpneno1eTVyQndtaUNz?oc=5",
+   "url_veiculo": "https://t.co",
+   "fonte": "t.co",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-26T18:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Preenchimentos genitais alegam aumento do pênis e prazer feminino, mas têm riscos graves t.co",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "preenchimento ácido hialurônico complicação",
+   "id": "348db3d0de9e7604",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Preenchedores / bioestimuladores"
+   ],
+   "assunto": "Preenchedores / bioestimuladores",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Preenchimentos genitais alegam aumento do pênis e prazer feminino, mas têm riscos graves t.co",
+   "titulo": "Preenchimentos genitais alegam aumento do pênis e prazer feminino, mas têm riscos graves",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Causas e tratamentos para queda de cabelo, diz Mayo Clinic",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UX1o3SU9kUXNSSW96Z1ZSYUVxaTRXbG1KNWNoSFkwUmgyektPTWxGUzZHZzRORWxBSWh1V0g5dHNCTTlZQ084TGRsZnNmOXNYcExuNlVRVjlCTEdxbFE0dVUyZUZCeU0tS1MyNlpnaWNmYnN3?oc=5",
+   "url_veiculo": "https://www.guairanews.com",
+   "fonte": "guairanews.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-27T17:51:50+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Causas e tratamentos para queda de cabelo, diz Mayo Clinic guairanews.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "queda de cabelo tratamento estudo",
+   "id": "ddbfbd726dc93160",
+   "encontrado_em": "2026-09-28T09:12:42+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Causas e tratamentos para queda de cabelo, diz Mayo Clinic guairanews.com",
+   "titulo": "Causas e tratamentos para queda de cabelo, diz Mayo Clinic",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Successful treatment of recalcitrant pemphigus vulgaris with cold argon plasma.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42801747/",
+   "url_doi": null,
+   "fonte": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T00:00:00+00:00",
+   "indexado_em": "2026-09-27T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pemphigus vulgaris is a severe autoimmune blistering disease that occasionally develops lesions refractory to conventional systemic immunosuppressive therapy. We report the first documented case of successful treatment of therapy-resistant pemphigus vulgaris using cold atmospheric plasma. A 34-year-old woman presented with extensive oral and genital erosions that dramatically improved after initiating therapy with pulse corticosteroids in combination with cyclophosphamide. In the following weeks, she developed treatment-resistant facial erosions that persisted for 6 months despite aggressive systemic therapy consisting of intravenous immunoglobulin, azathioprine, and plasmapheresis. After 3 weekly cold atmospheric plasma treatments at 33 to 37 °C with a 2 cm torch gap for 3 min per treatment zone, the patient had remarkable clinical improvement, with an estimated > 80% epithelialization of facial erosions within 4 weeks, progressing to complete epithelialization by week 6. Disease activity assessment using the Pemphigus Disease Activity Index confirmed rapid improvement from a baseline of 14 to 0 within 6 weeks. Indirect immunofluorescence was negative throughout treatment. Sustained disease remission was achieved for 24 months. This novel application of cold atmospheric plasma is a promising therapeutic approach for recalcitrant lesions of pemphigus vulgaris.",
+   "identificadores": {
+    "pmid": "42801747"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Case Reports"
+   ],
+   "periodico": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+   "consulta": "(pemphig*[ti] OR bullous pemphigoid[ti])",
+   "id": "b124deb754f57d78",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "relato de caso",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Pemphigus vulgaris is a severe autoimmune blistering disease that occasionally develops lesions refractory to conventional systemic immunosuppressive therapy. We report the first documented case of successful treatment of therapy-resistant pemphigus vulgaris using cold atmospheric plasma. A 34-year-old woman presented with extensive oral and genital erosions that dramatically improved after initiating therapy with pulse corticosteroids in combination with cyclophosphamide.",
+   "titulo": "Successful treatment of recalcitrant pemphigus vulgaris with cold argon plasma.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião)."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Resident walkouts in South Korea drive surge in dermatology generalists - CHOSUNBIZ",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZmNsMGxfNmsyaXNTTjhNWHFvWDl4YUZRdER2WUFqOGtQV3psbXZsQWJKenA1T1NEVUs0Z29kRnZhZ3hZWUl0MUNtSy12YXdpdkFUT1dialczeVNjcnJqNUZnTFpFZE9ZazVDbHQySFBBeEpYMV8tN0xxbVduS094b9IBlAFBVV95cUxNVlB0MXdfRXdkdWVqRXp1MUJnTVBMY1d0Z0VMaldkbFNJUkRmZE1INVpXVlVRQ3lEa1NTU1BRWVkzVTJZMmFMMjA4WTNGOWsxUnZqdEhCbUdKMlh2UDBhRk04NDdTUUFLRjBJeGhyZWN3Y1F5MEMzZGhXekZxQnZCSURyTnZyZWVFbUpxSUdQQnppYlVn?oc=5",
+   "url_veiculo": "https://biz.chosun.com",
+   "fonte": "Chosunbiz",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T02:21:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Resident walkouts in South Korea drive surge in dermatology generalists - CHOSUNBIZ Chosunbiz",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "f333e91b22955638",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Resident walkouts in South Korea drive surge in dermatology generalists - CHOSUNBIZ Chosunbiz",
+   "titulo": "Resident walkouts in South Korea drive surge in dermatology generalists - CHOSUNBIZ",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Red Light Therapy May Not Be a Skin-Care Cure-All—But It’s Pretty Close",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sTlowTTFTd0Q5bzdOQzU4UXFYMGpKeDQ2NXR1VlBUN2J1dnNNR3RSNGlTTWR5WEF5T1Q1WWNjNzhVNmtDR0NGRUdoVW9xZDhKUFlCOVNSTXZlcTg?oc=5",
+   "url_veiculo": "https://www.vogue.com",
+   "fonte": "vogue.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-25T17:19:36+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Red Light Therapy May Not Be a Skin-Care Cure-All—But It’s Pretty Close vogue.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "65810fb5d11055f6",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Red Light Therapy May Not Be a Skin-Care Cure-All—But It’s Pretty Close vogue.com",
+   "titulo": "Red Light Therapy May Not Be a Skin-Care Cure-All—But It’s Pretty Close",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Blue Light Phototherapy May Cause Short-Term Skin and Gut Changes in Newborns, Finds Study",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMTRUWDJlamc0M183RExfcTM2d1R5U1JCLWpTR3VoTG5OZXJZS05jNldPOEo5a0E5ZU5YaU8wQVhIdWxjWjBKWHRVbDNWX21KQ3pwbW5wdDRXY1lJbGJ5cTM4MVlpQVNfdE12bl9FaUMwelJYdlc5ak9rUFcwYzFTY0hOTzZTUFdualhTdVVwMlZGdjFCNUZJUnBXeUlOSEozWDJVbHFfWTRtOEFxTTcxTzlzNjc5LThSUzVNM3NRU05DRU5IekduVGRDbVZ2M2M3ZlRKbTdVOHI4M3dzbmfSAd4BQVVfeXFMTjE0VFgyZWpnNDNfN0RMX3EzNndUeVNSQi1qU0d1aExuTmVyWUtOYzZXTzhKOWtBOWVOWGlPMEFYSHVsY1owSlh0VWwzVl9tSkN6cG1ucHQ0V2NZSWxieXEzODFZaUFTX3RNdm5fRWlDMHpSWHZXOWpPa1BXMGMxU2NITk82U1BXbmpYU3VVcDJWRnYxQjVGSVJwV3lJTkhKM1gyVWxxX1k0bThBcU03MU85czY3OS04UlM1TTNzUVNOQ0VOSHpHblRkQ21WdjNjN2ZUSm03VThyODN3c25n?oc=5",
+   "url_veiculo": "https://medicaldialogues.in",
+   "fonte": "medicaldialogues.in",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T15:15:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Blue Light Phototherapy May Cause Short-Term Skin and Gut Changes in Newborns, Finds Study medicaldialogues.in",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology guideline",
+   "id": "e0b10f4ecef17ec1",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Blue Light Phototherapy May Cause Short-Term Skin and Gut Changes in Newborns, Finds Study medicaldialogues.in",
+   "titulo": "Blue Light Phototherapy May Cause Short-Term Skin and Gut Changes in Newborns, Finds Study",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "JJP Biologics to Present Data Showing the Potential of Nebaprubart for Linear IgA Dermatosis (LAD) at Two Key Upcoming Scientific Conferences",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQbUJvZjhRc19WSHJOVkhjRVd2b0Y1SVpTa2FORWNZSlZQN3piSTVpM0h4UVcwZjlyd1c0NDkxVDc1aWpGYTV1VEFlbFI4VS1iQzFWOWxxN3VZQnhQaktjSDYwVFQxNmhYdmd5Y2ZIanJoSXRQcVBYbkkyUFVDZFF4VTVYaVpoUW9aMG96T2NxTjlhczM3NGhrWDZhc1lQVUx1WGpkNUFhdm44SjNHaGd5bkRzek5OX2J6X1FUVEdCLWpDV3g2MVRMMkpWN0lqbVpMREZQSXJGTnZTeGVmNmJSMzRhY0F4WE0yYlNjb1lxbzJLYkpFbW1MbUZOZ0hrWXlpWWZWV1ZVU0NtV2R1VXdjRGtSTnk4OHZsaG5ubmdpVnBPU2h0SWwtbVUzV2Zzb1lmZkQ4OFZaa3HSAb4CQVVfeXFMTkZOcWYyRS0tamlodjgyRkRQX2pPaGU5cnpsRmQyQXBQTXI4c00yRzloVFJlaXZuQlkzUi1KR0NuaUdjd085RjJwcTlrT0dIdFRHTkdkOUJxV1dpR1F2cU8zUGItSEcxbjBYQ1pjcGlpcVdsY1d4NTgxbVd6dG16Y2pnUTYzMjFlTUZ4czduM1N1V2RQZEtFWTdCTVd3UFloTXgwQXg2azZrb1dxTWJ5VmpFQVB2THoyN2VXdkY4ZXE1THYxZFhyZE1CRG9CSlNoY1Y1SS1yVktLZnM2Z2h2enpYNGVtdzNYNS1DZGtFNml0QTFWQzAzak80MHVkdHVjWFB2TVU4MUotZ3R4MERDQUpzNk9BektuNWt1Q3JaN0owSVRCV0hnbzB0S29sdV83Qkw1Uk1DTGhJT1Z4aTVn?oc=5",
+   "url_veiculo": "https://www.manilatimes.net",
+   "fonte": "The Manila Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T05:24:46+00:00",
+   "atualizado_em": null,
+   "resumo_original": "JJP Biologics to Present Data Showing the Potential of Nebaprubart for Linear IgA Dermatosis (LAD) at Two Key Upcoming Scientific Conferences The Manila Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "4b8738c6e3be8acd",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "JJP Biologics to Present Data Showing the Potential of Nebaprubart for Linear IgA Dermatosis (LAD) at Two Key Upcoming Scientific Conferences The Manila Times",
+   "titulo": "JJP Biologics to Present Data Showing the Potential of Nebaprubart for Linear IgA Dermatosis (LAD) at Two Key Upcoming Scientific Conferences",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Holly was always careful in the sun. Then she was diagnosed with melanoma at 23",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLSENicmtCa050VDBIWjdVMkxoOTV5c25SZGFhU2cxZHBCM1lVc25aUXVXSjl0RG14czZwb1RoWmk0bnN1QVNCMERtQ0ZUQXRDdG5VNXJJeWJEdTJuRXY2V1lKeE9UTlhq?oc=5",
+   "url_veiculo": "https://www.womensweekly.com.au",
+   "fonte": "The Australian Women's Weekly",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T03:06:38+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Holly was always careful in the sun. Then she was diagnosed with melanoma at 23 The Australian Women's Weekly",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "7eb50dded9e17bb0",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Holly was always careful in the sun. Then she was diagnosed with melanoma at 23 The Australian Women's Weekly",
+   "titulo": "Holly was always careful in the sun. Then she was diagnosed with melanoma at 23",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "A horse named Pea is first to test focused ultrasound treatment of skin tumors called sarcoids",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV2pXTU9KU3J2ZkM5OU1jbEVWcUtMejd4cVpkVWJOVlFZNTZXWjNGd19tRkhUM1JOb0J6S19ucmgtYTdxRTkyYkg0bEVkQ2hFSnhjN3p2VUgxRDJlYy1WLTBOcl85cFQ4UndOT3NyY1FIcmRtWFVRVnhHbFUtM1lWU0lETWtWWjljZWZPdEpSUDlLeXNCVElFOUdRS0ZhUk43OXdwSlotSUFYSUtORlFsc0ZvMEhuYWdnekx3RUdrcERZYUJGN3lPOWNwTGg5UQ?oc=5",
+   "url_veiculo": "https://www.technology.org",
+   "fonte": "Technology Org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T05:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "A horse named Pea is first to test focused ultrasound treatment of skin tumors called sarcoids Technology Org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "e869e0462fb00696",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Lasers e tecnologias"
+   ],
+   "assunto": "Lasers e tecnologias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "A horse named Pea is first to test focused ultrasound treatment of skin tumors called sarcoids Technology Org",
+   "titulo": "A horse named Pea is first to test focused ultrasound treatment of skin tumors called sarcoids",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Prequel Skincare Launches Skin Health Advisory Board",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNHhqWlQ2MzEzM1BIM3NkWkoxcGhSTWI3aTRHaHBnSjhiMEcwdHR4bXFLNFBzYzBidTJWYUlERHpqcDgzazFHU3laZzdJOVdPTVhtdzNpZ2J3SmV6QWhlT21lSlNtYXhPYnI0aEJVemw1SG5wNjdYQjVzV0QwQmM0VTVWWUtzbmY2RDd1ZEk5VW9ZWkQ4RWtqWWI4LVpXUERn?oc=5",
+   "url_veiculo": "https://www.beautypackaging.com",
+   "fonte": "Beauty Packaging",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-25T12:37:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Prequel Skincare Launches Skin Health Advisory Board Beauty Packaging",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "25f17791597507a3",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": true,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "tom publicitário (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡.",
+    "Conteúdo com características de publicidade — não é evidência científica."
+   ],
+   "resumo": "Prequel Skincare Launches Skin Health Advisory Board Beauty Packaging",
+   "titulo": "Prequel Skincare Launches Skin Health Advisory Board",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "I’ve Had Acne Since My Teens—These Are the Spot Treatments I Actually Rate",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGTU1HME8xNWt2UHBJMlRKSmdoTk83ZFFwNkphNVB2MFNPWGRGNWVJRUxLWW1IZlNSUGo2YmplV1gwSHJORnMwUWE1T0ttSTdLM3NPNGFfcW9DYm9MZEZGNnRUSUhPa3RPaU91bDVkR1lwNnMzMUhmSA?oc=5",
+   "url_veiculo": "https://www.whowhatwear.com",
+   "fonte": "Who What Wear",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T06:10:29+00:00",
+   "atualizado_em": null,
+   "resumo_original": "I’ve Had Acne Since My Teens—These Are the Spot Treatments I Actually Rate Who What Wear",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "67e13ded81819662",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "I’ve Had Acne Since My Teens—These Are the Spot Treatments I Actually Rate Who What Wear",
+   "titulo": "I’ve Had Acne Since My Teens—These Are the Spot Treatments I Actually Rate",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Acne Treatments & Serums Market To 2035: Premiumization and DTC Fuel Expansion - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVmZwZ3Q1WXp0dFNyLVNhTUhrM3A5U0czQ3Z0cTlHZ0stOWUtUW1kbWZ5cnMxbmhRRHA3RnhpWUxKQUJmc2xmel9EeEJESHVud3UtQU1qX3N6dXdIcFc1b1BVbjU5ZVYySml1MmYzUi03bHA4cFZqbW12Vmo5eUM4SEs2X0lRRHRCdFdNMEtQZ1l0bTFaTVBVZFp5emZjNl9RU01PT2NWRXlua2dCOXdkbmJqUzRCTThGQ1dFMGNR?oc=5",
+   "url_veiculo": "https://www.indexbox.io",
+   "fonte": "IndexBox",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T18:11:04+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Acne Treatments & Serums Market To 2035: Premiumization and DTC Fuel Expansion - News and Statistics IndexBox",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "b29983ad9414f489",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Acne Treatments & Serums Market To 2035: Premiumization and DTC Fuel Expansion - News and Statistics IndexBox",
+   "titulo": "Acne Treatments & Serums Market To 2035: Premiumization and DTC Fuel Expansion - News and Statistics",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Why Your Skin Breaks Out the Moment the Air Turns Cold — And What’s Hormonal About It",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9uSGZ4dFJqUVByb2xFdXBtVF9ZSUVVWm5ZZkdDOXlIRmgxVkhIWFVKR05WcEFQZERiVGJWajV2ZVY3RFUydGdwd0duSWxtRUpuOHN0LTlSRQ?oc=5",
+   "url_veiculo": "https://dearmome.com",
+   "fonte": "dearmome.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T22:52:02+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Why Your Skin Breaks Out the Moment the Air Turns Cold — And What’s Hormonal About It dearmome.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "f3a858a23c31b22b",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Why Your Skin Breaks Out the Moment the Air Turns Cold — And What’s Hormonal About It dearmome.com",
+   "titulo": "Why Your Skin Breaks Out the Moment the Air Turns Cold — And What’s Hormonal About It",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "The New Face of Acne: Experts explain the science behind viral pimple patches",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS3JIRUNnMUFZNnM4Rk5JZHpzUEotdDU4dG9RVFE0cWhsM1llMnNNY2hFdmdvWS05TVdjM0I5Nm5yMVVIRGpzMUN2LXRYcWFaNF9qMHJBa3hBaThKQ25IRy1jM19vMWdWSVNXa0VyREpUc0NZbDJoTi0tNU83ekNOMGVhaTR5LWV5QjhEY0VneGNEZG40bjBjd0dOamYyazA?oc=5",
+   "url_veiculo": "https://explained.ph",
+   "fonte": "explained.ph",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T10:25:31+00:00",
+   "atualizado_em": null,
+   "resumo_original": "The New Face of Acne: Experts explain the science behind viral pimple patches explained.ph",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "fa68937d97cabf09",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "The New Face of Acne: Experts explain the science behind viral pimple patches explained.ph",
+   "titulo": "The New Face of Acne: Experts explain the science behind viral pimple patches",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "'I'm a hair transplant surgeon - this oil matched a major hair loss drug in a 6-month trial'",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV00xTE1lcXY1TlNmQkdqTGpCY25rMGR2WEpnS1FFTVVHZ1BrbW9oRHk2M0lxVkQyZVF3dlNrOGJVbUl3WHZpTWRUMW55anJJeGFpYUNUNjFEZnVNRjhsd29Hbm5SUDBDbXBrTWJOSVdsVHFGM0R4MHVpSC1FTHV3NHlaR3RUMmPSAYcBQVVfeXFMTVdNMUxNZXF2NU5TZkJHakxqQmNuazBkdlhKZ0tRRU1VR2dQa21vaER5NjNJcVZEMmVRd3ZTazhiVW1Jd1h2aU1kVDFueWpySXhhaWFDVDYxRGZ1TUY4bHdvR25uUlAwQ21wa01iTklXbFRxRjNEeDB1aUgtRUx1dzR5Wkd0VDJj?oc=5",
+   "url_veiculo": "https://www.mirror.co.uk",
+   "fonte": "The Mirror",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T09:58:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "'I'm a hair transplant surgeon - this oil matched a major hair loss drug in a 6-month trial' The Mirror",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "androgenetic alopecia new treatment",
+   "id": "7381e9376225b588",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "'I'm a hair transplant surgeon - this oil matched a major hair loss drug in a 6-month trial' The Mirror",
+   "titulo": "'I'm a hair transplant surgeon - this oil matched a major hair loss drug in a 6-month trial'",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Eczema Linked to Higher Risk of Shingles in Adults",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQlU2Tjh6MTdpalY2TjJNUFZQbVpfMW9TNGxVeFhhZXg5WnM2S05qR1VIS09ReUZZNnhtWkJvNEVvcl9IenA1dmp5RG9OWUxqenBoMTBhN0tDZDQ4aVB2b2VvOF9XMjdLZFhqeTZ0bHlOOFNUV29SM3dSOHFSMUUyWEhRRjloM3Jfd0dLUG9lU3JSNDE1aUlDOVVCdXl1MlBm0gGgAUFVX3lxTFBCVTZOOHoxN2lqVjZOMk1QVlBtWl8xb1M0bFV4WGFleDlaczZLTmpHVUhLT1F5Rlk2eG1aQm80RW9yX0h6cDV2anlEb05ZTGp6cGgxMGE3S0NkNDhpUHZvZW84X1cyN0tkWGp5NnRseU44U1RXb1Izd1I4cVIxRTJYSFFGOWgzcl93R0tQb2VTclI0MTVpSUM5VUJ1eXUyUGY?oc=5",
+   "url_veiculo": "https://www.labroots.com",
+   "fonte": "Labroots",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-27T16:42:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Eczema Linked to Higher Risk of Shingles in Adults Labroots",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "2c71725a027c81d6",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": true,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "tema de segurança"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Eczema Linked to Higher Risk of Shingles in Adults Labroots",
+   "titulo": "Eczema Linked to Higher Risk of Shingles in Adults",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "New study suggests eczema treatment could reduce serious infection risk",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcTdxQXZXUjhJeHoydzNLT0RyQUxwQlRzaUFCaHpyLUJzc2wtd1JwNWc2UFU5MHZjQ3NsNDJ1MnpTR1dnYi1zSDdWb0duTTdQY3B0dmNkVWwzRjVYY3lra3dmM3dEVkVkeFg0VGJNY2dWSnQxNS12bGp5V0xFRVJ2OTByWGxrVVV3TkhkYVRyZjZyWHMwWFQ4YktXQ3VQMElKWVZiUEtn?oc=5",
+   "url_veiculo": "https://insidegovernment.co.nz",
+   "fonte": "Inside Government NZ",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T04:56:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "New study suggests eczema treatment could reduce serious infection risk Inside Government NZ",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "6e1071c5f68d7eb5",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "New study suggests eczema treatment could reduce serious infection risk Inside Government NZ",
+   "titulo": "New study suggests eczema treatment could reduce serious infection risk",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "What next for Clinuvel (ASX:CUV) as its vitiligo readout nears?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWFfaXczNU5FTmRtQTRySGFuNEtWRXN5V3o2VVpfYUdCTVJLZEYzWjdiOG96MHl3bk1kZ25HNERyWDFSSnk1dlM3Wkh1cXo1Z3dRbWcxMGhWZUZQX19GTW5jbWJFeXdZNGNsYU9nWFBzMWpmTWpsVmtPdjdod0xhSGNvNG9MSUpLWXp5QldWZHNzTkswMGc4bHQtUEt4R1d6NGdN?oc=5",
+   "url_veiculo": "https://kalkinemedia.com",
+   "fonte": "Kalkine Media",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-28T06:01:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "What next for Clinuvel (ASX:CUV) as its vitiligo readout nears? Kalkine Media",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "vitiligo new treatment",
+   "id": "d39a2abd5de9a570",
+   "encontrado_em": "2026-09-28T09:12:41+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Vitiligo"
+   ],
+   "assunto": "Vitiligo",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "What next for Clinuvel (ASX:CUV) as its vitiligo readout nears? Kalkine Media",
+   "titulo": "What next for Clinuvel (ASX:CUV) as its vitiligo readout nears?",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
   {
    "titulo_original": "The shocking reason skin cancers appear where the sun rarely touches",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQjUtb1I0Nlg1dXpOVmpZdFNlMkxBeGNOZmtqNEQxV2J1YzVHZFZzdzBYZDUtcDlYcE1OQ1dTVUtNWmdsTFVOSzJPSUgtdUdWRXlpUnN0WDBLUHg0VE1mbEYwNVBpQmY5Vk8xNDZnem9rY0RxN2pnb2JiNnVjVHFQVk4wYVNEdVNWZ0lzOEpkR1liOENrYzIzMWZZYVBwbXFPUFV1cFNpMUpXYVgtcWk3Zw?oc=5",
@@ -538,7 +1829,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Cureus",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUWJ4Z2tHMGN3eWkwMmRFalVxNEFWUFpxUE16b1BsVTR3eXR4WkkxX0xOQ0hxM0ZaX3hFZU04N2FQQmJINEhKRy03OVFUTV9XcjQwYUh0ZzZmWVMyWm9KSTJla3pTYU5TZ0FlODY1ZmY4YndGM1ZHcnNzUkdNam5uQUI0QnJ1c3BPN3UwcmJhOU1tLWRKRXBMMTZjaFZXcjJROUMtcFE1ZURSV3RKSVJPQ3VyVGRyTS0zeDh6TXFDTm5VR2lLeHZjUW9aUDAxYjNHLUxB",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-28T09:12:41+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -1025,7 +2324,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "iG Delas",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMzBuekEzdVR0Y19seDBzMVVuUmJOY0lOd09nSnJJNkYyR1NURVRjYk5uQjhEclFWa2plTWN5WmpxSzRTcHEybEF3ODdRc1J4ZzFYbDk4bXdnd0lNY0RDRlF6aF9CemtmNC0xcGRENmt0b3BZUTB1NTU2V085cllyWWdOTmdzZFZJRTBuTm1oZTdjbGJrUTl5STEtTXBlYmctS3fSAacBQVVfeXFMT253RGg0Q2dBV0VhN2NaNFBuRTVtUTJwa2NyNnNadVhrTVh4Yk9QYTJJZl9MWmdSRlp1QTIyejFEeTRnbkRISGpWLVN3bHFnWW1LZkZCSjROcWtjS3RWWGNXTm9oVXRQaDE3enliVnZPOUtmWVRvVkFiOURmLTBoOE1RXzI0T1ppMjlyYVBqR0VacnRGZ2Z1NTFabmpUamt1UXZpZE5leVE",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-28T09:12:42+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -10336,6 +11643,13 @@
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd196Sjlqd08zeHp2cXpnQ1JLcnh6aktGazdGaVMtVGdYMm1keEl0TVRsX19kQmpWZ1ZBTjlwalRhaUtabXZCUHFqWDg4czh5eXRDSTc4ZVpWOTE3N0dOZDM2MzZfYnhveWtndmtPMUZ3RlBzSjN1QnlBb05PZTlabXE1SVI2Y2N1eEhYTlJreExadEJ5QlJGdnlaMDdVaEMtZnJUSTZYQ2dvcGkwOEVteU1RY2VlR0ZlQW9RdjdnT2Q5QdIBwgFBVV95cUxNd196Sjlqd08zeHp2cXpnQ1JLcnh6aktGazdGaVMtVGdYMm1keEl0TVRsX19kQmpWZ1ZBTjlwalRhaUtabXZCUHFqWDg4czh5eXRDSTc4ZVpWOTE3N0dOZDM2MzZfYnhveWtndmtPMUZ3RlBzSjN1QnlBb05PZTlabXE1SVI2Y2N1eEhYTlJreExadEJ5QlJGdnlaMDdVaEMtZnJUSTZYQ2dvcGkwOEVteU1RY2VlR0ZlQW9RdjdnT2Q5QQ",
      "tipo_fonte": "noticia",
      "visto_em": "2026-09-26T09:09:32+00:00",
+     "motivo": "título equivalente"
+    },
+    {
+     "fonte": "Informe Floripa",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZXZtdnNfdkhrZ09sRmEya3VhS2lqU3hmMUVvdHJVSXdzaDhFZldYbVEyNENLVlB3NVgybXNBd1pJWUF5NU8zVWZnVElUV3p6VWItQUU2UHlBM0V4dGdueGl4Q0lvU09icmxyOFNBQjhTYTJBQmJvTFpEMGFqbFJGQlhkQy1oTDAzdU9HNUhKeHpZTXYtZkl4NHJZYlA3bjRXOE9hTzlwaHZ5UDdZejBXbA",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-28T09:12:42+00:00",
      "motivo": "título equivalente"
     }
    ],
