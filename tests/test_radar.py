@@ -324,6 +324,8 @@ class TestPontaAPonta(unittest.TestCase):
         texto = Path(res["arquivo_md"]).read_text()
         self.assertIn("Título em português", texto)
         self.assertIn("Resumo em português.", texto)
+        # somente_ia: itens não analisados (em inglês) ficam de fora do relatório
+        self.assertEqual(res["itens"], 2)
 
     def test_alerta_seguranca_em_artigo_so_pelo_titulo(self):
         art = {"titulo_original": "Increasing sunscreen use in outdoor workers", "agregador": "PubMed",
