@@ -239,4 +239,7 @@ dominios:
 # variável de ambiente RADAR_MODEL). Sem ANTHROPIC_API_KEY o radar funciona
 # em modo heurístico (sem IA).
 modelo_ia: "claude-opus-5"
-max_itens_ia_por_dia: 40
+max_itens_ia_por_dia: 10
+# No relatório semanal, itens ainda sem análise por IA (ex.: encontrados antes
+# da chave existir) são analisados antes do envio, até este limite.
+max_itens_ia_relatorio: 10
