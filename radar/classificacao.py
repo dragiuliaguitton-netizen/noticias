@@ -215,6 +215,9 @@ def eh_evento(item: dict) -> bool:
 
 
 def eh_alerta_seguranca(item: dict) -> bool:
+    # artigo científico: resumos citam "risco de…" o tempo todo; só o título conta
+    if item.get("agregador") == "PubMed" or item.get("tipo_fonte") in ("periodico", "registro_ensaios"):
+        return bool(_SEGURANCA.search(item.get("titulo_original", "")))
     txt = f"{item.get('titulo_original', '')} {item.get('resumo_original', '')[:500]}"
     return bool(_SEGURANCA.search(txt))
 

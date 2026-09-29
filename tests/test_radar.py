@@ -298,6 +298,40 @@ class TestPontaAPonta(unittest.TestCase):
         # nada marcado como reportado, pois não foi enviado
         self.assertFalse(any(i.get("relatorios") for i in Historico().itens.values()))
 
+    def test_relatorio_completa_itens_com_ia(self):
+        """Itens guardados sem IA passam pela IA antes do envio, até o limite."""
+        class IAFalsa:
+            ativo, usados, limite, chamadas = True, 0, 0, 0
+
+            def disponivel(self):
+                return self.usados < self.limite
+
+            def analisar(self, item):
+                self.usados += 1
+                IAFalsa.chamadas += 1
+                return {"dermatologico": True, "titulo_pt": "Título em português",
+                        "o_que_aconteceu": "Resumo em português.", "por_que_importa": "Importa.",
+                        "tipo_evidencia": "guideline", "limitacoes": [], "status_terapia": None,
+                        "relevancia": "relevante", "justificativa_relevancia": "x",
+                        "alerta_extraordinario": False, "eh_publicidade": False, "ideia_conteudo": None}
+
+        os.environ["RADAR_ALERTAS"] = "0"
+        self._dia()
+        cfg = dict(self.cfg, max_itens_ia_relatorio=2)
+        res = gerar_e_enviar_semanal(cfg, ia=IAFalsa())
+        self.assertTrue(res["enviado"])
+        self.assertEqual(IAFalsa.chamadas, 2, "respeita o limite")
+        texto = Path(res["arquivo_md"]).read_text()
+        self.assertIn("Título em português", texto)
+        self.assertIn("Resumo em português.", texto)
+
+    def test_alerta_seguranca_em_artigo_so_pelo_titulo(self):
+        art = {"titulo_original": "Increasing sunscreen use in outdoor workers", "agregador": "PubMed",
+               "tipo_fonte": "periodico", "resumo_original": "Workers are at risk of skin cancer."}
+        self.assertFalse(cl.eh_alerta_seguranca(art))
+        art["titulo_original"] = "Benzene contamination in sunscreen products"
+        self.assertTrue(cl.eh_alerta_seguranca(art))
+
     def test_reclassificar_historico(self):
         from radar.pipeline import reclassificar_historico
         self._dia()

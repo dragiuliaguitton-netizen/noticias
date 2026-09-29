@@ -35,6 +35,7 @@ jobs:
       DIA_RELATORIO: "1"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       RADAR_MODEL: ${{ vars.RADAR_MODEL }}
+      RADAR_MAX_IA: ${{ vars.RADAR_MAX_IA }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
       RADAR_CONTACT_EMAIL: ${{ secrets.EMAIL_TO }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}

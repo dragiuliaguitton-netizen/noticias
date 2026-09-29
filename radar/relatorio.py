@@ -135,10 +135,38 @@ def assunto_semanal(d=None) -> str:
     return f"🧴 Radar Semanal de Dermatologia — {(d or agora()):%d/%m/%Y}"
 
 
+def completar_com_ia(rel: dict, cfg: dict, ia=None) -> int:
+    """Itens do relatório ainda sem análise por IA (resumo em inglês) passam
+    pela IA antes do envio, até `max_itens_ia_relatorio`. Sem chave, nada muda."""
+    from .ia import AnalisadorIA
+    from .pipeline import _aplicar_analise
+    ia = ia or AnalisadorIA(cfg)
+    if not ia.ativo:
+        return 0
+    ia.limite = ia.usados + int(cfg.get("max_itens_ia_relatorio", 10))
+    pendentes = [i for i in _ordenar(list(rel["todos"].values())) if i.get("modo_analise") != "ia"]
+    feitos = 0
+    for item in pendentes:
+        if not ia.disponivel():
+            break
+        analise = ia.analisar(item)
+        if analise:
+            ideia_usada = item.get("ideia_usada_em")
+            _aplicar_analise(item, analise)
+            if ideia_usada:
+                item["ideia_usada_em"] = ideia_usada
+            feitos += 1
+    log.info("IA no relatório: %d de %d itens pendentes analisados", feitos, len(pendentes))
+    return feitos
+
+
 def gerar_e_enviar_semanal(cfg: dict, hist: Historico | None = None, enviar: bool = True,
-                           mailer: Mailer | None = None, incluir_ja_reportados: bool = False) -> dict:
+                           mailer: Mailer | None = None, incluir_ja_reportados: bool = False,
+                           ia=None) -> dict:
     hist = hist or Historico()
     rel = montar_relatorio(hist, cfg, incluir_ja_reportados)
+    if completar_com_ia(rel, cfg, ia):
+        rel = montar_relatorio(hist, cfg, incluir_ja_reportados)  # relevâncias podem ter mudado
     md, html = renderizar(rel)
     pasta = Path(os.getenv("RADAR_RELATORIOS") or PASTA_RELATORIOS)
     pasta.mkdir(parents=True, exist_ok=True)
