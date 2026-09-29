@@ -27,13 +27,15 @@ def _ordenar(itens):
                                         -i.get("pontuacao", 0)))
 
 
-def montar_relatorio(hist: Historico, cfg: dict, incluir_ja_reportados: bool = False) -> dict:
+def montar_relatorio(hist: Historico, cfg: dict, incluir_ja_reportados: bool = False,
+                     somente_ia: bool = False) -> dict:
     rc = cfg.get("relatorio", {})
     dias = int(cfg.get("janela_relatorio_dias", 7))
     semana = hist.recentes(dias)
     elegiveis = [i for i in semana
                  if (incluir_ja_reportados or not i.get("relatorios"))
-                 and i["relevancia"] != "baixa" and not i.get("conteudo_antigo")]
+                 and i["relevancia"] != "baixa" and not i.get("conteudo_antigo")
+                 and (not somente_ia or i.get("modo_analise") == "ia")]
 
     # 1. O que você precisa saber (5–10)
     fortes = _ordenar([i for i in elegiveis if cl.ORDEM_REL[i["relevancia"]] >= 2])
@@ -163,10 +165,14 @@ def completar_com_ia(rel: dict, cfg: dict, ia=None) -> int:
 def gerar_e_enviar_semanal(cfg: dict, hist: Historico | None = None, enviar: bool = True,
                            mailer: Mailer | None = None, incluir_ja_reportados: bool = False,
                            ia=None) -> dict:
+    from .ia import AnalisadorIA
     hist = hist or Historico()
+    ia = ia or AnalisadorIA(cfg)
     rel = montar_relatorio(hist, cfg, incluir_ja_reportados)
-    if completar_com_ia(rel, cfg, ia):
-        rel = montar_relatorio(hist, cfg, incluir_ja_reportados)  # relevâncias podem ter mudado
+    completar_com_ia(rel, cfg, ia)
+    # com IA ativa, o relatório traz só itens analisados (em português)
+    somente_ia = bool(ia.ativo) and cfg.get("relatorio", {}).get("somente_ia", True)
+    rel = montar_relatorio(hist, cfg, incluir_ja_reportados, somente_ia=somente_ia)
     md, html = renderizar(rel)
     pasta = Path(os.getenv("RADAR_RELATORIOS") or PASTA_RELATORIOS)
     pasta.mkdir(parents=True, exist_ok=True)

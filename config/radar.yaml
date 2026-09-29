@@ -21,6 +21,8 @@ relatorio:
   max_estudos: 5           # seção 3
   max_ideias_instagram: 5  # seção 5 (3–5)
   incluir_baixa_relevancia: false
+  # Com IA ativa, incluir só itens analisados pela IA (em português)
+  somente_ia: true
 
 # Limiar de similaridade de títulos (0–1) para considerar dois itens como o
 # mesmo assunto na deduplicação.
