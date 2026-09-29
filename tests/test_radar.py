@@ -298,6 +298,22 @@ class TestPontaAPonta(unittest.TestCase):
         # nada marcado como reportado, pois não foi enviado
         self.assertFalse(any(i.get("relatorios") for i in Historico().itens.values()))
 
+    def test_anuncio_institucional_nao_vira_destaque(self):
+        """Curso/evento em site oficial não é novidade clínica; diretriz oficial é."""
+        base = {"resumo_original": "", "tipo_fonte": "noticia", "agregador": "Google News",
+                "url": "https://news.google.com/x", "identificadores": {}, "tipos_publicacao": []}
+        curso = {**base, "id": "c", "titulo_original": "21st British Cosmetic Dermatology Group Annual Course",
+                 "fonte": "BAD", "url_veiculo": "https://www.bad.org.uk"}
+        capac = {**base, "id": "d", "titulo_original": "Município recebe capacitação sobre hanseníase",
+                 "fonte": "Prefeitura", "url_veiculo": "https://www.cidade.mt.gov.br"}
+        diretriz = {**base, "id": "e", "titulo_original": "Ministério da Saúde publica novo protocolo clínico e diretrizes para hanseníase",
+                    "fonte": "Ministério da Saúde", "url_veiculo": "https://www.gov.br/saude"}
+        for i in (curso, capac, diretriz):
+            cl.enriquecer(i, self.cfg)
+        self.assertEqual(curso["relevancia"], "baixa")
+        self.assertEqual(capac["relevancia"], "baixa")
+        self.assertIn(diretriz["relevancia"], ("relevante", "muito_relevante"))
+
     def test_ia_nao_ultrapassa_tetos(self):
         """Mesmo que a IA diga 🔴, notícia sem fonte primária fica em 🟡."""
         from radar.pipeline import _aplicar_analise
