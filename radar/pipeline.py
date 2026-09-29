@@ -327,3 +327,39 @@ def bloco_item_md(i: dict) -> list[str]:
         linhas.append(f"> ⚠️ {o}")
     linhas += [f"**Relevância:** {cl.RELEVANCIAS[i['relevancia']]}", "", f"<sub>ID: {i['id']}</sub>", "", "---", ""]
     return linhas
+
+
+def reclassificar_historico(cfg: dict, hist: Historico | None = None, dias: int | None = None) -> dict:
+    """Reaplica as regras ATUAIS de classificação aos itens já armazenados
+    (útil depois de ajustar critérios). Não refaz coleta nem chama a IA:
+    itens analisados por IA só têm a pontuação/tetos recalculados."""
+    hist = hist or Historico()
+    itens = hist.recentes(dias) if dias else list(hist.itens.values())
+    antes = {i["id"]: i["relevancia"] for i in itens}
+    for item in itens:
+        confirmada = bool(item.get("fonte_primaria_id") or item.get("fonte_primaria_url"))
+        if item.get("modo_analise") == "ia":
+            item["nivel_fonte"] = cl.nivel_fonte(item, cfg)
+            item["alerta_seguranca"] = cl.eh_alerta_seguranca(item)
+            cl.reclassificar(item)
+        else:
+            cl.enriquecer(item, cfg)
+            if confirmada and item["nivel_fonte"] >= 3:
+                item["fonte_primaria_confirmada"] = True
+                cl.reclassificar(item)
+        if item.get("conteudo_antigo"):
+            item["relevancia"] = min(item["relevancia"], "interessante", key=cl.ORDEM_REL.get)
+        # ideias de conteúdo acompanham a nova relevância (nunca apaga ideia já usada)
+        ideia = item.get("ideia_conteudo")
+        if not item.get("ideia_usada_em"):
+            if cl.ORDEM_REL[item["relevancia"]] >= 2 and not ideia:
+                item["ideia_conteudo"] = ideia_heuristica(item)
+            elif cl.ORDEM_REL[item["relevancia"]] < 2 and ideia:
+                item["ideia_conteudo"] = None
+    mudou = sum(1 for i in itens if antes[i["id"]] != i["relevancia"])
+    resumo = {"tipo": "reclassificacao", "inicio": iso(agora()), "itens": len(itens), "alterados": mudou,
+              "relevancia": {k: sum(1 for i in itens if i["relevancia"] == k) for k in cl.ORDEM_REL}}
+    hist.registrar_execucao(resumo)
+    hist.salvar()
+    log.info("Reclassificação: %d itens, %d mudaram de relevância", len(itens), mudou)
+    return resumo

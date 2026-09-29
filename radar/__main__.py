@@ -3,6 +3,7 @@
     python -m radar diario                 # busca diária (coleta → histórico → alertas)
     python -m radar semanal                # gera e envia o relatório semanal
     python -m radar semanal --sem-envio    # só gera (prévia), não marca itens
+    python -m radar reclassificar          # reaplica as regras atuais ao histórico
     python -m radar testar-email           # envia um e-mail de teste
     python -m radar verificar-fontes       # testa o acesso a cada fonte
     python -m radar status                 # resumo do histórico e da configuração
@@ -20,7 +21,7 @@ from .email_envio import EmailNaoConfigurado, Mailer, destinatarios, provedor
 from .fontes import Coletor
 from .historico import Historico
 from .ia import AnalisadorIA
-from .pipeline import processar_dia
+from .pipeline import processar_dia, reclassificar_historico
 from .relatorio import gerar_e_enviar_semanal
 from .util import agora, carregar_config, configurar_log, log
 
@@ -44,6 +45,11 @@ def cmd_semanal(args, cfg) -> int:
     print(json.dumps(r, ensure_ascii=False, indent=1))
     if args.exigir_envio and not r["enviado"]:
         return 3
+    return 0
+
+
+def cmd_reclassificar(args, cfg) -> int:
+    print(json.dumps(reclassificar_historico(cfg, dias=args.dias), ensure_ascii=False, indent=1))
     return 0
 
 
@@ -119,13 +125,15 @@ def main(argv=None) -> int:
     s.add_argument("--sem-envio", action="store_true", help="só gera o arquivo (prévia)")
     s.add_argument("--exigir-envio", action="store_true", help="código de saída ≠ 0 se o e-mail não sair")
     s.add_argument("--incluir-reportados", action="store_true", help="inclui itens de relatórios anteriores")
+    r = sub.add_parser("reclassificar", help="reaplica as regras atuais ao histórico")
+    r.add_argument("--dias", type=int, help="só itens encontrados nos últimos N dias")
     sub.add_parser("testar-email", help="envia e-mail de teste")
     sub.add_parser("verificar-fontes", help="testa acesso às fontes")
     sub.add_parser("status", help="resumo do histórico")
     args = p.parse_args(argv)
     configurar_log(args.verbose)
     cfg = carregar_config(args.config)
-    cmds = {"diario": cmd_diario, "semanal": cmd_semanal, "testar-email": cmd_testar_email,
+    cmds = {"diario": cmd_diario, "semanal": cmd_semanal, "reclassificar": cmd_reclassificar, "testar-email": cmd_testar_email,
             "verificar-fontes": cmd_verificar, "status": cmd_status}
     try:
         return cmds[args.cmd](args, cfg)

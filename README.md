@@ -26,7 +26,7 @@ GitHub Actions (todo dia 06:00 BRT)
        7. Alerta extraordinário ── e-mail "🚨 ALERTA DERMATOLOGIA" se houver algo crítico
        8. Histórico ── data/historico.json + registro do dia em data/diario/AAAA-MM-DD.md
 
-GitHub Actions (toda segunda 08:00 BRT)
+GitHub Actions (toda segunda 06:00 BRT, logo após a busca do dia)
   └─ python -m radar semanal ──► e-mail "🧴 Radar Semanal de Dermatologia — DD/MM/AAAA"
                                   (+ cópia em relatorios/)
 ```
@@ -86,7 +86,10 @@ Depois disso o radar roda sozinho.
 | O quê | Onde |
 |---|---|
 | **E-mail de destino** | segredo `EMAIL_TO` (vários: separe por vírgula) |
-| **Frequência / horário** | `.github/workflows/radar.yml`, linhas `cron` (em UTC; BRT = UTC−3) |
+| **Frequência / horário** | `.github/workflows/radar.yml`, linha `cron` (em UTC; BRT = UTC−3) |
+| **Dia do relatório semanal** | `.github/workflows/radar.yml`, `DIA_RELATORIO` (1 = segunda … 7 = domingo) |
+| **Relatório fora de hora** | Actions → Run workflow → `relatorio-agora` |
+| **Reaplicar regras novas ao histórico** | Actions → Run workflow → `reclassificar` |
 | **Palavras-chave de busca** | `config/radar.yaml` → `pubmed.consultas_tematicas` e `noticias.consultas.pt/en` |
 | **Periódicos monitorados** | `config/radar.yaml` → `pubmed.periodicos` (abreviação NLM) |
 | **Fontes / feeds RSS** | `config/radar.yaml` → `feeds` (nome, url, tipo, filtrar) |
@@ -106,6 +109,7 @@ python -m radar verificar-fontes   # testa acesso a cada fonte, IA e e-mail
 python -m radar diario             # busca do dia (--janela 30 para busca ampla)
 python -m radar semanal --sem-envio  # prévia do relatório em relatorios/ (não marca itens)
 python -m radar testar-email
+python -m radar reclassificar      # reaplica as regras atuais ao histórico
 python -m radar status             # resumo do histórico
 python -m unittest discover -s tests -t .   # testes de ponta a ponta
 ```

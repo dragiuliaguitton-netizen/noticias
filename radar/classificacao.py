@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import re
 
+from .fontes import eh_dermatologico
 from .util import dominio, truncar
 
 RELEVANCIAS = {
@@ -302,6 +303,10 @@ def aplicar_tetos(item: dict, relevancia: str) -> tuple[str, list[str]]:
         obs.append("Resultado pré-clínico: não representa tratamento estabelecido.")
     if item["tipo_evidencia"] in ("relato de caso", "carta/editorial (opinião)", "errata"):
         teto = min(teto, "interessante", key=ORDEM_REL.get)
+    if item.get("tipo_fonte") == "regulatorio" and not eh_dermatologico(item.get("titulo_original", "")):
+        # ex.: comunicado sobre "alimentos, medicamentos e cosméticos" em geral
+        teto = min(teto, "interessante", key=ORDEM_REL.get)
+        obs.append("Relação dermatológica apenas indireta (não citada no título).")
     if not item.get("dermatologico", True):
         teto = "baixa"
         obs.append("Sem relação dermatológica direta.")
