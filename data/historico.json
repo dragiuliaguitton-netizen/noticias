@@ -1,7 +1,7 @@
 {
  "versao": 1,
- "atualizado_em": "2026-09-29T23:15:24+00:00",
- "total_itens": 1199,
+ "atualizado_em": "2026-09-29T23:45:21+00:00",
+ "total_itens": 1201,
  "execucoes": [
   {
    "tipo": "diaria",
@@ -362,9 +362,161 @@
    "erro_envio": null,
    "itens": 17,
    "arquivo": "relatorios/radar-semanal-2026-09-29.md"
+  },
+  {
+   "tipo": "reclassificacao",
+   "inicio": "2026-09-29T23:42:42+00:00",
+   "itens": 1199,
+   "alterados": 9,
+   "relevancia": {
+    "muito_relevante": 1,
+    "relevante": 44,
+    "interessante": 217,
+    "baixa": 937
+   }
+  },
+  {
+   "tipo": "diaria",
+   "inicio": "2026-09-29T23:42:43+00:00",
+   "fim": "2026-09-29T23:43:14+00:00",
+   "modo": "heuristico",
+   "stats": {
+    "brutos": 192,
+    "novos": 2,
+    "duplicados": 185,
+    "nao_dermatologicos": 5,
+    "atualizacoes": 0,
+    "antigos": 0,
+    "analisados_ia": 0,
+    "fontes_primarias_localizadas": 0,
+    "alertas": 0
+   },
+   "por_fonte": {
+    "PubMed": 53,
+    "FDA — Press Releases": 1,
+    "FDA — MedWatch Safety Alerts": 0,
+    "FDA — Recalls": 0,
+    "EMA — News": 0,
+    "JAMA Dermatology — Online First": 7,
+    "JAMA Dermatology — Current Issue": 0,
+    "Google News (en)": 100,
+    "Google News (pt)": 30,
+    "ClinicalTrials.gov": 1
+   },
+   "erros": [],
+   "relevancia": {
+    "muito_relevante": 0,
+    "relevante": 0,
+    "interessante": 0,
+    "baixa": 2
+   }
+  },
+  {
+   "tipo": "semanal",
+   "inicio": "2026-09-29T23:45:21+00:00",
+   "enviado": true,
+   "erro_envio": null,
+   "itens": 8,
+   "arquivo": "relatorios/radar-semanal-2026-09-29.md"
   }
  ],
  "itens": [
+  {
+   "titulo_original": "Vitiligo is visible. Its full impact often is not.",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWVNBLXJYa1hob2tCS1d2NGlrcGFZcm5VMDllOWRYUEt0Uml2ZFVQMzBBNkRDSDlBMEN3NEhQOWVVOFhvWXhPR1pxakJzOENrQWEwWG5zZUEwZ2V2NDR3RlEyYWV3NVNPbVRCU3VBRFZ4ME1aWXdMT0NGY1ZHZjZXTi1Ram1JZTJkRFpiUno5M2R1b1hnU3FvTzVWV3otU21RTlViaG95MUk3MGtGQ3Y0eXZXQXZoZDk3eGx0WS1BZzYwb1hVaFR0QnpWOG92ZVM1R1ZOdUNFNUpPdDNwVEVpOA?oc=5",
+   "url_veiculo": "https://www.cityandstateny.com",
+   "fonte": "City & State New York",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T17:22:13+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Vitiligo is visible. Its full impact often is not. City & State New York",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "vitiligo new treatment",
+   "id": "b1db71fe1ecb1c68",
+   "encontrado_em": "2026-09-29T23:43:14+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Vitiligo"
+   ],
+   "assunto": "Vitiligo",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Vitiligo is visible. Its full impact often is not. City & State New York",
+   "titulo": "Vitiligo is visible. Its full impact often is not.",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Pfizer to Present 45 Abstracts at ESMO 2026, With Data in Breast, Genitourinary, Lung Cancers and Melanoma",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IejZyY0QyV3EwRDB5M1pvekpDRWtQdWNiQTZLX3pfaU1hUzJxRGFPRWROZ3F2V0VIQVYzUzZiN0lWRDZhRl9uNWJKaTFSbTFUWlZxY1FJWnhneUt5RmI4ZFYtVUZhM3JG?oc=5",
+   "url_veiculo": "https://oncodaily.com",
+   "fonte": "Oncodaily",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T15:37:40+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pfizer to Present 45 Abstracts at ESMO 2026, With Data in Breast, Genitourinary, Lung Cancers and Melanoma Oncodaily",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "f3f739031f2bcff3",
+   "encontrado_em": "2026-09-29T23:43:13+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Pfizer to Present 45 Abstracts at ESMO 2026, With Data in Breast, Genitourinary, Lung Cancers and Melanoma Oncodaily",
+   "titulo": "Pfizer to Present 45 Abstracts at ESMO 2026, With Data in Breast, Genitourinary, Lung Cancers and Melanoma",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
   {
    "titulo_original": "Hair-Loss Treatments: From Minoxidil to Transplant Surgery",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd2QyTHlLbklMd0Fkb016ajJWdHNOSEdMVlBFU1hNNEZHQXFPU292ekN6aHRZcDhOa0ZBU19DY21QNGJJclk5REkzYk00dEpxU0tuRU9XbU9kb1dUYmdvTVo5NGRzbEdqTHBBTTFXRWQtYTAyT3lzR0VsajNtMnR3QkYtVElKSEc4bFh3UFJYNXIzdU9rZGdsOVBwYkF3SnRk?oc=5",
@@ -578,7 +730,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Yale School of Medicine",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc29VLVVhVUhEZVE2VVRkblBXYUhMNEJxb3BjQ3FET1FWOXNzNzJjdmpvcnEzN1F5OUtIODlldVRjcnhoenJUam1DcVBIS1VTMVdNcHJPVk1ybUJZaXo4dmY3YXBGdm9BUDJwVzF5bUphMFkxTHppbTJyMWJLZmRua1J4NkxvUFZMNThDZU4yZS0tMG9DeV9CVHpRUjhYdFFGa3o5UWs5eGd4Vk5jRl9EQUlYcTE",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-29T23:43:13+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -1062,7 +1222,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "sg.news.yahoo.com",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VbUdycGl1NUgybXZWa2syMjN0Znltb0JUR0F4QlVDN2VOLVVGazRpWFJtM1o0NzFiLWhBMmM4dkxkdXdEUTZOZDlHY2N2cHEyWEZKMl93T0FVTUx0YlFEbHM1UlVSUlBhVnR1N2pBb0xXYzRJLW5NbVROdw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-29T23:43:14+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -4647,14 +4815,13 @@
     "Dermatologia geral"
    ],
    "assunto": "Dermatologia geral",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 1,
+   "pontuacao": 0,
    "justificativa_relevancia": [
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
    "relevancia": "baixa",
    "observacoes_validacao": [],
@@ -4705,7 +4872,7 @@
    "mencoes": [],
    "nivel_fonte": 2,
    "tipo_evidencia": "metanálise",
-   "status_terapia": null,
+   "status_terapia": "experimental",
    "assuntos": [
     "Psoríase"
    ],
@@ -4722,10 +4889,18 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "Psoriasis is a heritable, common chronic autoimmune disorder characterized by cycles of remission and flare-ups. Here, we jointly analyze genomic and single-cell transcriptomic data to elucidate the genetic and molecular architecture of psoriasis. We perform a large-scale genome-wide meta-analysis of individuals of European ancestry (n = 1,131,685) and identify 125 independent susceptibility loci associated with psoriasis, including 17 previously unreported loci.",
-   "titulo": "Integration of GWAS and single-cell analysis for psoriasis identifies disease-associated cell subtypes and therapeutic targets.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "Pesquisadores realizaram uma meta-análise genômica de larga escala (GWAS) em mais de 1,1 milhão de indivíduos de ascendência europeia, identificando 125 loci de suscetibilidade associados à psoríase, incluindo 17 não descritos anteriormente. A integração desses dados com análise de transcriptoma de célula única mostrou papel predominante de células mieloides e T, além de expressão enriquecida de genes associados à doença em queratinócitos e subconjuntos de células endoteliais. Os autores também priorizaram 50 genes-alvo terapêuticos potenciais, analisando padrões de atividade específicos por subtipo celular em condições não lesionais, lesionais e sob tratamento.",
+   "titulo": "Metanálise genômica de larga escala identifica novos loci de suscetibilidade e possíveis alvos terapêuticos na psoríase",
+   "limitacoes": [
+    "Estudo realizado apenas em indivíduos de ascendência europeia, limitando a generalização para outras populações",
+    "Os alvos terapêuticos identificados são potenciais e ainda não foram validados clinicamente",
+    "Trata-se de achados de associação genética e transcriptômica, não de ensaios que comprovem eficácia terapêutica"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "O estudo amplia significativamente o conhecimento sobre a arquitetura genética e molecular da psoríase, identificando novos loci de suscetibilidade e possíveis alvos terapêuticos que podem orientar pesquisas futuras sobre o mecanismo da doença e desenvolvimento de novas terapias, embora ainda não represente aplicação clínica direta.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "O estudo traz avanços importantes na compreensão da base genética e molecular da psoríase e aponta possíveis alvos terapêuticos, sendo relevante para atualização profissional em dermatologia, mas não implica mudança imediata de conduta clínica, já que os alvos ainda não foram testados em ensaios clínicos.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Adjuvant anti-TIGIT plus anti-PD-1 in melanoma: A necessary failure that clarifies the path forward.",
@@ -8904,14 +9079,14 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Dermatologia geral: A Clinical Approach to Psychodermatologic Conditions: From Recognition to Treatment.",
+    "tema": "Conexão entre pele e mente: quando a dermatologia encontra a saúde mental",
     "formato": "Carrossel",
-    "gancho": "O que a ciência trouxe de novo sobre dermatologia geral?",
-    "mensagem_principal": "Psychiatric comorbidities impact one-third of dermatology patients, yet psychodermatologic conditions remain underrecognized and challenging to diagnose and manage. The 2023 EADV/ESDaP/APMNA consensus introduced a refined two-category classification that more accurately…",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: consenso. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "gancho": "Você sabia que a pele pode 'falar' sobre o que se passa na nossa mente?",
+    "mensagem_principal": "Existe uma relação de mão dupla entre saúde emocional e saúde da pele: condições emocionais podem se manifestar na pele, e problemas de pele podem impactar profundamente o bem-estar psicológico.",
+    "o_que_o_publico_precisa_entender": "Segundo especialistas, cerca de um terço dos pacientes dermatológicos apresenta alguma relação entre saúde mental e sua condição de pele. Isso não significa que 'é da cabeça' — significa que o cuidado completo, às vezes, envolve olhar tanto para a pele quanto para o emocional, com apoio de diferentes profissionais quando necessário.",
+    "cta": "Se você percebe que seu emocional afeta sua pele (ou vice-versa), converse abertamente com seu dermatologista sobre isso — esse diálogo faz parte do cuidado integral.",
     "fonte_medica": "Journal of the American Academy of Dermatology (2026-09-26). DOI: 10.1016/j.jaad.2026.08.127 https://pubmed.ncbi.nlm.nih.gov/42800564/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
    "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
@@ -8935,10 +9110,18 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "Psychiatric comorbidities impact one-third of dermatology patients, yet psychodermatologic conditions remain underrecognized and challenging to diagnose and manage. The 2023 EADV/ESDaP/APMNA consensus introduced a refined two-category classification that more accurately reflects the bidirectional mind-skin relationship and aligns diagnosis with treatment. This review reflects an evidence-based approach to the recognition, diagnosis, and management of psychodermatologic conditions.",
-   "titulo": "A Clinical Approach to Psychodermatologic Conditions: From Recognition to Treatment.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "O artigo é uma revisão que apresenta uma abordagem baseada em evidências para reconhecimento, diagnóstico e manejo de condições psicodermatológicas. Baseia-se no consenso de 2023 EADV/ESDaP/APMNA, que introduziu uma classificação em duas categorias: distúrbios psiquiátricos primários com manifestações cutâneas (categoria 1) e dermatoses primárias com impacto psiquiátrico (categoria 2). O texto propõe um framework diagnóstico com instrumentos de triagem validados e delineia o escopo de prescrição de psicotrópicos adequado para dermatologistas, além de critérios para encaminhamento psiquiátrico.",
+   "titulo": "Abordagem clínica das condições psicodermatológicas: do reconhecimento ao tratamento",
+   "limitacoes": [
+    "É uma revisão baseada em consenso de especialistas, não um estudo primário com dados originais",
+    "O texto não detalha os instrumentos de triagem específicos nem os critérios exatos de encaminhamento psiquiátrico",
+    "Não há dados quantitativos sobre eficácia das intervenções propostas"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "Comorbidades psiquiátricas afetam um terço dos pacientes dermatológicos, segundo o texto, e a revisão oferece uma estrutura prática para que dermatologistas integrem avaliação psicodermatológica na rotina clínica, potencialmente melhorando o reconhecimento e manejo dessas condições.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "Trata-se de uma revisão baseada em consenso de especialistas que oferece um framework clínico atualizado e prático para dermatologistas, com potencial de melhorar o cuidado de pacientes, mas não representa uma mudança emergencial ou dado com impacto imediato de segurança que justifique classificação como muito relevante.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Long-Term Efficacy of Abrocitinib For Atopic Dermatitis: 96 Week Results of the JADE EXTEND Study Comparing Patients Receiving Monotherapy With Those Receiving Combination Therapy Including Topical Medications.",
@@ -12812,21 +12995,21 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Infecções cutâneas: Consensus recommendations for Trichophyton indotineae: A modified Delphi study.",
+    "tema": "Fungo resistente a tratamentos comuns: o que é o Trichophyton indotineae",
     "formato": "Carrossel",
-    "gancho": "O que a ciência trouxe de novo sobre infecções cutâneas?",
-    "mensagem_principal": "These consensus statements provide practical interim recommendations. Randomized controlled trials are needed to validate outcomes and optimize regimens.",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: consenso. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "gancho": "Você já tratou uma micose de pele que simplesmente não melhorava com o remédio de sempre?",
+    "mensagem_principal": "Existe um tipo de fungo, o Trichophyton indotineae, que pode causar infecções de pele extensas e resistentes a um antifúngico muito usado (terbinafina). Especialistas de várias partes do mundo se reuniram para criar recomendações sobre como identificar e tratar esses casos.",
+    "o_que_o_publico_precisa_entender": "Nem toda micose de pele responde da mesma forma ao tratamento. Quando uma lesão fúngica é muito extensa, recorrente ou não melhora com o tratamento habitual, é importante procurar um dermatologista para investigação adequada, incluindo exames específicos, em vez de repetir o mesmo tratamento por conta própria.",
+    "cta": "Se você notar uma lesão de pele que não melhora com o tratamento indicado, converse com seu dermatologista sobre reavaliar o diagnóstico.",
     "fonte_medica": "Journal of the European Academy of Dermatology and Venereology : JEADV (2026-09-25). DOI: 10.1111/jdv.70731 https://pubmed.ncbi.nlm.nih.gov/42786909/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
    "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
    "tipo_evidencia": "consenso",
-   "status_terapia": null,
+   "status_terapia": "em análise",
    "assuntos": [
     "Infecções cutâneas"
    ],
@@ -12835,18 +13018,28 @@
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 6,
    "justificativa_relevancia": [
     "evidência: consenso (+3)",
     "fonte: fonte científica (periódico/base) (+1)",
-    "periódico de alto impacto (+1)"
+    "periódico de alto impacto (+1)",
+    "terapia em análise regulatória (+1)"
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "These consensus statements provide practical interim recommendations. Randomized controlled trials are needed to validate outcomes and optimize regimens.",
-   "titulo": "Consensus recommendations for Trichophyton indotineae: A modified Delphi study.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "Um estudo Delphi modificado com 4 rodadas reuniu especialistas para elaborar recomendações sobre Trichophyton indotineae, dermatófito resistente à terbinafina e de disseminação global. Consenso (≥70% de concordância) foi alcançado em 34 dos 42 itens avaliados. As recomendações abrangem suspeita clínica, diagnóstico (KOH, cultura, PCR/sequenciamento ITS, sequenciamento SQLE) e tratamento, com itraconazol oral como primeira linha, luliconazol tópico como adjuvante e posaconazol como terapia de resgate.",
+   "titulo": "Consenso Delphi estabelece recomendações práticas para diagnóstico e tratamento do Trichophyton indotineae",
+   "limitacoes": [
+    "Consenso baseado em opinião de especialistas (Delphi), não em ensaios clínicos",
+    "Amostra pequena de especialistas (34 convidados, 19-20 completaram as rodadas)",
+    "8 dos 42 itens não atingiram consenso",
+    "Os próprios autores apontam necessidade de ensaios clínicos randomizados para validar os resultados e otimizar os regimes terapêuticos"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "T. indotineae é uma causa emergente de dermatofitose extensa e recalcitrante à terbinafina, com diagnóstico e manejo até então inconsistentes. Um consenso de especialistas orienta a prática clínica interina, especialmente relevante para dermatologistas em regiões com casos importados ou endêmicos.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "Trata-se de um consenso de especialistas (não guideline formal nem ensaio clínico) que fornece orientação prática interina para uma condição emergente e clinicamente desafiadora, mas ainda carece de validação por estudos randomizados, o que limita seu impacto imediato e definitivo na prática clínica.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Multigenerational Huriez syndrome with marked intrafamilial heterogeneity and cutaneous squamous cell carcinoma burden.",
@@ -13247,16 +13440,16 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Psoríase: Efficacy and Safety of Risankizumab in Paediatric Patients With Psoriasis in the OptIMMize-1 Phase III Study.",
-    "formato": "Reel",
-    "gancho": "O que a ciência trouxe de novo sobre psoríase?",
-    "mensagem_principal": "Risankizumab was well tolerated in paediatric patients, resulting in marked improvements in skin clearance, itching, and quality of life after 16 weeks of treatment. Efficacy was maintained or improved at week 52, supporting risankizumab use for moderate-to-severe psoriasis in…",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "tema": "Psoríase também afeta crianças e adolescentes",
+    "formato": "Carrossel",
+    "gancho": "Você sabia que a psoríase pode aparecer já na infância?",
+    "mensagem_principal": "A psoríase é uma doença inflamatória de pele que também pode acometer crianças e adolescentes, impactando não só a pele, mas também a autoestima e a qualidade de vida. Pesquisas continuam buscando tratamentos mais eficazes e seguros para essa faixa etária.",
+    "o_que_o_publico_precisa_entender": "A psoríase pediátrica ainda tem poucas opções de tratamento avançado, mas a pesquisa científica está avançando para ampliar essas alternativas. É importante que crianças e adolescentes com psoríase sejam acompanhados por um dermatologista, que poderá indicar o tratamento mais adequado conforme a gravidade do quadro, o histórico de saúde e as evidências científicas disponíveis.",
+    "cta": "Se você ou alguém que você conhece tem psoríase na infância ou adolescência, procure um dermatologista para orientação individualizada.",
     "fonte_medica": "The British journal of dermatology (2026-09-26). DOI: 10.1093/bjd/ljag403 https://pubmed.ncbi.nlm.nih.gov/42791206/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -13279,10 +13472,20 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "Risankizumab was well tolerated in paediatric patients, resulting in marked improvements in skin clearance, itching, and quality of life after 16 weeks of treatment. Efficacy was maintained or improved at week 52, supporting risankizumab use for moderate-to-severe psoriasis in this population.",
-   "titulo": "Efficacy and Safety of Risankizumab in Paediatric Patients With Psoriasis in the OptIMMize-1 Phase III Study.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "O estudo de fase III OptIMMize-1, com 137 pacientes pediátricos com psoríase moderada a grave, avaliou risankizumabe (inibidor de interleucina-23) por 52 semanas. Na parte com comparação direta, as taxas de resposta na semana 16 foram semelhantes entre risankizumabe e ustekinumabe para os desfechos sPGA0/1 e PASI75/90, mas a resposta PASI100 (pele completamente livre de lesões) foi maior com risankizumabe (40,7% vs. 17,9%). Em outra parte do estudo, sem comparador, as respostas na semana 16 foram altas e mantidas ou melhoradas até a semana 52. Houve também melhora em prurido e qualidade de vida, e o perfil de segurança foi consistente com estudos prévios em adultos.",
+   "titulo": "Risankizumabe mostra eficácia e segurança em crianças com psoríase moderada a grave no estudo de fase III OptIMMize-1",
+   "limitacoes": [
+    "Parte do estudo (Parte 2) foi randomizada e comparativa, mas outras partes (1, 3 e 4) foram abertas (open-label), sem grupo controle",
+    "Avaliação de prurido e qualidade de vida foi realizada apenas na Parte 2 do estudo",
+    "Tamanho amostral relativamente pequeno em algumas subpartes do estudo",
+    "Seguimento limitado a 52 semanas, sem dados de segurança e eficácia em longo prazo apresentados no texto",
+    "Risankizumabe ainda não é aprovado para uso pediátrico; os dados dizem respeito a um estudo em andamento"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "As opções terapêuticas avançadas para psoríase pediátrica ainda são limitadas. Esses dados de fase III podem embasar uma futura indicação de risankizumabe para essa faixa etária, ampliando as alternativas terapêuticas disponíveis para crianças e adolescentes com psoríase moderada a grave.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "Trata-se de um ensaio clínico randomizado de fase III relevante para a prática dermatológica, pois pode subsidiar futura aprovação de risankizumabe para psoríase pediátrica, área com poucas opções terapêuticas avançadas. No entanto, ainda não representa mudança imediata de conduta clínica, pois o medicamento não está aprovado para essa faixa etária.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Upadacitinib for Palmoplantar Pustulosis: An Open-label, Assessor-blinded Feasibility Study Using Historic Control Data (JAKPPPOT).",
@@ -13312,21 +13515,21 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Psoríase: Upadacitinib for Palmoplantar Pustulosis: An Open-label, Assessor-blinded Feasibility Study Using Historic…",
-    "formato": "Reel",
-    "gancho": "O que a ciência trouxe de novo sobre psoríase?",
-    "mensagem_principal": "This study demonstrates that a definitive trial of JAK inhibition in PPP is feasible and identifies an encouraging exploratory efficacy signal. The findings support progression to a multicentre active-comparator randomised controlled trial.",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "tema": "O que é pustulose palmoplantar e por que a pesquisa continua avançando",
+    "formato": "Carrossel",
+    "gancho": "Você já ouviu falar em pustulose palmoplantar?",
+    "mensagem_principal": "A pustulose palmoplantar é uma doença inflamatória crônica que causa bolhas com pus nas palmas das mãos e solas dos pés, associada a grande impacto na qualidade de vida. Pesquisas recentes estão testando novos medicamentos, como inibidores de JAK, para tratar essa condição, mas ainda são estudos iniciais.",
+    "o_que_o_publico_precisa_entender": "Estudos de viabilidade, como o mencionado, são etapas importantes da pesquisa científica: eles mostram se um tratamento pode ser testado de forma mais ampla no futuro, mas não significam que o medicamento já está aprovado ou disponível para essa condição. É preciso cautela ao interpretar resultados preliminares.",
+    "cta": "Se você tem lesões persistentes nas palmas das mãos ou solas dos pés, procure um dermatologista para avaliação e diagnóstico adequado.",
     "fonte_medica": "The British journal of dermatology (2026-09-26). DOI: 10.1093/bjd/ljag410 https://pubmed.ncbi.nlm.nih.gov/42791196/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
    "tipo_evidencia": "ensaio clínico randomizado",
-   "status_terapia": "em estudo",
+   "status_terapia": "experimental",
    "assuntos": [
     "Psoríase",
     "Doenças genéticas / raras"
@@ -13344,12 +13547,20 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "This study demonstrates that a definitive trial of JAK inhibition in PPP is feasible and identifies an encouraging exploratory efficacy signal. The findings support progression to a multicentre active-comparator randomised controlled trial.",
-   "titulo": "Upadacitinib for Palmoplantar Pustulosis: An Open-label, Assessor-blinded Feasibility Study Using Historic Control Data (JAKPPPOT).",
+   "resumo": "Um estudo aberto, com avaliação cega do desfecho, testou o inibidor de JAK upadacitinibe (30 mg/dia, ou 15 mg para pacientes de maior risco) por 8 semanas em 20 adultos com pustulose palmoplantar moderada a grave. O objetivo principal foi avaliar a viabilidade de um futuro ensaio clínico randomizado, medindo recrutamento, adesão e aceitabilidade do tratamento. Como desfecho secundário, observou-se redução do escore PP-PASI ao longo do tratamento, comparada a dados históricos de um grupo placebo de outro estudo.",
+   "titulo": "Estudo de viabilidade avalia upadacitinibe na pustulose palmoplantar",
    "limitacoes": [
-    "Amostra pequena (n≈20)."
+    "Estudo aberto (sem cegamento dos participantes), o que pode influenciar a percepção de melhora",
+    "Amostra pequena (20 participantes)",
+    "Comparação feita com dados históricos de placebo de outro estudo, não com um grupo placebo concorrente e randomizado",
+    "Duração curta de acompanhamento (8 semanas)",
+    "Resultados classificados pelos próprios autores como 'sinal exploratório', não uma confirmação definitiva de eficácia"
    ],
-   "modo_analise": "heuristico"
+   "modo_analise": "ia",
+   "por_que_importa": "A pustulose palmoplantar é uma doença inflamatória rara e incapacitante, com poucas opções terapêuticas eficazes. Este estudo é importante porque demonstra que é viável conduzir um ensaio clínico maior e mais robusto com inibidores de JAK nessa condição, além de sugerir um sinal exploratório de eficácia que pode orientar pesquisas futuras.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "O estudo traz um sinal de eficácia interessante para uma doença de difícil manejo, mas trata-se de um estudo de viabilidade, não randomizado e com amostra pequena, sem mudança imediata de conduta clínica. É relevante para atualização profissional em dermatologia, mas não configura evidência definitiva.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Eruptive Xanthomas as the first sign of cardiometabolic disease.",
@@ -13596,16 +13807,16 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Acne: Adherence to Topical Acne Treatment Improves with Reduced Regimen Complexity: Benefits of a Fixed-Dose…",
-    "formato": "Reel",
-    "gancho": "O que a ciência trouxe de novo sobre acne?",
-    "mensagem_principal": "",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "tema": "Por que tratamentos mais simples podem funcionar melhor na acne",
+    "formato": "Carrossel",
+    "gancho": "Você já parou o tratamento da acne no meio do caminho porque era complicado demais?",
+    "mensagem_principal": "Pesquisas sugerem que quanto mais simples é a rotina de tratamento da acne, maior a chance de a pessoa seguir corretamente as orientações médicas — e isso pode fazer toda a diferença no resultado.",
+    "o_que_o_publico_precisa_entender": "Adesão ao tratamento significa seguir as orientações do médico como recomendado. Regimes com muitos passos ou produtos diferentes podem dificultar essa constância. Por isso, cada vez mais se estuda formas de simplificar os tratamentos, sem abrir mão da eficácia, para facilitar o dia a dia de quem trata a acne.",
+    "cta": "Se você tem dificuldade em manter a rotina do tratamento, converse com seu dermatologista sobre opções mais simples que se encaixem na sua realidade.",
     "fonte_medica": "Journal of the American Academy of Dermatology (2026-09-25). DOI: 10.1016/j.jaad.2026.09.083 https://pubmed.ncbi.nlm.nih.gov/42790783/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -13627,12 +13838,18 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "",
-   "titulo": "Adherence to Topical Acne Treatment Improves with Reduced Regimen Complexity: Benefits of a Fixed-Dose Triple-Combination Approach in a Randomized Trial.",
+   "resumo": "O título indica um ensaio clínico randomizado que avaliou se uma combinação tripla de dose fixa para acne, ao reduzir a complexidade do regime terapêutico, melhora a adesão ao tratamento tópico. Não há resumo disponível, apenas o título, portanto detalhes metodológicos, população estudada, comparadores e resultados numéricos não foram informados.",
+   "titulo": "Adesão ao tratamento tópico da acne melhora com redução da complexidade do regime: benefícios de uma combinação tripla de dose fixa em ensaio randomizado",
    "limitacoes": [
-    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+    "Apenas o título do artigo está disponível, sem acesso ao resumo ou aos dados completos",
+    "Não foram informados tamanho amostral, características da população, desfechos específicos ou magnitude do efeito",
+    "Não é possível avaliar qualidade metodológica, conflitos de interesse ou financiamento do estudo"
    ],
-   "modo_analise": "heuristico"
+   "modo_analise": "ia",
+   "por_que_importa": "A adesão ao tratamento é um fator central no sucesso terapêutico da acne, uma condição dermatológica extremamente prevalente. Estratégias que simplificam o regime posológico podem ter impacto prático relevante na rotina clínica, mas a ausência de dados detalhados limita conclusões mais firmes neste momento.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "Trata-se de um ensaio clínico randomizado sobre adesão terapêutica em acne, tema de importância prática para a atualização profissional, mas sem informações suficientes no momento para indicar mudança imediata de conduta clínica, já que apenas o título foi fornecido.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Blunt-Tip Loading Needle as an Accessible Tool for Deroofing Dermal Tunnels in Hidradenitis Suppurativa.",
@@ -15834,7 +16051,7 @@
     "fonte_medica": "Journal of the American Academy of Dermatology (2026-09-24). DOI: 10.1016/j.jaad.2026.09.075 https://pubmed.ncbi.nlm.nih.gov/42785684/",
     "origem": "rascunho automático (sem IA) — revisar antes de usar"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -15859,10 +16076,19 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "JAK inhibitors may be a reasonable option for carefully selected older adults, but the decision should be a deliberate one. It rests on disease-specific efficacy, baseline cardiovascular and oncologic risk, modifiable comorbidities, label-directed dosing, and close monitoring. Age-stratified data remain sparse, and each decision should be individualized.",
-   "titulo": "Janus Kinase Inhibitor Use in Adults Aged 65 Years and Older: A Clinical Review Across Atopic Dermatitis, Alopecia Areata, and Psoriasis.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "Uma revisão clínica sintetizou evidências de ensaios de fase 3, análises integradas de segurança, coortes do mundo real e bulas da FDA/EMA sobre o uso de inibidores de JAK em adultos com 65 anos ou mais. Os autores concluem que upadacitinibe 15mg e abrocitinibe 100mg são eficazes em idosos com dermatite atópica, doses mais altas geralmente devem ser evitadas, baricitinibe mostra eficácia em coortes pequenas de idosos com alopecia areata (dados de ritlecitinibe ainda limitados nessa faixa etária), e deucravacitinibe apresenta respostas duradouras em psoríase sem os alertas de tapa preta (boxed warning) para eventos cardiovasculares maiores ou tromboembolismo venoso que outros inibidores de JAK possuem.",
+   "titulo": "Uso de inibidores de JAK em adultos com 65 anos ou mais: revisão clínica em dermatite atópica, alopecia areata e psoríase",
+   "limitacoes": [
+    "Dados estratificados por idade ainda são escassos",
+    "Coortes de idosos frequentemente pequenas, especialmente para alopecia areata",
+    "Dados de ritlecitinibe insuficientes para conclusões específicas por idade",
+    "Trata-se de síntese de evidências, não de um novo ensaio clínico original"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "Pacientes idosos são pouco representados nos ensaios clínicos originais dos inibidores de JAK, mas são um grupo relevante na prática dermatológica. A revisão ajuda a orientar decisões terapêuticas mais individualizadas nessa população, considerando risco cardiovascular, oncológico e comorbidades.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "A revisão traz recomendações práticas úteis para atualização profissional sobre segurança e eficácia de terapias já aprovadas em uma população específica (idosos), mas não representa uma mudança regulatória, alerta de segurança novo ou guideline formal que mude imediatamente a conduta clínica padrão.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Highlights from JAAD Reviews: Ghost in the Manuscript: Artificial Intelligence in Dermatology Publishing.",
@@ -15959,7 +16185,7 @@
    "mencoes": [],
    "nivel_fonte": 2,
    "tipo_evidencia": "ensaio clínico randomizado",
-   "status_terapia": null,
+   "status_terapia": "aprovado",
    "assuntos": [
     "Acne"
    ],
@@ -15968,20 +16194,28 @@
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 8,
    "justificativa_relevancia": [
     "evidência: ensaio clínico randomizado (+3)",
     "fonte: fonte científica (periódico/base) (+1)",
-    "periódico de alto impacto (+1)"
+    "periódico de alto impacto (+1)",
+    "aprovação regulatória (+3)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "baixa",
    "observacoes_validacao": [],
-   "resumo": "",
-   "titulo": "Post-trial provisions: Unblinding after a randomized blinded trial of spironolactone or doxycycline to treat acne in women.",
+   "resumo": "O texto disponível é apenas o título de um artigo publicado no Journal of Investigative Dermatology. Não há resumo disponível. O título indica que se trata de um relato sobre procedimentos de desmascaramento (unblinding) realizados após um ensaio clínico randomizado e cego que comparou espironolactona e doxiciclina no tratamento de acne em mulheres.",
+   "titulo": "Disposições pós-estudo: desmascaramento após ensaio clínico randomizado e cego de espironolactona ou doxiciclina para tratar acne em mulheres",
    "limitacoes": [
-    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+    "Não foi informado resumo do estudo, apenas o título",
+    "Não há dados sobre resultados, desfechos, tamanho amostral ou metodologia",
+    "O título sugere foco em aspectos metodológicos (desmascaramento pós-estudo) e não necessariamente em resultados de eficácia comparativa",
+    "Não foi possível verificar se há dados clínicos conclusivos sobre a comparação entre os dois tratamentos"
    ],
-   "modo_analise": "heuristico"
+   "modo_analise": "ia",
+   "por_que_importa": "Espironolactona e doxiciclina são medicamentos já utilizados na prática clínica para tratamento de acne em mulheres, mas a comparação direta entre eles em ensaios clínicos randomizados é relevante para embasar decisões terapêuticas. No entanto, sem o resumo ou resultados do estudo, não é possível avaliar a real contribuição científica deste item específico.",
+   "relevancia_ia": "baixa",
+   "justificativa_ia": "Sem acesso ao resumo ou conteúdo do artigo, não é possível avaliar adequadamente a relevância científica ou clínica do achado. O título sugere um aspecto metodológico específico (procedimentos de unblinding) que, isoladamente, não permite extrair informações substantivas sobre eficácia, segurança ou mudança de conduta clínica.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Targeting epidermal TRPV3 calcium channel alleviates psoriasis-like inflammation in vitro and in vivo.",
@@ -16286,17 +16520,16 @@
     "Cosméticos / dermocosméticos"
    ],
    "assunto": "Lasers e tecnologias",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 3,
+   "pontuacao": 2,
    "justificativa_relevancia": [
     "evidência: revisão narrativa (+1)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "interessante",
+   "relevancia": "baixa",
    "observacoes_validacao": [],
    "resumo": "Traumatic injuries can result in disfiguring tattoos if foreign debris is not thoroughly removed within 24 hours. For established tattoos, the treatment of choice is a nonablative nanosecond or picosecond device in most cases, but alternatives should be considered for combustible debris given the risk of laser-induced ignition.",
    "titulo": "Traumatic Tattoos: Prevention and Treatment.",
@@ -19961,14 +20194,21 @@
     "periódico de alto impacto (+1)",
     "repercussão em várias fontes (+1)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "interessante",
    "observacoes_validacao": [],
-   "resumo": "",
-   "titulo": "Robustness of Network Meta-Analysis in Chronic Plaque Psoriasis.",
+   "resumo": "O texto disponível contém apenas o título do artigo, sem resumo ou dados adicionais. O título indica que se trata de um estudo metodológico sobre a robustez de metanálises em rede (network meta-analysis) aplicadas à psoríase em placas crônica.",
+   "titulo": "Robustez de metanálise em rede na psoríase em placas crônica",
    "limitacoes": [
-    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+    "Não foi informado o resumo ou conteúdo completo do artigo",
+    "Não há dados sobre metodologia específica, resultados ou conclusões",
+    "Não é possível avaliar quais tratamentos ou desfechos foram analisados",
+    "Não foi informado se há conflitos de interesse ou financiamento"
    ],
-   "modo_analise": "heuristico"
+   "modo_analise": "ia",
+   "por_que_importa": "Metanálises em rede são frequentemente usadas para comparar tratamentos de psoríase quando não há estudos head-to-head diretos, orientando decisões terapêuticas; questionar a robustez metodológica desse tipo de análise é relevante para a interpretação crítica de evidências usadas na prática clínica.",
+   "relevancia_ia": "interessante",
+   "justificativa_ia": "Sem o resumo ou corpo do artigo, não é possível avaliar se as conclusões trazem impacto direto na prática clínica ou apenas discussão metodológica; o tema é de interesse acadêmico para quem trabalha com evidências em psoríase, mas não há informação suficiente para classificar como relevante ou muito relevante.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Lived Experience of Hirsutism in Transfeminine Individuals.",
@@ -20052,14 +20292,14 @@
     "2026-09-29"
    ],
    "ideia_conteudo": {
-    "tema": "Dermatologia geral: Efficacy and Safety of Ruxolitinib Cream in Patients With Cutaneous Lichen Planus: A Randomized Clinical…",
-    "formato": "Reel",
-    "gancho": "O que a ciência trouxe de novo sobre dermatologia geral?",
-    "mensagem_principal": "The results of this randomized clinical trial suggest that ruxolitinib cream significantly reduced lesions and itch in patients with lichen planus. Therefore, ruxolitinib cream represents a potential treatment option for patients with cutaneous lichen planus.",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "tema": "Líquen plano: o que há de novo nos tratamentos em estudo?",
+    "formato": "Carrossel",
+    "gancho": "Você já ouviu falar em líquen plano? Uma doença de pele que causa coceira intensa e ainda tem poucas opções de tratamento.",
+    "mensagem_principal": "Uma pesquisa clínica recente testou um creme (ruxolitinibe) em pacientes com líquen plano cutâneo e observou melhora nas lesões e na coceira, com boa tolerância, mas o medicamento ainda está em fase de estudo, não aprovado para essa indicação.",
+    "o_que_o_publico_precisa_entender": "É importante entender a diferença entre uma pesquisa clínica promissora e um tratamento já aprovado e disponível. Resultados de estudos em fase 2 são um passo importante, mas ainda precisam ser confirmados em pesquisas maiores antes de virarem recomendação médica padrão.",
+    "cta": "Tem dúvidas sobre líquen plano ou outras doenças de pele com coceira persistente? Comente aqui embaixo — combinamos os temas dos próximos posts com o que vocês querem entender melhor!",
     "fonte_medica": "JAMA dermatology (2026-09-23). DOI: 10.1001/jamadermatol.2026.3646 https://pubmed.ncbi.nlm.nih.gov/42776548/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+    "origem": "ia"
    },
    "ideia_usada_em": "2026-09-29",
    "alerta_enviado_em": null,
@@ -20099,10 +20339,20 @@
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
-   "resumo": "The results of this randomized clinical trial suggest that ruxolitinib cream significantly reduced lesions and itch in patients with lichen planus. Therefore, ruxolitinib cream represents a potential treatment option for patients with cutaneous lichen planus.",
-   "titulo": "Efficacy and Safety of Ruxolitinib Cream in Patients With Cutaneous Lichen Planus: A Randomized Clinical Trial.",
-   "limitacoes": [],
-   "modo_analise": "heuristico"
+   "resumo": "Um ensaio clínico randomizado, duplo-cego, controlado por veículo, fase 2, avaliou o creme de ruxolitinibe 1,5% em 64 pacientes adultos com líquen plano cutâneo predominante. Na semana 16, 50,0% dos pacientes tratados com ruxolitinibe atingiram sucesso terapêutico (pele livre ou quase livre de lesões com melhora de pelo menos 2 graus) versus 21,9% no grupo veículo. Também houve maior redução da coceira no grupo ruxolitinibe (48,4% vs 16,1% com melhora de pelo menos 4 pontos na escala de prurido). Não houve eventos adversos graves relacionados ao tratamento nem descontinuações por efeitos adversos.",
+   "titulo": "Creme de ruxolitinibe mostra eficácia e segurança em líquen plano cutâneo em ensaio clínico fase 2",
+   "limitacoes": [
+    "Amostra pequena (64 pacientes)",
+    "Estudo fase 2, ainda não é fase 3",
+    "Duração limitada (16 semanas controladas, com extensão aberta de mais 16 semanas)",
+    "Resultados sugerem eficácia, mas não estabelecem o medicamento como tratamento aprovado",
+    "Necessário confirmação em estudos maiores e de fase mais avançada antes de mudança de prática clínica"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "O líquen plano cutâneo é uma doença inflamatória crônica e pruriginosa com opções terapêuticas limitadas. Um tratamento tópico com boa resposta clínica e perfil de segurança favorável, mesmo em fase de estudo, representa um caminho promissor para uma condição que ainda carece de terapias padronizadas e bem validadas.",
+   "relevancia_ia": "relevante",
+   "justificativa_ia": "Trata-se de um ensaio clínico randomizado bem desenhado com resultados estatisticamente significativos para uma doença de manejo terapêutico ainda desafiador, mas ainda em fase 2, sem impacto imediato na prática clínica atual — não caracteriza mudança de conduta nem aprovação regulatória.",
+   "alerta_ia": false
   },
   {
    "titulo_original": "Permanent Hair Removal as Medically Necessary Gender-Affirming Care-Beyond the Cosmetic Label.",
@@ -20795,16 +21045,7 @@
     "2026-09-28",
     "2026-09-29"
    ],
-   "ideia_conteudo": {
-    "tema": "Câncer de pele (geral): Increasing topical sunscreen use in German outdoor workers: results of a non-randomised controlled…",
-    "formato": "Stories",
-    "gancho": "Atenção: o que muda com o novo comunicado sobre câncer de pele (geral)?",
-    "mensagem_principal": "A simple workplace intervention consisting of facilitated sunscreen provision and brief health education was associated with a substantial increase in sunscreen use over the six-month follow-up period. This low-threshold approach represents a feasible and scalable strategy for…",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
-    "fonte_medica": "BMC public health (2026-09-23). DOI: 10.3389/fpubh.2025.1579180 https://pubmed.ncbi.nlm.nih.gov/42773431/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
-   },
+   "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
    "mencoes": [],
@@ -20816,17 +21057,16 @@
     "Fotoproteção / protetor solar"
    ],
    "assunto": "Câncer de pele (geral)",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 4,
    "justificativa_relevancia": [
     "evidência: ensaio clínico randomizado (+3)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "interessante",
    "observacoes_validacao": [],
    "resumo": "A simple workplace intervention consisting of facilitated sunscreen provision and brief health education was associated with a substantial increase in sunscreen use over the six-month follow-up period. This low-threshold approach represents a feasible and scalable strategy for occupational skin cancer prevention.",
    "titulo": "Increasing topical sunscreen use in German outdoor workers: results of a non-randomised controlled intervention study.",
@@ -25555,16 +25795,15 @@
     "Câncer de pele (geral)"
    ],
    "assunto": "Câncer de pele (geral)",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 4,
+   "pontuacao": 3,
    "justificativa_relevancia": [
     "evidência: estudo observacional (+1)",
     "fonte: fonte científica (periódico/base) (+1)",
-    "periódico de alto impacto (+1)",
-    "tema de segurança (+1)"
+    "periódico de alto impacto (+1)"
    ],
    "relevancia": "interessante",
    "observacoes_validacao": [],
@@ -44314,17 +44553,16 @@
     "Inteligência artificial"
    ],
    "assunto": "Inteligência artificial",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 3,
+   "pontuacao": 2,
    "justificativa_relevancia": [
     "evidência: artigo científico (tipo não especificado) (+1)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "interessante",
+   "relevancia": "baixa",
    "observacoes_validacao": [],
    "resumo": "The utilization of deep convolutional neural networks for the purpose of diagnosing diseases in the skin area has proven to yield similar accuracy levels to those obtained by dermatologists in different studies. Nevertheless, many challenges are still present, including underperformance and poor generalization in some cases, as well as low interpretability related to the use of black box models. This creates major obstacles for practical implementation since it requires explainability in…",
    "titulo": "An Explainable Computer-Aided Framework for Skin Lesion Classification Using Deep Learning.",
@@ -44639,17 +44877,16 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Preenchedores / bioestimuladores",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 3,
+   "pontuacao": 2,
    "justificativa_relevancia": [
     "evidência: artigo científico (tipo não especificado) (+1)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "interessante",
+   "relevancia": "baixa",
    "observacoes_validacao": [],
    "resumo": "The investigational formulation demonstrated favorable short-term tolerability and early aesthetic improvement in an uncontrolled pilot setting. These findings do not establish comparative effectiveness, long-term durability, tissue integration, or long-term biocompatibility. Controlled studies with extended follow-up are required.",
    "titulo": "Short-Term Outcomes of an Investigational Hybrid Polymer-Hyaluronic Acid Filler for Nonsurgical Rhinoplasty: An Uncontrolled Pilot Study.",
@@ -44748,17 +44985,16 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Preenchedores / bioestimuladores",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 3,
+   "pontuacao": 2,
    "justificativa_relevancia": [
     "evidência: estudo observacional (+1)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "interessante",
+   "relevancia": "baixa",
    "observacoes_validacao": [],
    "resumo": "The nasal arterial network is highly variable and asymmetric. Blind injections relying solely on traditional midline landmarks are associated with a high risk of vascular compromise. These detailed topographic data support individualized ultrasound-guided techniques to enhance safety in aesthetic and reconstructive nasal procedures.",
    "titulo": "Mapping the nasal arterial topography: a dual-cohort ultrasound and cadaveric study.",
@@ -44795,16 +45031,7 @@
    "relatorios": [
     "2026-09-22"
    ],
-   "ideia_conteudo": {
-    "tema": "Preenchedores / bioestimuladores: Risk Factors Associated With Hyaluronic Acid Filler-Related Delayed Complications: A Literature Review and…",
-    "formato": "Stories",
-    "gancho": "Atenção: o que muda com o novo comunicado sobre preenchedores / bioestimuladores?",
-    "mensagem_principal": "This expert consensus highlights the need for evidence-informed approaches to HA filler safety. While definitive data remain limited, the panel offers a practical framework for minimizing delayed complications and identifying priorities for future research. .",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: consenso. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
-    "fonte_medica": "Journal of drugs in dermatology : JDD (2026-09-01). DOI: 10.36849/jdd.9766 https://pubmed.ncbi.nlm.nih.gov/42696333/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
-   },
+   "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
    "mencoes": [],
@@ -44816,17 +45043,16 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Preenchedores / bioestimuladores",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 4,
    "justificativa_relevancia": [
     "evidência: consenso (+3)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "interessante",
    "observacoes_validacao": [],
    "resumo": "This expert consensus highlights the need for evidence-informed approaches to HA filler safety. While definitive data remain limited, the panel offers a practical framework for minimizing delayed complications and identifying priorities for future research. .",
    "titulo": "Risk Factors Associated With Hyaluronic Acid Filler-Related Delayed Complications: A Literature Review and Expert Consensus.",
@@ -45295,16 +45521,7 @@
    "relatorios": [
     "2026-09-22"
    ],
-   "ideia_conteudo": {
-    "tema": "Toxina botulínica: Italian Consensus and Review in Lower Face Mimetic Muscle Treatment with Botulinum Toxin-A.",
-    "formato": "Stories",
-    "gancho": "Atenção: o que muda com o novo comunicado sobre toxina botulínica?",
-    "mensagem_principal": "As the demand for lower face rejuvenation continues to increase, standardized injection techniques and the integration of ultrasound imaging are essential for minimizing functional complications and optimizing aesthetic outcomes.",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: consenso. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
-    "fonte_medica": "Toxins (2026-07-31). DOI: 10.1093/asj/sjad151 https://pubmed.ncbi.nlm.nih.gov/42646760/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
-   },
+   "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
    "mencoes": [],
@@ -45316,17 +45533,16 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Toxina botulínica",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 4,
    "justificativa_relevancia": [
     "evidência: consenso (+3)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "interessante",
    "observacoes_validacao": [],
    "resumo": "As the demand for lower face rejuvenation continues to increase, standardized injection techniques and the integration of ultrasound imaging are essential for minimizing functional complications and optimizing aesthetic outcomes.",
    "titulo": "Italian Consensus and Review in Lower Face Mimetic Muscle Treatment with Botulinum Toxin-A.",
@@ -45586,14 +45802,13 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Toxina botulínica",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 1,
+   "pontuacao": 0,
    "justificativa_relevancia": [
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
    "relevancia": "baixa",
    "observacoes_validacao": [],
@@ -46189,14 +46404,13 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Fotoproteção / protetor solar",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 2,
+   "pontuacao": 1,
    "justificativa_relevancia": [
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
    "relevancia": "baixa",
    "observacoes_validacao": [
@@ -47841,16 +48055,7 @@
    "relatorios": [
     "2026-09-22"
    ],
-   "ideia_conteudo": {
-    "tema": "Psoríase: Comparison of short-term adverse reactions of small molecule inhibitors and biologics in the treatment of…",
-    "formato": "Stories",
-    "gancho": "Atenção: o que muda com o novo comunicado sobre psoríase?",
-    "mensagem_principal": "Palmoplantar psoriasis (PP) and palmoplantar pustulosis (PPP) are inflammatory disorders of the palms and soles that are challenging to manage clinically. We searched Embase, PubMed, Web of Science, and the Cochrane Library on February 28, 2026 for eligible randomized…",
-    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: metanálise; status: em estudo. Não substitui avaliação individual com dermatologista.",
-    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
-    "fonte_medica": "International immunopharmacology (2026-09-11). DOI: 10.1016/j.intimp.2026.117397 https://pubmed.ncbi.nlm.nih.gov/42727366/",
-    "origem": "rascunho automático (sem IA) — revisar antes de usar"
-   },
+   "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
    "mencoes": [],
@@ -47862,17 +48067,16 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Psoríase",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 5,
+   "pontuacao": 4,
    "justificativa_relevancia": [
     "evidência: metanálise (+3)",
-    "fonte: fonte científica (periódico/base) (+1)",
-    "tema de segurança (+1)"
+    "fonte: fonte científica (periódico/base) (+1)"
    ],
-   "relevancia": "relevante",
+   "relevancia": "interessante",
    "observacoes_validacao": [],
    "resumo": "Palmoplantar psoriasis (PP) and palmoplantar pustulosis (PPP) are inflammatory disorders of the palms and soles that are challenging to manage clinically. We searched Embase, PubMed, Web of Science, and the Cochrane Library on February 28, 2026 for eligible randomized controlled trials involving adults with PP or PPP. Primary outcomes were any adverse events (AEs), serious AEs, and infections; secondary outcomes were other AEs.",
    "titulo": "Comparison of short-term adverse reactions of small molecule inhibitors and biologics in the treatment of palmoplantar psoriasis and palmoplantar pustulosis: A systematic review and network Meta-analysis.",
@@ -48140,7 +48344,16 @@
    "id": "1ab18bb8a5ebd06c",
    "encontrado_em": "2026-09-22T18:58:55+00:00",
    "relatorios": [],
-   "ideia_conteudo": null,
+   "ideia_conteudo": {
+    "tema": "Psoríase: Safety of Icotrokinra Through 1 Year for the Treatment of Moderate-to-Severe Plaque Psoriasis and Psoriasis…",
+    "formato": "Reel",
+    "gancho": "O que a ciência trouxe de novo sobre psoríase?",
+    "mensagem_principal": "In this analysis of 2400 icotrokinra-treated participants with psoriasis followed through 1 year, icotrokinra demonstrated favorable safety; event rates through week 16 were similar to placebo and remained consistent through week 52.",
+    "o_que_o_publico_precisa_entender": "Contexto do tipo de evidência: ensaio clínico randomizado; status: em estudo. Não substitui avaliação individual com dermatologista.",
+    "cta": "Salve para consultar depois e leve suas dúvidas à consulta.",
+    "fonte_medica": "Dermatology and therapy (2026-08-28). DOI: 10.1016/j.jaad.2025.11.033 https://pubmed.ncbi.nlm.nih.gov/42663861/",
+    "origem": "rascunho automático (sem IA) — revisar antes de usar"
+   },
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
    "mencoes": [
@@ -48171,12 +48384,13 @@
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 4,
+   "pontuacao": 5,
    "justificativa_relevancia": [
     "evidência: ensaio clínico randomizado (+3)",
-    "fonte: fonte científica (periódico/base) (+1)"
+    "fonte: fonte científica (periódico/base) (+1)",
+    "repercussão em várias fontes (+1)"
    ],
-   "relevancia": "interessante",
+   "relevancia": "relevante",
    "observacoes_validacao": [],
    "resumo": "In this analysis of 2400 icotrokinra-treated participants with psoriasis followed through 1 year, icotrokinra demonstrated favorable safety; event rates through week 16 were similar to placebo and remained consistent through week 52.",
    "titulo": "Safety of Icotrokinra Through 1 Year for the Treatment of Moderate-to-Severe Plaque Psoriasis and Psoriasis Affecting High-Impact Sites: Pooled Results Across the ICONIC-LEAD, ICONIC-TOTAL, and ICONIC-ADVANCE 1 and 2 Phase 3 Trials.",
@@ -55715,16 +55929,15 @@
     "Complicações de procedimentos"
    ],
    "assunto": "Complicações de procedimentos",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 4,
+   "pontuacao": 3,
    "justificativa_relevancia": [
     "evidência: artigo científico (tipo não especificado) (+1)",
     "fonte: fonte científica (periódico/base) (+1)",
-    "periódico de alto impacto (+1)",
-    "tema de segurança (+1)"
+    "periódico de alto impacto (+1)"
    ],
    "relevancia": "interessante",
    "observacoes_validacao": [],
@@ -56603,16 +56816,15 @@
     "Hidradenite supurativa"
    ],
    "assunto": "Hidradenite supurativa",
-   "alerta_seguranca": true,
+   "alerta_seguranca": false,
    "marketing": false,
    "dermatologico": true,
    "fonte_primaria_confirmada": true,
-   "pontuacao": 6,
+   "pontuacao": 5,
    "justificativa_relevancia": [
     "evidência: metanálise (+3)",
     "fonte: fonte científica (periódico/base) (+1)",
-    "periódico de alto impacto (+1)",
-    "tema de segurança (+1)"
+    "periódico de alto impacto (+1)"
    ],
    "relevancia": "relevante",
    "observacoes_validacao": [],
