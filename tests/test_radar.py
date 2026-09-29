@@ -327,6 +327,21 @@ class TestPontaAPonta(unittest.TestCase):
         # somente_ia: itens não analisados (em inglês) ficam de fora do relatório
         self.assertEqual(res["itens"], 2)
 
+    def test_ia_rotula_artigo_sem_status_regulatorio(self):
+        from radar.pipeline import _aplicar_analise
+        item = {"id": "z", "titulo_original": "Upadacitinib for palmoplantar pustulosis: an open-label feasibility study",
+                "resumo_original": "Feasibility of a future randomized trial.", "tipo_fonte": "periodico",
+                "agregador": "PubMed", "fonte": "BJD", "url": "https://pubmed.ncbi.nlm.nih.gov/1/",
+                "identificadores": {"pmid": "1"}, "tipos_publicacao": ["Journal Article"]}
+        cl.enriquecer(item, self.cfg)
+        _aplicar_analise(item, {
+            "dermatologico": True, "titulo_pt": "t", "o_que_aconteceu": "r", "por_que_importa": "p",
+            "tipo_evidencia": "ensaio clínico", "limitacoes": [], "status_terapia": "em análise",
+            "relevancia": "relevante", "justificativa_relevancia": "x",
+            "alerta_extraordinario": False, "eh_publicidade": False, "ideia_conteudo": None})
+        self.assertEqual(item["tipo_evidencia"], "ensaio clínico", "IA corrige 'randomizado' citado no resumo")
+        self.assertNotEqual(item["status_terapia"], "em análise", "artigo não vira status regulatório")
+
     def test_alerta_seguranca_em_artigo_so_pelo_titulo(self):
         art = {"titulo_original": "Increasing sunscreen use in outdoor workers", "agregador": "PubMed",
                "tipo_fonte": "periodico", "resumo_original": "Workers are at risk of skin cancer."}

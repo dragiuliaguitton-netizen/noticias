@@ -167,6 +167,11 @@ def _corroborar(item: dict, primarios: list[dict], hist: Historico | None = None
         item["fonte_primaria_titulo"] = melhor.get("titulo") or melhor.get("titulo_original")
 
 
+_TIPOS_EXPLICITOS = {"Randomized Controlled Trial", "Meta-Analysis", "Systematic Review",
+                     "Practice Guideline", "Guideline", "Consensus Development Conference",
+                     "Observational Study", "Case Reports", "Retracted Publication"}
+
+
 def _aplicar_analise(item: dict, a: dict) -> None:
     item["modo_analise"] = "ia"
     item["dermatologico"] = a["dermatologico"]
@@ -174,9 +179,10 @@ def _aplicar_analise(item: dict, a: dict) -> None:
     item["resumo"] = a["o_que_aconteceu"]
     item["por_que_importa"] = a["por_que_importa"]
     item["limitacoes"] = a["limitacoes"] or item.get("limitacoes", [])
-    # tipo de evidência: o PubMed (metadado oficial) prevalece quando explícito
-    if not item.get("tipos_publicacao") or item["tipo_evidencia"] in (
-            "artigo científico (tipo não especificado)", "outro", "notícia"):
+    # tipo de evidência: o tipo de publicação do PubMed prevalece só quando é
+    # explícito; senão vale a leitura da IA (a heurística confunde, p.ex.,
+    # "randomized" citado no resumo de um estudo aberto)
+    if not _TIPOS_EXPLICITOS & set(item.get("tipos_publicacao") or []):
         item["tipo_evidencia"] = a["tipo_evidencia"]
     if a["eh_publicidade"]:
         item["marketing"] = True
@@ -186,8 +192,10 @@ def _aplicar_analise(item: dict, a: dict) -> None:
         atual = item.get("status_terapia")
         regulatorio = a["status_terapia"] in ("aprovado", "em análise")
         if atual is None:
-            # sem detecção prévia, status regulatório só com fonte confiável
-            if not regulatorio or item.get("fonte_primaria_confirmada"):
+            # sem detecção prévia, status regulatório só com fonte oficial/notícia
+            # confirmada — artigo científico não é comunicado de aprovação
+            if not regulatorio or (item.get("fonte_primaria_confirmada")
+                                   and item.get("tipo_fonte") not in ("periodico", "registro_ensaios")):
                 item["status_terapia"] = a["status_terapia"]
         elif ordem[a["status_terapia"]] <= ordem[atual]:
             item["status_terapia"] = a["status_terapia"]
