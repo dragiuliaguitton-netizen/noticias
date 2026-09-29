@@ -298,6 +298,19 @@ class TestPontaAPonta(unittest.TestCase):
         # nada marcado como reportado, pois não foi enviado
         self.assertFalse(any(i.get("relatorios") for i in Historico().itens.values()))
 
+    def test_reclassificar_historico(self):
+        from radar.pipeline import reclassificar_historico
+        self._dia()
+        h = Historico()
+        alvo = next(i for i in h.itens.values() if i["tipo_evidencia"] == "guideline")
+        alvo["relevancia"], alvo["ideia_conteudo"] = "baixa", None  # simula regra antiga
+        h.salvar()
+        r = reclassificar_historico(self.cfg)
+        self.assertGreaterEqual(r["alterados"], 1)
+        novo = Historico().itens[alvo["id"]]
+        self.assertEqual(novo["relevancia"], "relevante")
+        self.assertIsNotNone(novo["ideia_conteudo"])
+
     def test_anuncio_institucional_nao_vira_destaque(self):
         """Curso/evento em site oficial não é novidade clínica; diretriz oficial é."""
         base = {"resumo_original": "", "tipo_fonte": "noticia", "agregador": "Google News",

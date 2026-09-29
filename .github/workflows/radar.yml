@@ -1,21 +1,21 @@
 # Radar Autônomo de Dermatologia — agendamento automático
 #   • Busca diária:      todos os dias às 06:00 (Brasília) = 09:00 UTC
-#   • Relatório semanal: toda segunda-feira às 08:00 (Brasília) = 11:00 UTC
-# Para mudar a frequência, edite as linhas "cron" (formato UTC).
+#   • Relatório semanal: toda segunda-feira às 06:00 (Brasília), logo após a busca do dia
+# Para mudar o horário, edite a linha "cron" (formato UTC; Brasília = UTC−3).
+# Para mudar o dia do relatório, edite DIA_RELATORIO abaixo (1 = segunda … 7 = domingo).
 # Execução manual: aba Actions → "Radar Dermatologia" → Run workflow.
 name: Radar Dermatologia
 
 on:
   schedule:
-    - cron: "0 9 * * *"    # diário
-    - cron: "0 11 * * 1"   # semanal (segunda)
+    - cron: "0 9 * * *"    # diário (e semanal às segundas)
   workflow_dispatch:
     inputs:
       acao:
         description: "O que executar"
         type: choice
         default: diario
-        options: [diario, semanal, testar-email, verificar-fontes, primeira-execucao]
+        options: [diario, semanal, relatorio-agora, reclassificar, testar-email, verificar-fontes, primeira-execucao]
       janela:
         description: "Dias para trás na busca (só para 'diario'; vazio = padrão do YAML)"
         required: false
@@ -32,6 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
+      DIA_RELATORIO: "1"
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       RADAR_MODEL: ${{ vars.RADAR_MODEL }}
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
@@ -59,8 +60,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "acao=${{ inputs.acao }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 11 * * 1" ]; then
-            echo "acao=semanal" >> "$GITHUB_OUTPUT"
+          elif [ "$(TZ=America/Sao_Paulo date +%u)" = "$DIA_RELATORIO" ]; then
+            echo "acao=diario-e-semanal" >> "$GITHUB_OUTPUT"
           else
             echo "acao=diario" >> "$GITHUB_OUTPUT"
           fi
@@ -69,7 +70,7 @@ jobs:
         run: python -m unittest discover -s tests -t .
 
       - name: Busca diária
-        if: steps.acao.outputs.acao == 'diario'
+        if: steps.acao.outputs.acao == 'diario' || steps.acao.outputs.acao == 'diario-e-semanal'
         run: |
           JANELA="${{ inputs.janela }}"
           python -m radar diario ${JANELA:+--janela $JANELA}
@@ -83,8 +84,19 @@ jobs:
           python -m radar semanal --exigir-envio
 
       - name: Relatório semanal
-        if: steps.acao.outputs.acao == 'semanal'
+        if: steps.acao.outputs.acao == 'semanal' || steps.acao.outputs.acao == 'diario-e-semanal'
         run: python -m radar semanal --exigir-envio
+
+      - name: Relatório agora (reclassifica o histórico, busca e envia relatório dos últimos 7 dias)
+        if: steps.acao.outputs.acao == 'relatorio-agora'
+        run: |
+          python -m radar reclassificar
+          python -m radar diario
+          python -m radar semanal --incluir-reportados --exigir-envio
+
+      - name: Reclassificar histórico
+        if: steps.acao.outputs.acao == 'reclassificar'
+        run: python -m radar reclassificar
 
       - name: Testar e-mail
         if: steps.acao.outputs.acao == 'testar-email'
