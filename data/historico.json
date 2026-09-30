@@ -1,7 +1,7 @@
 {
  "versao": 1,
- "atualizado_em": "2026-09-29T23:45:21+00:00",
- "total_itens": 1201,
+ "atualizado_em": "2026-09-30T09:10:40+00:00",
+ "total_itens": 1226,
  "execucoes": [
   {
    "tipo": "diaria",
@@ -418,9 +418,1312 @@
    "erro_envio": null,
    "itens": 8,
    "arquivo": "relatorios/radar-semanal-2026-09-29.md"
+  },
+  {
+   "tipo": "diaria",
+   "inicio": "2026-09-30T09:10:07+00:00",
+   "fim": "2026-09-30T09:10:40+00:00",
+   "modo": "heuristico",
+   "stats": {
+    "brutos": 194,
+    "novos": 25,
+    "duplicados": 168,
+    "nao_dermatologicos": 1,
+    "atualizacoes": 0,
+    "antigos": 0,
+    "analisados_ia": 0,
+    "fontes_primarias_localizadas": 0,
+    "alertas": 0
+   },
+   "por_fonte": {
+    "PubMed": 46,
+    "FDA — Press Releases": 1,
+    "FDA — MedWatch Safety Alerts": 0,
+    "FDA — Recalls": 0,
+    "EMA — News": 0,
+    "JAMA Dermatology — Online First": 0,
+    "JAMA Dermatology — Current Issue": 0,
+    "Google News (en)": 117,
+    "Google News (pt)": 29,
+    "ClinicalTrials.gov": 1
+   },
+   "erros": [],
+   "relevancia": {
+    "muito_relevante": 0,
+    "relevante": 0,
+    "interessante": 0,
+    "baixa": 25
+   }
   }
  ],
  "itens": [
+  {
+   "titulo_original": "At 16 weeks, all three doses of AbbVie’s eczema treatment improved skin more than placebo.",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ0ZEMGtzcXNoZ2JKMURSblBaNFBRc19EaEk3MEJLYVNzSHpWOG1RTGxkNjVyNkJVUXIxZzRDXzJnYkhIWWZra2VZT0FQM0xEZGNkeXYxZXprdmt6THRrNGhoM21NUldNRklZLWhtdXdlbF90RldBcUhxeWphcDVvdHJHUENINVJhU1h4b2Y5YWFDN2phS1hCcEhfWGZFUVl4X0pORTFTLUdHckJoc1V0cW5XMEtHT3pYMDJJ?oc=5",
+   "url_veiculo": "https://www.stocktitan.net",
+   "fonte": "Stock Titan",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T06:27:55+00:00",
+   "atualizado_em": null,
+   "resumo_original": "At 16 weeks, all three doses of AbbVie’s eczema treatment improved skin more than placebo. Stock Titan",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "918a340755dd93e6",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "At 16 weeks, all three doses of AbbVie’s eczema treatment improved skin more than placebo. Stock Titan",
+   "titulo": "At 16 weeks, all three doses of AbbVie’s eczema treatment improved skin more than placebo.",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "AbbVie’s Zumilokibart Meets Primary Endpoint in Phase 2 Atopic Dermatitis Study",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaDlXaW9MMmR5SmY1OTh1QlByWjVndV8xcW5XaTBINUVCVnNZNk5vMjZWY213WUUxZkNieWY0NjVtSFJyU2lBNk9ya184NThsZjd1T1dzWVRRNEhEell1Y1dZLWhsc3BvYm1zUHBtSUxENEdWWFhtcks0X1c4Y05tRXN2VFE0dVl0YmlKUjFkTk5TNTBQeV9pTHA3bmx3TVFNcDlKQXlxY0g4Tk1na0tHU3FhSDVCbS1RY21zUkFSaw?oc=5",
+   "url_veiculo": "https://www.clinicaltrialvanguard.com",
+   "fonte": "The Clinical Trial Vanguard",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T06:37:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "AbbVie’s Zumilokibart Meets Primary Endpoint in Phase 2 Atopic Dermatitis Study The Clinical Trial Vanguard",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "6aa61268d7e622d1",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "AbbVie’s Zumilokibart Meets Primary Endpoint in Phase 2 Atopic Dermatitis Study The Clinical Trial Vanguard",
+   "titulo": "AbbVie’s Zumilokibart Meets Primary Endpoint in Phase 2 Atopic Dermatitis Study",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Navigator Medicines Presents New Data at EADV 2026 as Bispecific Antibody Program Advances at Speed in Hidradenitis Suppurativa",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNY2hiMWxoNExkX0VUNXhKNlN3MWlqaHRJZWRiLUxINnZWbWx4dzhoUVpuaDMxMjJvVWl2WC1mQ0kwbHF6dDFDV1lqbFFsdHBUQjAyd3RfOS1YMDdWYlB0NjZ5b2tYVlVuVUZOQ3BWNVQtNWdqTlRrcW8xWG9iXzQyaUM3MmtUUGFqVTdrLUtXY3NDZ3ZNNmk1RW00b0VzdVJBa0NjcFpDMVRyTDJ3dVVKZWk0bnc3bGxnU1pqWWZVUVNJY1VXSE9KRkFubjF2T2d5amV5bnAxYXBhc2lWZ1BaYkF4VzQzYTYxWHRkTWVkYTM3WFhiQ2pTeFVQU25NMXVFZXFjZWxFdmdBN1NfTmhBQkpXT1IydUxMaUtIM2c5bzhIcEo5MXozONIBrgJBVV95cUxPZnp6R1ZpeFVjVmVkVUtqQnlRTGhzc2hLelhVQzkyV3BHRXdEV010dTJWSDUyOTd0eVVEdmd1c0UxQzZxa0ROTXprREdqRXlHOGZfalQxVm9RNnR2Nlk0X0t2dUgzQXJCNFh4V05ib3V4a216akZXOFBjM2xDVGtJUEM4cGlORTYxRzJVU2dud1I4ZjZpY2l2WXhFU2gzZl9WeWU2TlN2TDhoSThlQlBYRzUyWWlXSlJaSGRRdENfRk16eF91OGpuZkxCQVNCckxHV0JSMXp5YkplMmI4ZmpLUWpzeWk4eURVU3VFNy00X3g1Y1FuQ1FTNG0tYmJNbngyWlJCVVdyTmlfVV9RQWZCN2htQ21Pb1BSSHhwQXRVWlA5aTJSRll3S2FaVm5qdw?oc=5",
+   "url_veiculo": "https://www.manilatimes.net",
+   "fonte": "The Manila Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:12:11+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Navigator Medicines Presents New Data at EADV 2026 as Bispecific Antibody Program Advances at Speed in Hidradenitis Suppurativa The Manila Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "hidradenitis suppurativa latest research",
+   "id": "b3fc0a92b20441d5",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Hidradenite supurativa"
+   ],
+   "assunto": "Hidradenite supurativa",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Navigator Medicines Presents New Data at EADV 2026 as Bispecific Antibody Program Advances at Speed in Hidradenitis Suppurativa The Manila Times",
+   "titulo": "Navigator Medicines Presents New Data at EADV 2026 as Bispecific Antibody Program Advances at Speed in Hidradenitis Suppurativa",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Aesthetic doctor under restrictions can’t perform dermal filler procedures after client complaint",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSDg0ZGZoWHlHS1ZBNjNaU1hmWEZNVE5Oc01ndnpBZ2hPdE1Ydm1Ockxjb0pVdTdhbUo2bkF3bTF3MzVoUTFBWWQ2LXhjWXdiU1ZVLXJJUkVVV1Q1MDFPTVFDSGVjNHNGWmRuOXRpTWUxNmhFTDN2RDRjckF3UkRyRUlzMllnSmlDY3QxRzNEMWRPb2lqbmJUMzh3aHhHQlp4UkZFdkduWHdsVEk4dWZVTFlzRW5TOFhnX0hFdS1rYXR2V2pXLXJJQUVWYngwdlQxX0FWRGV2bFhPUQ?oc=5",
+   "url_veiculo": "https://www.straitstimes.com",
+   "fonte": "The Straits Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T02:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Aesthetic doctor under restrictions can’t perform dermal filler procedures after client complaint The Straits Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermal filler complications",
+   "id": "ceb572db75642df2",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Preenchedores / bioestimuladores"
+   ],
+   "assunto": "Preenchedores / bioestimuladores",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Aesthetic doctor under restrictions can’t perform dermal filler procedures after client complaint The Straits Times",
+   "titulo": "Aesthetic doctor under restrictions can’t perform dermal filler procedures after client complaint",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Medical Laser Systems Market to reach US$11.8 billion by 2036",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWJwT1BWN2pLNDN2cm5LUHZXUGdDWkp0STZBdmRwdXJ5YTBEaEZiX2VCRjNWbW5KRjN1UGdyTzlCcEgyY1hEMFcyTVZ3UmJLZTZkYnU4WWhFLXdtSHhMc1dna1FzWFFvOEMzVUQ2LXJ5Q1p2eWkxT25WRENlWFVhYmZjaU5aMkltamJGc3ZreXJ5RHg4STB6ZldDRzZFUQ?oc=5",
+   "url_veiculo": "https://www.openpr.com",
+   "fonte": "openpr.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T04:33:54+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Medical Laser Systems Market to reach US$11.8 billion by 2036 openpr.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology laser research",
+   "id": "bf0ba8dcfaac915a",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Lasers e tecnologias"
+   ],
+   "assunto": "Lasers e tecnologias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Medical Laser Systems Market to reach US$11.8 billion by 2036 openpr.com",
+   "titulo": "Medical Laser Systems Market to reach US$11.8 billion by 2036",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Zumilokibart da AbbVie atinge endpoint em estudo de fase 2 para dermatite",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUVHWXltazZsQlJMVG05V2dWUzdiTzlMTVFUYy1ZOENUTVVRVi14Ym9GTVZLam1BWVVSaXh0VkE3S1dpZ2lkUFFiLXFyMk9SSEt1ZF9rbEJQTW5yVkZPajdCN29lcktUdGExUFI2Rm84d0xfejBFQU4zU2pWSUxONlE3NjFlZkNqWUsyYWlQVERtc1RiR2dlT01MckdvNUNXVll1RWN6TTd0TzNNYy1FUWNzUXNDcXhpc3NrSC1TVjBFTHhSTmNQNQ?oc=5",
+   "url_veiculo": "https://br.investing.com",
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-09-30T05:37:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Zumilokibart da AbbVie atinge endpoint em estudo de fase 2 para dermatite Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatite atópica tratamento",
+   "id": "e4e14f9953562bb0",
+   "encontrado_em": "2026-09-30T09:10:40+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Zumilokibart da AbbVie atinge endpoint em estudo de fase 2 para dermatite Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "titulo": "Zumilokibart da AbbVie atinge endpoint em estudo de fase 2 para dermatite",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "One Curriculum, Full Spectrum: The Ethics of \"Skin of Color\" in Dermatologic Education.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810515/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.09.092",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "42810515",
+    "doi": "10.1016/j.jaad.2026.09.092"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "72e68b4bfe3b1719",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "One Curriculum, Full Spectrum: The Ethics of \"Skin of Color\" in Dermatologic Education.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "When the Pledge Fails: Ethics of Isotretinoin Prescribing in Adolescents Enrolled in iPLEDGE.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810514/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.09.093",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "42810514",
+    "doi": "10.1016/j.jaad.2026.09.093"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "df112fe4d7af5bcd",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Cosméticos / dermocosméticos"
+   ],
+   "assunto": "Cosméticos / dermocosméticos",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "When the Pledge Fails: Ethics of Isotretinoin Prescribing in Adolescents Enrolled in iPLEDGE.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "[Not Available].",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42809872/",
+   "url_doi": "https://doi.org/10.31053/1853.0605.v83.n3.50140",
+   "fonte": "Revista de la Facultad de Ciencias Medicas (Cordoba, Argentina)",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-01T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "El melanoma cutáneo representa la principal causa de mortalidad por cáncer de piel. La combinación de fotografía corporal total (FCT) y dermatoscopía digital (DD) ha demostrado ser una estrategia eficaz en la detección precoz, particularmente en pacientes con riesgo aumentado. Se realizó un estudio observacional retrospectivo con el objetivo de evaluar el desempeño de la FCT y DD en la detección de melanoma y nevos con displasia severa, y estimar la proporción de resecciones innecesarias de lesiones benignas. Como objetivos secundarios se describieron los hallazgos dermatoscópicos asociados a lesiones malignas y las características histológicas de los melanomas diagnosticados. El 20% de las lesiones resecadas correspondieron a nevos con displasia severa (n=70) o melanomas (n=24), con un VPP del 23,5% (IC95% 19,4-27,6%). La razón maligno:benigno fue de 1:3,24. El 58% de los melanomas fueron in situ, y los invasores presentaron un espesor promedio de 0,56 mm, sin ulceración. Los principales hallazgos dermatoscópicos asociados a melanoma fueron el cambio de estructura (75%) y la presencia de líneas reticulares gruesas/pigmentación atípica (83%). La FCT y DD en pacientes con riesgo elevado demostró ser útil para la detección temprana de melanomas, en su mayoría in situ o de bajo espesor. El estudio resalta la importancia del cambio estructural dermatoscópico y el crecimiento asimétrico como señales de alerta. Aunque los resultados son alentadores, se identifica la necesidad de optimizar la selección de lesiones para reducir las resecciones innecesarias de lesiones benignas.",
+   "identificadores": {
+    "pmid": "42809872",
+    "doi": "10.31053/1853.0605.v83.n3.50140"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Observational Study",
+    "English Abstract"
+   ],
+   "periodico": "Revista de la Facultad de Ciencias Medicas (Cordoba, Argentina)",
+   "consulta": "(dermoscopy[mh] OR dermoscop*[ti] OR dermatoscop*[ti])",
+   "id": "5a12978929030df3",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo observacional",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma",
+    "Dermatoscopia"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: estudo observacional (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "El melanoma cutáneo representa la principal causa de mortalidad por cáncer de piel. La combinación de fotografía corporal total (FCT) y dermatoscopía digital (DD) ha demostrado ser una estrategia eficaz en la detección precoz, particularmente en pacientes con riesgo aumentado. Se realizó un estudio observacional retrospectivo con el objetivo de evaluar el desempeño de la FCT y DD en la detección de melanoma y nevos con displasia severa, y estimar la proporción de resecciones innecesarias de…",
+   "titulo": "[Not Available].",
+   "limitacoes": [
+    "Estudo observacional: mostra associação, não prova causalidade."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Dermatology FDA and Pipeline Review: Q3 2026 Approvals and Readouts",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSS1CNy1NbWRHa0xDSnFiVHdYT0RSQlNrS1Iwa3FTQlNFVDZXa0VOTjJJQTFVeG84ZF90cnk0bjJoS1doaWpyckNXRFFsdmY0OTlJTGQ5VWJsQmhGLThjMF9yNlZIMW1DTzhGWmxoSEM2bHAyNlNpeHpSanZhODNEZURKLTVyYUpTQzcxbEZoYjY2cjdJQmstQ1dhSDY2cEI3SFZTVFRxOA?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "dermatologytimes.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T21:57:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Dermatology FDA and Pipeline Review: Q3 2026 Approvals and Readouts dermatologytimes.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "0d6219da75630df9",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Dermatology FDA and Pipeline Review: Q3 2026 Approvals and Readouts dermatologytimes.com",
+   "titulo": "Dermatology FDA and Pipeline Review: Q3 2026 Approvals and Readouts",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Dupilumab Data at EADV 2026 Highlight Outcomes Across AD, CSU, and Prurigo Nodularis",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVFNRNE1RdVJUS0FUeXZZTHBiUHlZMjBwdzJvR1ZXMXFQU2JBd0lTWEN6eHAzMFlBT19ESXo3SFp1NXctdzk4SVlLUnZZZTI0OVJ4emRpYUJZVUt1dTlhMGFISTljOTVwZ09aSWhxU3F6S3NuYTVSQ0c2RUJDU3BzRDhDMWtoVmRHUURIMVJHaVpiQllpYU9fVXZlWlEwS1RSbzlCWFZqS3JUZ013R2Z2aXdFeGdMc3dEcTY3Sg?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "dermatologytimes.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:08:27+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Dupilumab Data at EADV 2026 Highlight Outcomes Across AD, CSU, and Prurigo Nodularis dermatologytimes.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "425f503046bc692f",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Dupilumab Data at EADV 2026 Highlight Outcomes Across AD, CSU, and Prurigo Nodularis dermatologytimes.com",
+   "titulo": "Dupilumab Data at EADV 2026 Highlight Outcomes Across AD, CSU, and Prurigo Nodularis",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "1671ca3538ab55b6",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/42775803/",
+   "fonte_primaria_titulo": "Prospective reflectance confocal microscopy monitoring in dupilumab-treated atopic dermatitis."
+  },
+  {
+   "titulo_original": "More than 2.5 times as many patients got clear skin with Takeda's experimental psoriasis pill as with a rival pill.",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUW00VFNwclUxN09iczAwNklnN3dGZm5HZnpiUlRCNEUwelI5NmVtLVVEQXlIYWpLaGVST0NHSlR4MVdXWUdJQ296UmFYR3lwSGJvb3kwdU83UlctVlV6NzVESU5fTkNGNDkwakp4UFhWRTV1ZW45azNxVndCVmRITm1aTWFuRGZTZ3FEWTkwQ1dXSmxwNGxkUmY2ZnBYZDUzV21ZY3Z2Wm9ZZUY0bzVxbWp1Wk9FcU1ja1Q0?oc=5",
+   "url_veiculo": "https://www.stocktitan.net",
+   "fonte": "Stock Titan",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:03:44+00:00",
+   "atualizado_em": null,
+   "resumo_original": "More than 2.5 times as many patients got clear skin with Takeda's experimental psoriasis pill as with a rival pill. Stock Titan",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "029a74fc303af75a",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "More than 2.5 times as many patients got clear skin with Takeda's experimental psoriasis pill as with a rival pill. Stock Titan",
+   "titulo": "More than 2.5 times as many patients got clear skin with Takeda's experimental psoriasis pill as with a rival pill.",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "AbbVie Showcases Leadership in Dermatology Research With New Clinical and Real-World Evidence Across Immune-Mediated Skin Diseases at 2026 EADV Congress",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQVXh0a0dGOTczWGoyMVdtdUhuYUFDVGY4c1lwMTR2a1N3MHBHT2pYSnlNSVI4aWdKeTJ3RVBETmkxdnZrLVR5SUd0Z2ZRMmcwZ1V0N2VsZXM2YUhKLU15d2MyZENMMVNyZWVmN09MZFh1YklFMWhlTkQya0NRUzVsNjVjQlFRYUZsMjdqV0I0ZkZQNGhrcXNNdmcycW1KSzFlME9Bb2VrR21ZMVZUUUc4T1lCLWV3ZjhhYV9MOVRuTDVMOFdRVDRtRS1hNzRCYm9SUFRneEdpODFCWC1PZHdmT1VHQXc5RFhlSVJBNV9lcURxdUVaLWFuNGxoUjRkLXBwLTBpbWVuOGNaWWM?oc=5",
+   "url_veiculo": "https://investingnews.com",
+   "fonte": "Investing News Network",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T07:06:37+00:00",
+   "atualizado_em": null,
+   "resumo_original": "AbbVie Showcases Leadership in Dermatology Research With New Clinical and Real-World Evidence Across Immune-Mediated Skin Diseases at 2026 EADV Congress Investing News Network",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "b842584bbe56bf1a",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [
+    {
+     "fonte": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGh0Tm1zQnpTanpoUThTbkVIZWd2YUJfcTBBZ1BSY1FobFNNdWg5UEpidy1GbEVtTGdUb20ycXF2czBKV0NUVEQxQWM0NU5XZlFoRjYtaUk3dndDc0gwRGZvSUxPVWY4Q0FWZk1mdHBwYnJTOG5hMFh0cW5aazFnekR6bTVELVR4c0pOdFRvXy1TVVBiVzQ2TkJzYmNKcGN4dGVVSWRHcjZQcTFrTHc",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:39+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "anúncio de evento/curso institucional (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "AbbVie Showcases Leadership in Dermatology Research With New Clinical and Real-World Evidence Across Immune-Mediated Skin Diseases at 2026 EADV Congress Investing News Network",
+   "titulo": "AbbVie Showcases Leadership in Dermatology Research With New Clinical and Real-World Evidence Across Immune-Mediated Skin Diseases at 2026 EADV Congress",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "AbbVie unveils new data on dermatology drugs in...",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYzdvODZxQndYRFdxcG0zNDdsTEQ1TWlHR0w4Mk1LWmwtY0E2U3hNSl9FZENnMjI2REpfUmhKZVQzZC10WllIYTd1bm96XzNvTnlEa1RYOVZnWVY0RHFRVmhqMFR6eVpiR2NJT1NrVEVRaDU4SVdLYVVCb19LaGg0MTRHc2ZYcXBSbVBxQ2N2bnZ0MmhGc1RBTGpKaVhBWkRUemc?oc=5",
+   "url_veiculo": "https://pluang.com",
+   "fonte": "Pluang",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:15:30+00:00",
+   "atualizado_em": null,
+   "resumo_original": "AbbVie unveils new data on dermatology drugs in... Pluang",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "9780573e1eef6ba2",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "AbbVie unveils new data on dermatology drugs in... Pluang",
+   "titulo": "AbbVie unveils new data on dermatology drugs in...",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Almirall Advances Skin Science and Shares New Evidence Across Its Dermatology Portfolio at EADV 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTnlpX2tqYmcyX2NCTkQydmpzZVhnMXVLMnFXSkExZ3JLX0dQOHRaVE9pNDExX21MRGdaQXlXWXg2R0RfSWJrZWtRaGRiQ0p6ekFrWFg5Y3BtU0lvemJTeUxSVUFPOUE0ZmdIWXZpdkpZRGVHUDVxaUlYUEJsekk3cWxkYlJRamd2a2lFamdpZ3VpcUh4R1hpR3FMRXRFb05FX3VYS2huTFNyRmdhUWRxRnVWckNKYkt3MDVCMmFYTmVOXy0xOEFsdE1ia0MyTlVGb19hLXN2dmxOdXo0Smx0QVBOc0x4d2dCcHVCc0Vn?oc=5",
+   "url_veiculo": "https://www.businesswire.com",
+   "fonte": "Business Wire",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Almirall Advances Skin Science and Shares New Evidence Across Its Dermatology Portfolio at EADV 2026 Business Wire",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "b1c5255f397118b2",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Almirall Advances Skin Science and Shares New Evidence Across Its Dermatology Portfolio at EADV 2026 Business Wire",
+   "titulo": "Almirall Advances Skin Science and Shares New Evidence Across Its Dermatology Portfolio at EADV 2026",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "EADV 2026: Galderma’s New Data Show Sustained Improvements with Nemluvio® (nemolizumab) for up to Three Years in Patients With Moderate-to-severe Atopic Dermatitis",
+   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQUEgwLUQ2Qm9lNVBrUDh2TW1HV0lFQUdNbVdHdmFuNEo5MEdwaVZGRG13OUQyMnB6TTd3dG5OYU54cXBLN0tYckhyQmE4N0I4QzJpUDRwV2x5bDdOaG00S2dDelVtRkR2UzF4TEY2b0xzLW5vR0NtVkZZT3lQT0VoN0FsSWUyUFNqcGtzbzlUMGxmRmZnc3BMRS1nMVRmbHNmelctWXNMTDhtWVN0ZWJBNVBTa1B1M1AxdVdfWDM3YmhUVllVTlN6VXlfRW0zM2FXclYtRkEwemJIV2FLZHpfMHFEbFY2YjRjd3ByS3Q2U1FuV1B4Mll1SVBlckdjbmVPNHRWNkV4UWF5dGc0cEVQVUJsaUFWSndmcmkwdTlHSDg1dllYcDB5RFVGN2Iyd0lwTjBSYWpnV3FyRlNJYjBVRFB3Rm5vY1lHRGVuOA?oc=5",
+   "url_veiculo": "https://markets.financialcontent.com",
+   "fonte": "FinancialContent",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "EADV 2026: Galderma’s New Data Show Sustained Improvements with Nemluvio® (nemolizumab) for up to Three Years in Patients With Moderate-to-severe Atopic Dermatitis FinancialContent",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "14bafb27e554e7a1",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "EADV 2026: Galderma’s New Data Show Sustained Improvements with Nemluvio® (nemolizumab) for up to Three Years in Patients With Moderate-to-severe Atopic Dermatitis FinancialContent",
+   "titulo": "EADV 2026: Galderma’s New Data Show Sustained Improvements with Nemluvio® (nemolizumab) for up to Three Years in Patients With Moderate-to-severe Atopic Dermatitis",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "a4ad765f853c8a9f",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/42771135/",
+   "fonte_primaria_titulo": "Development of a Conceptual Disease Model of Atopic Dermatitis Using Data from the Phase 3 ARCADIA 1 Trial."
+  },
+  {
+   "titulo_original": "Study Finds Nearly 95 Percent of Viral Korean Skincare TikTok Videos Make Misleading Claims",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSE9OTERfMjhsS25xelZTRldmNlNJRjhteHU0V21LcjVQMlBPRF9JclhBY2l2NW04SUdzWDl6S1cwUWo4c0hmYWhwWkNhUUJqWVhQcTNBUy1wZGJ5RHlPams0elN6Rl9jOFNQdDdUZU1RYjR4cmNZN0twUm1uQi1iVS1ic2pfX0xxWVZwcFEtOEpYNWVIekNoeU55R3lsaG45N3VBNFdtM1ViQjg2QzBqdFVBTTY5OWxEZGdUUmFCOE1BQ2tZak81NTBPdW1ZTkRXMHdBd2VXY09IbGJZNmdLQkJSc2lkeG1UVEHSAeoBQVVfeXFMT0hPTkxEXzI4bEtucXpWU0ZXZjZTSUY4bXh1NFdtS3I1UDJQT0RfSXJYQWNpdjVtOElHc1g5ektXMFFqOHNIZmFocFpDYVFCallYUHEzQVMtcGRieUR5T2prNHpTekZfYzhTUHQ3VGVNUWI0eHJjWTdLcFJtbkItYlUtYnNqX19McVlWcHBRLThKWDVlSHpDaHlOeUd5bGhuOTd1QTRXbTNVYkI4NkMwanRVQU02OTlsRGRnVFJhQjhNQUNrWWpPNTUwT3VtWU5EVzB3QXdlV2NPSGxiWTZnS0JCUnNpZHhtVFRB?oc=5",
+   "url_veiculo": "https://medicaldialogues.in",
+   "fonte": "Medical Dialogues",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T02:30:01+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Study Finds Nearly 95 Percent of Viral Korean Skincare TikTok Videos Make Misleading Claims Medical Dialogues",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology guideline",
+   "id": "679bf23b4acf27ca",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Study Finds Nearly 95 Percent of Viral Korean Skincare TikTok Videos Make Misleading Claims Medical Dialogues",
+   "titulo": "Study Finds Nearly 95 Percent of Viral Korean Skincare TikTok Videos Make Misleading Claims",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "AbbVie Unveils 60 Dermatology Research Findings at EADV Congress",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRndGcVIzdTBlaFNnVmgyandMdHpDU3ZWVlNhQUEzUGNtcGpnakVjVW9mQ2tpZEIwTUZWWFpvNUhVRHZCem85dlh0UFlwb2MybHJxZkVaR25YS0drZDBmUWhFN010ejZmNEtJMzhKLTBwSEhVOFhXSDBGOEJzOXMyNVVhZ0ZtM0IwdE9qTTBhTV83bTdHYWRmN3ZZbWg1eGs?oc=5",
+   "url_veiculo": "https://intellectia.ai",
+   "fonte": "Intellectia AI",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T07:01:05+00:00",
+   "atualizado_em": null,
+   "resumo_original": "AbbVie Unveils 60 Dermatology Research Findings at EADV Congress Intellectia AI",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "d0539a6e1de4f13c",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Inteligência artificial"
+   ],
+   "assunto": "Inteligência artificial",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "anúncio de evento/curso institucional (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "AbbVie Unveils 60 Dermatology Research Findings at EADV Congress Intellectia AI",
+   "titulo": "AbbVie Unveils 60 Dermatology Research Findings at EADV Congress",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Hair loss: Going boldly bald",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WbTlvRVcwN0pLOXNqWVhDTjEzdXVHOFRVY0FmaHczSmdNNFFLczhZZVNhaExvRWlFQk5MN29LREg4bEZGM1ZEekpWR0Rya2VIYlRpaTN1OV9SckRVTHhxeVZEcGNDWW5YU29FM05ZdEJBNWNVN3hJ?oc=5",
+   "url_veiculo": "https://newswav.com",
+   "fonte": "Newswav",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T01:29:07+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Hair loss: Going boldly bald Newswav",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "androgenetic alopecia new treatment",
+   "id": "bd377502b9c3d142",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Hair loss: Going boldly bald Newswav",
+   "titulo": "Hair loss: Going boldly bald",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Takeda details Phase 3 psoriasis comparison with Sotyktu",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RM2tFOU5QQ0I3ZUVBYVhhT1FKdGNBeFZWMG16NWhBM0liQW9zU1k0LW5MZVlIcGVnQTBwZjlvME9VSEVzRHVBN3BINW1nMkgydWlQaHlxQ214czdmbW5Ebmh6OWI5UGt4OVMyQXRNVkFhNjdxdzRxZmsxMUU?oc=5",
+   "url_veiculo": "https://mugglehead.com",
+   "fonte": "Mugglehead Investment Magazine",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:37:20+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Takeda details Phase 3 psoriasis comparison with Sotyktu Mugglehead Investment Magazine",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "psoriasis latest research",
+   "id": "9863e45c3c8717b4",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Takeda details Phase 3 psoriasis comparison with Sotyktu Mugglehead Investment Magazine",
+   "titulo": "Takeda details Phase 3 psoriasis comparison with Sotyktu",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Zasocitinib Delivered Superior Efficacy Versus Deucravacitinib in New Phase 3 Head-to-Head Results, Reinforcing Potential to Deliver Rapid and Durable Skin Clearance in a Convenient Once-Daily Pill",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFpmUllyVUxwb0wwX3BSWXJ5N0xGUWw2WUVreUFXQ0NBc0ZCWjJtcUktdmpIcTJTVU5EZXFDNkVydlozbHdSUl9iVWVCdTZHalZRX2RvdWo0a1BzMkN4TUNNNlYtbHRqN1d6bU5jdkRTU0poOUpxeDZtb0FBbXItYV83Y3o4ZXkzNkZacjdiRjBfUncwT21raExEdmVjWXJDbjUxMTcyOEtBUlk?oc=5",
+   "url_veiculo": "https://finance.yahoo.com",
+   "fonte": "Yahoo Finance",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T05:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Zasocitinib Delivered Superior Efficacy Versus Deucravacitinib in New Phase 3 Head-to-Head Results, Reinforcing Potential to Deliver Rapid and Durable Skin Clearance in a Convenient Once-Daily Pill Yahoo Finance",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "psoriasis latest research",
+   "id": "68f9aabf1735de00",
+   "encontrado_em": "2026-09-30T09:10:39+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [
+    {
+     "fonte": "Medianet News Hub",
+     "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPampXbWhXZW5CVngtQ1lZSlYxYTRxQTRoMHJ0WGpaSU1aeGMtS0dUOUVKNkNrMFVzdUJZeEY2VFlTSkE2YnBJcWRsa2N0NlQya2Y0d21ZUHQwSjY0TmJ5MEMzOEN6SmlJcXZHNkNHR3Z2cEZkRVJINllNTWpSUVk5TjZwb082YUgxdzRQTDBPTllKeHdwLXNCMFBNell4WmFDY2dmVGkyR1VqdFBpNnJqTFJma3dDY2haYTBsbkVBZUJmWGNPYlU0UXZLem55TmxyYkVBUkhNeFlvUmczRUtBcTVaUTZYNjZUdWQzNndqb1hLczNoX0o2UlBkSUFTRjdvdUdCaW02blkwdUQ4UFM3cTVvYnU3Z19ZZ3k1MW9CdV9JVGRkbWV3SUc2OGdnM0IzNzhTemdVaXljekgxNzBaY1JCQm1lVGpPQURiZ25fbTQzaExMdEczd1BpTEs4VVZrZkE",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:40+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Zasocitinib Delivered Superior Efficacy Versus Deucravacitinib in New Phase 3 Head-to-Head Results, Reinforcing Potential to Deliver Rapid and Durable Skin Clearance in a Convenient Once-Daily Pill Yahoo Finance",
+   "titulo": "Zasocitinib Delivered Superior Efficacy Versus Deucravacitinib in New Phase 3 Head-to-Head Results, Reinforcing Potential to Deliver Rapid and Durable Skin Clearance in a Convenient Once-Daily Pill",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "c56576ef914384b6",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/42772643/",
+   "fonte_primaria_titulo": "Deucravacitinib in Hidradenitis Suppurativa: An Open Label Proof of Concept Study."
+  },
+  {
+   "titulo_original": "Scalp-ear-nipple syndrome: a clinical and pathogenetic review using novel artificial intelligence methodology.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810978/",
+   "url_doi": "https://doi.org/10.1093/bjd/ljag260",
+   "fonte": "The British journal of dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-30T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Scalp-ear-nipple (SEN) syndrome (OMIM #181270) is a rare autosomal dominant ectodermal dysplasia characterized by aplasia cutis congenita (ACC) of the scalp, overfolded ear helices and breast aplasia. Since the identification of heterozygous KCTD1 pathogenic variants as the molecular cause in 2013, our understanding of this condition has undergone substantial revision. KCTD1 encodes a 257-amino-acid BTB domain-containing protein that forms pentameric complexes and functions as a transcriptional repressor of transcription factor AP-2α. All currently reported SEN-causing variants cluster within a narrow window (residues 20-74) of the BTB and pre-BTB domains, consistent with a dominant-negative rather than haploinsufficiency mechanism. Mutant KCTD1 retains the ability to oligomerize but cannot bind AP-2α and poisons wildtype function by incorporating into nonfunctional heteropentamers with both KCTD1 and its paralogue KCTD15. Several developments have reshaped the molecular narrative. The only paper reporting direct KCTD1-β-catenin binding was retracted in 2022 for data integrity concerns, leaving the precise Wnt/β-catenin mechanism incompletely characterized despite independent evidence supporting the role of KCTD1 in Wnt modulation. Conditional knockout of Kctd1 and Kctd15 in mice demonstrated that ACC arises from neural crest cell dysfunction, not from a primary keratinocyte defect, establishing SEN-associated ACC as a neurocristopathy. Most recently, KCTD1 has been shown to inhibit not only Wnt but also the Hedgehog and Notch signalling pathways, and to regulate cAMP signalling through adenylyl cyclase 5, although the relevance to SEN is unclear. This review critically evaluates the current evidence for SEN syndrome pathogenesis, integrates the multipathway model and examines the tissue-specificity question. We identify key unresolved questions and propose an experimental roadmap for future investigation. With approximately 30-50 molecularly confirmed cases worldwide and no formal clinical guidelines, this review provides a comprehensive molecular and clinical framework for a condition at the intersection of developmental biology, structural biology and clinical genetics. This review was written with novel artificial intelligence methodology.",
+   "identificadores": {
+    "pmid": "42810978",
+    "doi": "10.1093/bjd/ljag260"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "The British journal of dermatology",
+   "consulta": "periódico Br J Dermatol",
+   "id": "ca61c600923ac22c",
+   "encontrado_em": "2026-09-30T09:10:38+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo experimental (pré-clínico)",
+   "status_terapia": null,
+   "assuntos": [
+    "Inteligência artificial",
+    "Couro cabeludo"
+   ],
+   "assunto": "Inteligência artificial",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Resultado pré-clínico: não representa tratamento estabelecido."
+   ],
+   "resumo": "Scalp-ear-nipple (SEN) syndrome (OMIM #181270) is a rare autosomal dominant ectodermal dysplasia characterized by aplasia cutis congenita (ACC) of the scalp, overfolded ear helices and breast aplasia. Since the identification of heterozygous KCTD1 pathogenic variants as the molecular cause in 2013, our understanding of this condition has undergone substantial revision. KCTD1 encodes a 257-amino-acid BTB domain-containing protein that forms pentameric complexes and functions as a…",
+   "titulo": "Scalp-ear-nipple syndrome: a clinical and pathogenetic review using novel artificial intelligence methodology.",
+   "limitacoes": [
+    "Estudo em laboratório/animais: resultados podem não se repetir em humanos."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Revisiting Tick Removal Practices: Avoiding Routine Skin Biopsy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810518/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.09.095",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "42810518",
+    "doi": "10.1016/j.jaad.2026.09.095"
+   },
+   "tipos_publicacao": [
+    "Editorial"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "ce881b5999e59aad",
+   "encontrado_em": "2026-09-30T09:10:38+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Revisiting Tick Removal Practices: Avoiding Routine Skin Biopsy.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Over-the-Counter: The Assumption of Accessibility and Affordability.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810517/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.08.129",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "42810517",
+    "doi": "10.1016/j.jaad.2026.08.129"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "f8ff200be3d92ce4",
+   "encontrado_em": "2026-09-30T09:10:38+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Over-the-Counter: The Assumption of Accessibility and Affordability.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Beyond Assumptions: Individualizing Communication for Deaf and Hard-of-Hearing Patients.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42810516/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.09.091",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-09-29T00:00:00+00:00",
+   "indexado_em": "2026-09-29T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "42810516",
+    "doi": "10.1016/j.jaad.2026.09.091"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "3c59dd1b01d0bd69",
+   "encontrado_em": "2026-09-30T09:10:38+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Beyond Assumptions: Individualizing Communication for Deaf and Hard-of-Hearing Patients.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
   {
    "titulo_original": "Vitiligo is visible. Its full impact often is not.",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWVNBLXJYa1hob2tCS1d2NGlrcGFZcm5VMDllOWRYUEt0Uml2ZFVQMzBBNkRDSDlBMEN3NEhQOWVVOFhvWXhPR1pxakJzOENrQWEwWG5zZUEwZ2V2NDR3RlEyYWV3NVNPbVRCU3VBRFZ4ME1aWXdMT0NGY1ZHZjZXTi1Ram1JZTJkRFpiUno5M2R1b1hnU3FvTzVWV3otU21RTlViaG95MUk3MGtGQ3Y0eXZXQXZoZDk3eGx0WS1BZzYwb1hVaFR0QnpWOG92ZVM1R1ZOdUNFNUpPdDNwVEVpOA?oc=5",
@@ -2488,7 +3791,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "dermatologytimes.com",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQakJibERPV1NFSDFDNjJLQVZDeFFnX253SWxtVVN6LW9MSkRXX0hjeFdjWk5xbEM0THY5dFo5a0M5MlBhclFfOGhheXBJdUd4NmtiMWNlSWVaZmdJdmc5RFNtMzdfU3hJellLN2xPeWNUNW8tamRQWkM0QTVmTWJLNzRR",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:39+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 3,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -20619,6 +21930,13 @@
      "tipo_fonte": "noticia",
      "visto_em": "2026-09-29T09:12:09+00:00",
      "motivo": "repercussão na imprensa"
+    },
+    {
+     "fonte": "dermatologytimes.com",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVFNRNE1RdVJUS0FUeXZZTHBiUHlZMjBwdzJvR1ZXMXFQU2JBd0lTWEN6eHAzMFlBT19ESXo3SFp1NXctdzk4SVlLUnZZZTI0OVJ4emRpYUJZVUt1dTlhMGFISTljOTVwZ09aSWhxU3F6S3NuYTVSQ0c2RUJDU3BzRDhDMWtoVmRHUURIMVJHaVpiQllpYU9fVXZlWlEwS1RSbzlCWFZqS3JUZ013R2Z2aXdFeGdMc3dEcTY3Sg",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:40+00:00",
+     "motivo": "repercussão na imprensa"
     }
    ],
    "nivel_fonte": 2,
@@ -25131,7 +26449,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUFpmUllyVUxwb0wwX3BSWXJ5N0xGUWw2WUVreUFXQ0NBc0ZCWjJtcUktdmpIcTJTVU5EZXFDNkVydlozbHdSUl9iVWVCdTZHalZRX2RvdWo0a1BzMkN4TUNNNlYtbHRqN1d6bU5jdkRTU0poOUpxeDZtb0FBbXItYV83Y3o4ZXkzNkZacjdiRjBfUncwT21raExEdmVjWXJDbjUxMTcyOEtBUlk",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:40+00:00",
+     "motivo": "repercussão na imprensa"
+    }
+   ],
    "nivel_fonte": 2,
    "tipo_evidencia": "artigo científico (tipo não especificado)",
    "status_terapia": null,
@@ -25959,7 +27285,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "FinancialContent",
+     "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQUEgwLUQ2Qm9lNVBrUDh2TW1HV0lFQUdNbVdHdmFuNEo5MEdwaVZGRG13OUQyMnB6TTd3dG5OYU54cXBLN0tYckhyQmE4N0I4QzJpUDRwV2x5bDdOaG00S2dDelVtRkR2UzF4TEY2b0xzLW5vR0NtVkZZT3lQT0VoN0FsSWUyUFNqcGtzbzlUMGxmRmZnc3BMRS1nMVRmbHNmelctWXNMTDhtWVN0ZWJBNVBTa1B1M1AxdVdfWDM3YmhUVllVTlN6VXlfRW0zM2FXclYtRkEwemJIV2FLZHpfMHFEbFY2YjRjd3ByS3Q2U1FuV1B4Mll1SVBlckdjbmVPNHRWNkV4UWF5dGc0cEVQVUJsaUFWSndmcmkwdTlHSDg1dllYcDB5RFVGN2Iyd0lwTjBSYWpnV3FyRlNJYjBVRFB3Rm5vY1lHRGVuOA",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-09-30T09:10:40+00:00",
+     "motivo": "repercussão na imprensa"
+    }
+   ],
    "nivel_fonte": 2,
    "tipo_evidencia": "ensaio clínico randomizado",
    "status_terapia": "em estudo",
