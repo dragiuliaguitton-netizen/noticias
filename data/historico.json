@@ -1,7 +1,7 @@
 {
  "versao": 1,
- "atualizado_em": "2026-10-04T15:59:00+00:00",
- "total_itens": 1558,
+ "atualizado_em": "2026-10-05T09:13:12+00:00",
+ "total_itens": 1587,
  "execucoes": [
   {
    "tipo": "diaria",
@@ -598,9 +598,1496 @@
     "interessante": 2,
     "baixa": 46
    }
+  },
+  {
+   "tipo": "diaria",
+   "inicio": "2026-10-05T09:12:18+00:00",
+   "fim": "2026-10-05T09:13:09+00:00",
+   "modo": "ia",
+   "stats": {
+    "brutos": 185,
+    "novos": 29,
+    "duplicados": 154,
+    "nao_dermatologicos": 2,
+    "atualizacoes": 0,
+    "antigos": 3,
+    "analisados_ia": 2,
+    "fontes_primarias_localizadas": 0,
+    "alertas": 0
+   },
+   "por_fonte": {
+    "PubMed": 34,
+    "FDA — Press Releases": 0,
+    "FDA — MedWatch Safety Alerts": 0,
+    "FDA — Recalls": 0,
+    "EMA — News": 0,
+    "JAMA Dermatology — Online First": 5,
+    "JAMA Dermatology — Current Issue": 0,
+    "Google News (en)": 122,
+    "Google News (pt)": 24,
+    "ClinicalTrials.gov": 0
+   },
+   "erros": [],
+   "relevancia": {
+    "muito_relevante": 0,
+    "relevante": 0,
+    "interessante": 0,
+    "baixa": 29
+   }
+  },
+  {
+   "tipo": "semanal",
+   "inicio": "2026-10-05T09:13:12+00:00",
+   "enviado": true,
+   "erro_envio": null,
+   "itens": 18,
+   "arquivo": "relatorios/radar-semanal-2026-10-05.md"
   }
  ],
  "itens": [
+  {
+   "titulo_original": "‘Ghost from the past’: Why acne returns in midlife and how to treat it",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ25OWXJxY0lFZjkxQVNtYkZKUEFoeGRGREdTaWNSQ0owNzBEN2ZTWW5mbTdVcVZwOGRLaXdyRmdBam9sd3dLdzVYblAyM3dqUkZtQl83VC1hWndXMEtKazFJNE4ybXo0THQ3XzFkQUJCdktDV015VWE1YkYtNnJvaWM3aDQwTTJ3V2NMOUNQTDNiZ2d3VFg0b2NvM0tUbkU?oc=5",
+   "url_veiculo": "https://www.thepost.co.nz",
+   "fonte": "thepost.co.nz",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T07:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "‘Ghost from the past’: Why acne returns in midlife and how to treat it thepost.co.nz",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "8b41f35370f4c297",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "‘Ghost from the past’: Why acne returns in midlife and how to treat it thepost.co.nz",
+   "titulo": "‘Ghost from the past’: Why acne returns in midlife and how to treat it",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Almost 95% of viral glass skin K-beauty TikToks contain misleading claims, new study finds",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1iUzY1NktBX1VQeVNCY2RIdnl1UHRJQTBJUFpDT2ZZU2k0aDdWMnBJRVA3ZklxMEJ1N3JyV0JiaEpFTng4OHhxdUJIMG95d1U3Rm5kTHRyQ2xFM1Rlbl9ZUmViR2Y4aVFyVVBKVjVxejJObGg2elhYbDZR?oc=5",
+   "url_veiculo": "https://www.mamabella.uk",
+   "fonte": "Mamabella",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T05:13:18+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Almost 95% of viral glass skin K-beauty TikToks contain misleading claims, new study finds Mamabella",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "2ada5d7664e9f399",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Almost 95% of viral glass skin K-beauty TikToks contain misleading claims, new study finds Mamabella",
+   "titulo": "Almost 95% of viral glass skin K-beauty TikToks contain misleading claims, new study finds",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Toxic sunscreen claims are causing a rise in homemade SPF – here’s why that’s a bad idea",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRkdHRDVmSl9fMWV2ZUU1WFpZdlVnVHhacjNmQzI4MndrdGRBbXI3X0txYndrRDZRUzlGZTJ6aGY1LTVOZF9IR2xIQUtGZG9RLXpNd1RIVzJJRzdJWjBoRzd1ckoyeFJ0NlZCV3dLaU1GeVI5T1pjMXFUaDhfNU5OWjVnMUQtUQ?oc=5",
+   "url_veiculo": "https://www.mamabella.uk",
+   "fonte": "Mamabella",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T09:35:05+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Toxic sunscreen claims are causing a rise in homemade SPF – here’s why that’s a bad idea Mamabella",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "4de3f21d2750f914",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Toxic sunscreen claims are causing a rise in homemade SPF – here’s why that’s a bad idea Mamabella",
+   "titulo": "Toxic sunscreen claims are causing a rise in homemade SPF – here’s why that’s a bad idea",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Amor à Vida reforça atendimento em dermatologia com segunda médica na especialidade",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVkFLSmxMRUd6aE5wZnozZm1DLWxHUWpSMExROEt1V0c4a3pXSVNIMGRGWk9DVVBiQXZxSHBUREJQQlBvMWxuV1dfLXBYNjdHWDNTSUZNVFNnTmlFaXM3T2p5b0t0cjdlVzFZX0Y5cmVFbnh6OFNraE5uWnhBNGI3NjZCb2U2VFJBTTk0a1JqTFphZDNldE10RllOQVYxS2FPMzJtdUlaTy1xSVBnMG5qZg?oc=5",
+   "url_veiculo": "https://amagis.com.br",
+   "fonte": "Amagis - Associação dos Magistrados Mineiros",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-10-02T13:20:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Amor à Vida reforça atendimento em dermatologia com segunda médica na especialidade Amagis - Associação dos Magistrados Mineiros",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "Sociedade Brasileira de Dermatologia",
+   "id": "4c3bfe5cb9109533",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Amor à Vida reforça atendimento em dermatologia com segunda médica na especialidade Amagis - Associação dos Magistrados Mineiros",
+   "titulo": "Amor à Vida reforça atendimento em dermatologia com segunda médica na especialidade",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "A resposta do clima na pele",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2Jral9UbXZZMmNaV0c4ZjFmdUI3dEtpdGp2ZXZVNDRzbVd6N2xsLUd0SGp4UG9oSUlJaEh3dUVCZ05IYXZtNmZTOEFSRnY4QmQ5dlJBczJrRThyUGJEUkhfWTVia011d0UyYnNwVkQxc0M0WHRaUHFhRWRSNTBnM0s5YkRRaXgzLW5jdkN6eHhlM0pCdVgtN2JKVGc3bFQ3YVhGZNIBqgFBVV95cUxQb0Z5V1AyNTZDbWYwcVZHUWk2MHJuUGF3YjdtSWFXTG1KVTVFU1Y1aWVuZktjMmU4V19uQ0FScER1MWhaYjVXNWVDc1J4OFAyV190T0V3SU5JSU5Va0JUeWtTNm9xajBjTDQxQmUyb2pCVGFodXo2YkgwWlhtTkstcnh0OHpiRTVIRkRUVUllZU5nS2pyc0d6eGY0bjhuTXhOcGtrTDQ5ZlN4dw?oc=5",
+   "url_veiculo": "https://www.correiobraziliense.com.br",
+   "fonte": "Correio Braziliense",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-10-03T08:02:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "A resposta do clima na pele Correio Braziliense",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "Sociedade Brasileira de Dermatologia",
+   "id": "3ceb05b2049baaa4",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "A resposta do clima na pele Correio Braziliense",
+   "titulo": "A resposta do clima na pele",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Queda de cabelo era só o começo: usuários de Ozempic também relatam problemas nas unhas",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdnJGZEhzZy1GWVc0aXF3WjdvOWcyMzBIUE1YcnZvRnZrd0RUZ3pCT2FneFpJMVlSb01KRi1ldjF1ZjVmMjU4bVFMOS1iQ0wzN1g1NmNVME54eWY1MGZlNXVOdTk4OWxBSHUzVVZOSHRFSGx3Znl2R1R5MEpRa1hSUTNvZ2xHQ2RIM3VqVTJPRmFBLTVWZHl6UkFvUkJtRGRFYTBWWkNHb2hiX01jM3ZNZ09GOXhhS2ttZ0ZF?oc=5",
+   "url_veiculo": "https://www.gizmodo.com.br",
+   "fonte": "gizmodo.com.br",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-10-04T16:35:02+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Queda de cabelo era só o começo: usuários de Ozempic também relatam problemas nas unhas gizmodo.com.br",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "queda de cabelo tratamento estudo",
+   "id": "52b70959975b0c7f",
+   "encontrado_em": "2026-10-05T09:12:49+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Alopecias",
+    "Unhas"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Queda de cabelo era só o começo: usuários de Ozempic também relatam problemas nas unhas gizmodo.com.br",
+   "titulo": "Queda de cabelo era só o começo: usuários de Ozempic também relatam problemas nas unhas",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "GLP-1 Users Reported Nail Detachment Four Times as Often as Nonusers in an Early International Dermatology Survey",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2ktbzByc2hOTGxRTFpnRmJlaE0tZEMzSzVqUXFqWHprd19HX2xsVEd0eVptM1hEQVpvdVk3aGJiemVjN1I4MHRjSWVwLXlGU0JOeTVvWXhwNk9GTDMyS3pab25rd1lGUGJRajlEbXN6QXRETXROWTB6YWxVWVd2T2o2S2NxMDVocjlJ?oc=5",
+   "url_veiculo": "https://www.medicaldaily.com",
+   "fonte": "Medical Daily",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T19:30:40+00:00",
+   "atualizado_em": null,
+   "resumo_original": "GLP-1 Users Reported Nail Detachment Four Times as Often as Nonusers in an Early International Dermatology Survey Medical Daily",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "e7ef45ac5dbfa849",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Unhas"
+   ],
+   "assunto": "Unhas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "GLP-1 Users Reported Nail Detachment Four Times as Often as Nonusers in an Early International Dermatology Survey Medical Daily",
+   "titulo": "GLP-1 Users Reported Nail Detachment Four Times as Often as Nonusers in an Early International Dermatology Survey",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "New Study Examines How Dedicated Dermatology Textbooks Represent Skin of Colour",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWE2ZWh4cmZYdFJwN0lVZHFDYklUNnJCU3dPemR4NU1UVFV3d2pPZU5ndlE1S3QtSHFlQm42SkFlSUNmOGhfTktmQjJxTTVXRm9KalB1MG1KVUt4Q2NCWVdxNDdmQ3drRVhxa2VoaE8yblJGSHZXM29YT0UxLXAwOHRzb0UyWlJTbjBFODlLek55R1lVNVphS3VQdzQ3djBfbnBTV2dFYw?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T19:18:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "New Study Examines How Dedicated Dermatology Textbooks Represent Skin of Colour Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "e0bf93e0ec3e916e",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "New Study Examines How Dedicated Dermatology Textbooks Represent Skin of Colour Bioengineer.org",
+   "titulo": "New Study Examines How Dedicated Dermatology Textbooks Represent Skin of Colour",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Ruxolitinib Cream Shows Potential for Cutaneous Lichen Planus, suggests research",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUHlyTUl4b3QySFNvUWw3MVd2LXU2UDk3NXFESGxVTFctT0VpN01IcEpOR29qNUxzREVnS2YzU2dUX0R3NUNsTDJyRnV2WHJiMzZocVRRb2llcnZyLW55YnZFSDhsUGxNbWlOZTF3dGJ1Ti01VWNUU3V5R1NteGhGMzVJY1NVai1oaUdweE9KcmNHTW1sLWFCRm5GWnM2NFhwclN3T0dmWDc2bktBcmVUWVVkNzJNQm1YelZkSzl4NWJDeWo5aFlCdjVrN0JiQjVU0gHQAUFVX3lxTE9QeXJNSXhvdDJIU29RbDcxV3YtdTZQOTc1cURIbFVMVy1PRWk3TUhwSk5Hb2o1THNERWdLZjNTZ1RfRHc1Q2xMMnJGdXZYcmIzNmhxVFFvaWVydnItbnlidkVIOGxQbE1taU5lMXd0YnVOLTVVY1RTdXlHU214aEYzNUljU1VqLWhpR3B4T0pyY0dNbWwtYUJGbkZaczY0WHByU3dPR2ZYNzZuS0FyZVRZVWQ3Mk1CbVh6VmRLOXg1YkN5ajloWUJ2NWs3QmJCNVQ?oc=5",
+   "url_veiculo": "https://medicaldialogues.in",
+   "fonte": "Medical Dialogues",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T15:30:41+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Ruxolitinib Cream Shows Potential for Cutaneous Lichen Planus, suggests research Medical Dialogues",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology guideline",
+   "id": "ac5dc18a534e59a1",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Ruxolitinib Cream Shows Potential for Cutaneous Lichen Planus, suggests research Medical Dialogues",
+   "titulo": "Ruxolitinib Cream Shows Potential for Cutaneous Lichen Planus, suggests research",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "f5fac8f8068de3db",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/42825012/",
+   "fonte_primaria_titulo": "Topical ruxolitinib for prebullous phase of immune checkpoint Inhibitor-Induced bullous pemphigoid."
+  },
+  {
+   "titulo_original": "EADV 2026 in Review: The Research and Therapeutic Advances That Defined the Congress",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVTd1dmF3RktlVktRYU12SGRSekpRWlZBMHlUaDQ5OWdkRWZTa2NUTnFpVWYxTk53OFhzaVNUUHdYNnQyR1dkV0VMejlpMVkybnlsdTEtWDY0dHRXZTRUcXAzaXlwYjFsc2xoVGJsVEp3ejYtZXRkTXhzNV93TUhQcThrVGxBbVg2bXpXUXFDbFZNWXFYajIwWUFUYjV2empkNTBvT190UjRNMnRDSU00Y0toSTFQZ1FKN1dSbnNB?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T07:10:32+00:00",
+   "atualizado_em": null,
+   "resumo_original": "EADV 2026 in Review: The Research and Therapeutic Advances That Defined the Congress Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "c11b0b9b904b34f9",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -3,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)",
+    "anúncio de evento/curso institucional (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "EADV 2026 in Review: The Research and Therapeutic Advances That Defined the Congress Dermatology Times",
+   "titulo": "EADV 2026 in Review: The Research and Therapeutic Advances That Defined the Congress",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Sun Pharma’s LEQSELVI Shows Sustained Results In Alopecia Areata",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUUo5SUY0bFZfRmI3eG00WGotMzVLVlpwa0drQjB2WnJHS2JEZlFnUVJwNEZmdktON0hoOHFpenlsQmFRUmY2U2ZNeDloT2E4dFVoNWQwOU01Rl85MGNzSEZUMDFHeWplNmM0VXVJSFF1N0wyMlI5VkpvNkVXU0tsQWo1MmZMVUUtLVFPNWZrVWJyX3JRMGtUdXF6dUVyejk1eVdHUXI5ME5RNFJDMXpHVk5KRQ?oc=5",
+   "url_veiculo": "https://www.bwhealthcareworld.com",
+   "fonte": "BW Healthcare World",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T03:55:34+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Sun Pharma’s LEQSELVI Shows Sustained Results In Alopecia Areata BW Healthcare World",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "8c16102bc7754955",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Sun Pharma’s LEQSELVI Shows Sustained Results In Alopecia Areata BW Healthcare World",
+   "titulo": "Sun Pharma’s LEQSELVI Shows Sustained Results In Alopecia Areata",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Ancestry Shapes the Side Effects of Melanoma Immunotherapy, Study Finds",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMGptbVZ0aGRoS0hhcEo2djNhdnhVZTM4RG5BZlV1aDFRWXkyZnB0NTJGeHA0eE5BaWRNcEdESThNWlRuWkx5azh4SERsRmVEdEQ2YmV1WXl1clZPaXZDNHkzZ083RnV4ZFJ3dEt3WjRjdjdYRW9kNnIxWXBKTGtMNS1uSVZ3TEVXSEdkTkFIN0VRWS1TZ3Vza01GNA?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T03:19:03+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Ancestry Shapes the Side Effects of Melanoma Immunotherapy, Study Finds Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "00c6c7e684586988",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Ancestry Shapes the Side Effects of Melanoma Immunotherapy, Study Finds Bioengineer.org",
+   "titulo": "Ancestry Shapes the Side Effects of Melanoma Immunotherapy, Study Finds",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Experts call for subsidised sunscreen in effort to reduce skin cancer rates",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWdwNE9kZUdhakVsWDlkTkNMTXlNcS1DSnRvaXdaV1g1U21hblpxUzVpUkdqbkN3YktZaXdDdDI3b2owNmJhQ05mMnJmbEM2UE9fdmstSUhGTTZWNUVZa0N3djVTQ1NWSEVaRHBLajRjbG4xdUpiVUFXTEEwWEJRTkJ3ZElXWk9waWh4MGF2ZExwZVJKZXNlbXhpbGM2azUyX0g5SHFZN2luOTBZT19ZSWxMSWF5N0pudFNKQzduYWlaS2FlUUFsOGV3QmxHZw?oc=5",
+   "url_veiculo": "https://www.nzherald.co.nz",
+   "fonte": "NZ Herald",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T08:36:19+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Experts call for subsidised sunscreen in effort to reduce skin cancer rates NZ Herald",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "2be62d93e53d9a57",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)",
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Experts call for subsidised sunscreen in effort to reduce skin cancer rates NZ Herald",
+   "titulo": "Experts call for subsidised sunscreen in effort to reduce skin cancer rates",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "This supplement may be able to help reduce the likelihood of skin cancer — these are our top picks",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlBXSjBzUGtnMUZrMzZsRU5YdXlNVjlPMlc0VUw4Z3VNUlNrVklaY2FCM0Y3LURRbFNyYWhQakV3VzhGYXNYZ2FHcUtFM2ttaUtVOUpLZGpkMm9BUEp1ckwyd2FRSGFWUXlObmhWSkoxUjA4cnNqa3pDQURFQzFYVnVFQ05UY3dyXzU1Szd3UlQ3U2xMdnZPUWxFZHRKR3loR3ZBX0xiMTI3U2JYcDFUQ2Y1eXJJQzg?oc=5",
+   "url_veiculo": "https://health.yahoo.com",
+   "fonte": "Yahoo Health",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-03T02:55:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "This supplement may be able to help reduce the likelihood of skin cancer — these are our top picks Yahoo Health",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "86ba4ef6148c8d9e",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "This supplement may be able to help reduce the likelihood of skin cancer — these are our top picks Yahoo Health",
+   "titulo": "This supplement may be able to help reduce the likelihood of skin cancer — these are our top picks",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Your Insurance Card May Decide Whether You Get Steroid-Free Eczema Creams",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemhxYnJibHFkODE5MVoyZWplNExTSjRUVTM4TXQzaGctWnlRZkJBUVZlbW5HNzdGeUNfZWwzUExWUGZEbWlfak1QakpyV2dLMkJxd2E3RGNDblJMd1MzQkJ3QWc3VlUtYTZlZktKT0FFTzd2R1d6OFZCUS1yZGNrdkhTdHZ5OG1XMG1WZmlidV9VU0h4SG1uSGFtRDlrT0U?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T01:48:59+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Your Insurance Card May Decide Whether You Get Steroid-Free Eczema Creams Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "8f83301677020e72",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Your Insurance Card May Decide Whether You Get Steroid-Free Eczema Creams Bioengineer.org",
+   "titulo": "Your Insurance Card May Decide Whether You Get Steroid-Free Eczema Creams",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Transport Woes and Health Literacy, Not Skin Stage, Drive Misery in Hidradenitis Suppurativa",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGZpTldQc0RNamc5ZXZRN1I1eTc5Q0NjTmhCWUlEeGp6eGl1YnJfT2hJbXBmQzhoY055cUd4SUV6cm4zb0xpb3BQdlZwMk5PNWdkTkxGNWp2QnV5bDllaVZlUFo5Q0p4QkIwYlJqOWJCc3RXUnNvSTB2SEF3T1BMV2U0TDJ2U0ZWajlrVXBSUVo1MUVienp3MEdueEdQYkdCOFVMVXU0YncwSDF1bWZCU1pCZ0pydw?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T23:40:46+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Transport Woes and Health Literacy, Not Skin Stage, Drive Misery in Hidradenitis Suppurativa Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "hidradenitis suppurativa latest research",
+   "id": "b0642c931d7cc09f",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Hidradenite supurativa"
+   ],
+   "assunto": "Hidradenite supurativa",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Transport Woes and Health Literacy, Not Skin Stage, Drive Misery in Hidradenitis Suppurativa Bioengineer.org",
+   "titulo": "Transport Woes and Health Literacy, Not Skin Stage, Drive Misery in Hidradenitis Suppurativa",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Bradford skin cancer waiting times cut by new AI technology",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCS3J2MTR5ZGZ4eVJIN0c2d1FZak9iVW1IV2VMcjRHcDI3UklzV2dSMV81QldhTVRlODdtZkZNa1FEelM5Y1QtSHg3OVd4b2FQbXNYRXhuWlJXLThzTFE?oc=5",
+   "url_veiculo": "https://www.bbc.co.uk",
+   "fonte": "BBC",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T05:15:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Bradford skin cancer waiting times cut by new AI technology BBC",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology artificial intelligence",
+   "id": "b0232828d3bf5675",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)",
+    "Inteligência artificial"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Bradford skin cancer waiting times cut by new AI technology BBC",
+   "titulo": "Bradford skin cancer waiting times cut by new AI technology",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "The Dermatologist Froze Off Three Spots. The Two Precancers Were Covered. The Skin Tag Was \"Cosmetic,\" and the Front Desk Asked for $150 Before She Left",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPQ1VSLUJtN1JMcnlSM1NOeGxnNnpMNzhJYkpNcmJpWDFuc2ZnTWJ5UG1Weks2ZjJVYnpTYlZYX2hwc29iTVlhSjB6VlhhQzluQl9UdXE2RXpoRTBSR21JMXZQbUhHQm9mVUtKOFdQMk9RdXNYbEg3RERXVWdQZDM1cXRnZm1uMjM4ODlRclRFZ0FOOEttUk02MWtodnljeEJSS3EtTmItb19VbjJNVzJCZm54aU1Ua2FKc0ZDbDRZWGRjNlNsajhRdXFTa2hrRGtsZVhVUDItV0daUGhzRTFNNEZlMUZiSzV6VVJDU21sWTZSRUROdUhwNjZsMFlldk81MG1hbWRqWl92T2daSVJZLWJMbkZuVGI3RHhwYTc4emhEWTl0R2NyUXRodTFKUUd0amNpU2xLNk4?oc=5",
+   "url_veiculo": "https://247wallst.com",
+   "fonte": "247wallst.com",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T16:30:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "The Dermatologist Froze Off Three Spots. The Two Precancers Were Covered. The Skin Tag Was \"Cosmetic,\" and the Front Desk Asked for $150 Before She Left 247wallst.com",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology artificial intelligence",
+   "id": "b4ab3124a99d5853",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Cosméticos / dermocosméticos"
+   ],
+   "assunto": "Cosméticos / dermocosméticos",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "The Dermatologist Froze Off Three Spots. The Two Precancers Were Covered. The Skin Tag Was \"Cosmetic,\" and the Front Desk Asked for $150 Before She Left 247wallst.com",
+   "titulo": "The Dermatologist Froze Off Three Spots. The Two Precancers Were Covered. The Skin Tag Was \"Cosmetic,\" and the Front Desk Asked for $150 Before She Left",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "REZOLVE-AA Data Show Durable Hair Regrowth With Rezpegaldesleukin",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMDdPZnh0d1lvelFDVlJYM2FmMTBzNE9uN1hsRXlvd1ZiLVAxaHVrTEhZZlFfdDAyemNiVHA3Y1FvS29UZEFpT1VrMDFGR3kxTk1Dbkk3MmhReHpGcFdRWHpQUUNlN3l5TWxUalBsM3BkbFJLVDREOWxhdE1xZlR3R0ljTUQ0bVNaUHJ2NDViaHRxWXowY2xvaGxUWm1fVWs?oc=5",
+   "url_veiculo": "http://dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-02T14:49:52+00:00",
+   "atualizado_em": null,
+   "resumo_original": "REZOLVE-AA Data Show Durable Hair Regrowth With Rezpegaldesleukin Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology artificial intelligence",
+   "id": "e37799cf7c08b84e",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "REZOLVE-AA Data Show Durable Hair Regrowth With Rezpegaldesleukin Dermatology Times",
+   "titulo": "REZOLVE-AA Data Show Durable Hair Regrowth With Rezpegaldesleukin",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Tomato-Derived Lycopene Emulgel Shows Sunscreen-Level UV Protection in Lab Tests",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc2VoQkJfWExJZ0RXU1RrOGY2cnRZMFlNcDRnU1B5cjB0WlUyYUhnNVRnN0gwc0d3d2Z3VUxhdUdvLS1OV1g4YXc1TEFISnR1RDZtOWJTM3ZMZTM5MG1ibVdvcjAtT05VNC1KVkV4cDlDMjdzZDFiRklBemlSb3ctNWQ1Um1QamJtUHNOcTdMeVRXMWlxc2lxQjRmcDZVX3hzTWI3NG5PYkQ?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T20:18:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Tomato-Derived Lycopene Emulgel Shows Sunscreen-Level UV Protection in Lab Tests Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "sunscreen study",
+   "id": "81b1413c0037e0ef",
+   "encontrado_em": "2026-10-05T09:12:48+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Tomato-Derived Lycopene Emulgel Shows Sunscreen-Level UV Protection in Lab Tests Bioengineer.org",
+   "titulo": "Tomato-Derived Lycopene Emulgel Shows Sunscreen-Level UV Protection in Lab Tests",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "NAIL PLATE DAMAGE INDEX IN DERMATOSCOPIC EXAMINATION OF PATIENTS WITH ONYCHOMYCOSIS.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42830060/",
+   "url_doi": null,
+   "fonte": "Georgian medical news",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-01-01T00:00:00+00:00",
+   "indexado_em": "2026-10-04T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "INTRODUCTION: The lack of uniform criteria for assessing the degree of damage to the nail plates of patients with onychomycosis does not allow for an objective assessment of the effectiveness of therapy and a comparative assessment of the results of treatment using different methods. In modern medicine, the use of instrumental methods of diagnosis and treatment is becoming more widespread. In particular, one of the options for obtaining information about the state of lesions is nail plate damage index (NPDI). However, the correspondence of the macroscopic appearance to the actual condition remains unclear.\nAIM: The aim of our study was to determine the objectivity of nail plate damage index by comparing it with the degree of contamination with fungal structures.\nMATERIAL AND METHODS: Patients with onychomycosis were examinated with nail plate damage index (NPDI), Scoring Clinical Index of Onychomycosis (SCIO), and Onychomycosis Severity Index (OSI). To assess the degree of fungal contamination, scraping microscopy was performed. After assessing the degree of damage using NPDI, SCIO, OSI compared their results with the data of microscopic examination.\nRESULTS: When comparing the data of microscopic examination and external examination, it was found that, as a rule, with microscopic damage to 25% of the area, macroscopically observed change in nail color is observed, white or yellow spots/stripes appear (often near the free edge or on the sides), while the thickness of the nail is almost not disturbed. With damage from 25% to 50% of the area, the nail becomes dull, noticeably thickens, deforms and begins to crumble. Subungual hyperkeratosis (accumulation of horny masses) often occurs. With damage to more than 50% of the area, changes reach the matrix (nail growth zone). The nail plate collapses, exfoliates from the bed (onycholysis) or becomes thin and softened.\nCONCLUSIONS: Definition of nail plate damage indexatonychomycosis is an informative indicator with a high correlation with the area of contamination (r=0.81) and can be recommended for both diagnosis and monitoring of the treatment process.",
+   "identificadores": {
+    "pmid": "42830060"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Georgian medical news",
+   "consulta": "(dermoscopy[mh] OR dermoscop*[ti] OR dermatoscop*[ti])",
+   "id": "8d84ca7b54eb390a",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "conteudo_antigo": true,
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatoscopia",
+    "Unhas",
+    "Infecções cutâneas"
+   ],
+   "assunto": "Dermatoscopia",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Conteúdo antigo (publicado em 01/01/2026) — não é novidade."
+   ],
+   "resumo": "Definition of nail plate damage indexatonychomycosis is an informative indicator with a high correlation with the area of contamination (r=0.81) and can be recommended for both diagnosis and monitoring of the treatment process.",
+   "titulo": "NAIL PLATE DAMAGE INDEX IN DERMATOSCOPIC EXAMINATION OF PATIENTS WITH ONYCHOMYCOSIS.",
+   "limitacoes": [],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "COMBINED BOTULINUM TOXIN THERAPY AND PERCUTANEOUS TIBIAL NERVE STIMULATION IN THE REHABILITATION OF WOMEN WITH URGENCY URINARY INCONTINENCE ASSOCIATED WITH DIABETES MELLITUS.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42830085/",
+   "url_doi": null,
+   "fonte": "Georgian medical news",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-01-01T00:00:00+00:00",
+   "indexado_em": "2026-10-04T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "OBJECTIVE: To evaluate the clinical efficacy and safety of a combined rehabilitation program consisting of intradetrusor injection of botulinum toxin type A followed by a course of percutaneous tibial nerve stimulation (PTNS) in women with urgency urinary incontinence associated with diabetes mellitus.\nMATERIALS AND METHODS: This prospective, non-randomized comparative clinical study included 135 women with type 2 diabetes mellitus. Of these, 105 women had urgency urinary incontinence persisting despite standard conservative therapy and entered the treatment comparison, and 30 women with diabetes mellitus but without urgency urinary incontinence or overactive bladder symptoms served as a non-incontinent reference (control) group. Assignment of the 105 symptomatic women to treatment was made prospectively on the basis of predefined clinical eligibility for third-line therapy and documented patient preference; no randomization procedure was used. The main group (n=50) received intradetrusor injection of botulinum toxin type A with hemagglutinin complex at a total dose of 300 U followed by 12 weekly PTNS sessions. The comparison group (n=55) received standard conservative therapy. The reference group received no study intervention and was used only for general clinical and nosological characterization; it was not included in any efficacy or safety comparison. The primary endpoint was the change in the number of daily urgency urinary incontinence episodes after 12 weeks.\nRESULTS: After 12 weeks, the frequency of urgency urinary incontinence episodes decreased from 5.8±1.4 to 1.4±0.8 episodes per day in the main group and from 5.7±1.3 to 3.9±1.2 episodes per day in the comparison group. The between-group difference in final values was -2.5 episodes per day (95% CI: -2.9 to -2.1; p<0.001). The main group also demonstrated a more pronounced decrease in ICIQ-SF score, OAB-q Symptom Bother score and NGF/Cr level, an increase in effective voided volume, and improvement in pelvic floor ENMG parameters. Transient urinary retention was recorded in 3 patients (6.0%) in the main group and was reversible.\nCONCLUSION: A combined program including intravesical botulinum toxin therapy and PTNS provides a statistically and clinically significant reduction in symptoms of urgency urinary incontinence in women with diabetes mellitus and has an acceptable safety profile. Dynamic monitoring of postvoid residual urine is necessary to reduce the risk of complications after botulinum toxin therapy. Because treatment was not allocated at random, these findings should be regarded as hypothesis-generating and require confirmation in randomized controlled trials.",
+   "identificadores": {
+    "pmid": "42830085"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Georgian medical news",
+   "consulta": "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR de",
+   "id": "270cd1d389e573b8",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "conteudo_antigo": true,
+   "nivel_fonte": 2,
+   "tipo_evidencia": "ensaio clínico",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Toxina botulínica"
+   ],
+   "assunto": "Toxina botulínica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": false,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: ensaio clínico (+2)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Sem relação dermatológica direta."
+   ],
+   "resumo": "Um estudo clínico prospectivo não randomizado avaliou 135 mulheres com diabetes tipo 2, das quais 105 tinham incontinência urinária de urgência persistente. O grupo principal (n=50) recebeu injeção intradetrusora de toxina botulínica tipo A (300U) seguida de 12 sessões de estimulação percutânea do nervo tibial, enquanto o grupo de comparação (n=55) recebeu terapia conservadora padrão. Após 12 semanas, o grupo principal apresentou redução mais acentuada nos episódios diários de incontinência (de 5,8 para 1,4) comparado ao grupo de comparação (de 5,7 para 3,9). Retenção urinária transitória ocorreu em 3 pacientes (6,0%) do grupo principal.",
+   "titulo": "Terapia combinada de toxina botulínica e estimulação do nervo tibial para incontinência urinária de urgência em mulheres com diabetes",
+   "limitacoes": [
+    "Estudo não randomizado, com alocação baseada em preferência do paciente e elegibilidade clínica, não em randomização",
+    "Os próprios autores classificam os achados como hipótese-geradores, necessitando confirmação em ensaios clínicos randomizados",
+    "Grupo de referência (sem incontinência) não foi incluído em comparações de eficácia ou segurança",
+    "Possível viés de seleção devido à ausência de randomização"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "O tema não tem relação com Dermatologia. Trata-se de um estudo sobre tratamento urológico/urogineco para incontinência urinária em pacientes diabéticas, sem qualquer vínculo com doenças de pele, anexos cutâneos ou procedimentos dermatológicos.",
+   "relevancia_ia": "baixa",
+   "justificativa_ia": "O conteúdo não é dermatológico, tratando de incontinência urinária em contexto urológico/uroginecológico associado a diabetes mellitus. Não há qualquer aplicação ou relevância para a prática dermatológica, mesmo considerando que a toxina botulínica é amplamente usada em Dermatologia para outras indicações (como hiperidrose e rejuvenescimento facial), o uso aqui é completamente distinto (intradetrusor, para bexiga hiperativa).",
+   "alerta_ia": false
+  },
+  {
+   "titulo_original": "COMPARATIVE EFFICACY OF 200 UNITS VERSUS 155 UNITS OF ONABOTULINUMTOXIN A FOR CHRONIC MIGRAINE.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42830078/",
+   "url_doi": null,
+   "fonte": "Georgian medical news",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-01-01T00:00:00+00:00",
+   "indexado_em": "2026-10-04T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Migraine is a common neurological condition; it can be classed as episodic or chronic. In chronic migraine (CM), one of therapies have been revealed efficacy is onabotulinumtoxin A (OnaBT-A).\nAIM OF STUDY: To confirm that the effect of OnaBT-A treatment is dose dependent for the treatment of CM Material and methods: This prospective, randomized, comparative study was carried out at a private neurological clinic in Mosul, Iraq. This study comprised a total of 106 patients who met the diagnostic criteria for CM. Two groups of patients were formed. The first group received 200 U of OnaBT-A by local injection, the second group received 155 U. Each group received OnaBT-A at the start of the trial, as well as after 12 weeks. The outcome indicators which include: monthly headache frequency, attack severity, duration of headaches, and disability, were collected and recorded at the baseline, at week 12 and at week 24.\nRESULTS: All headache outcome variables showed significant improvement with both treatment regimens. The efficacy of these treatment approaches is confirmed by the statistically significant p-values' consistency across both groups. The most significant gains were seen in the 1st group with the higher dose.\nCONCLUSIONS: The study concludes that administering 200 U of OnaBT-A, significantly decreases the frequency and duration of headaches when compared to 155 U. It recommends considering this dosage for patients who do not accomplish adequate relief with 155 U of OnaBT-A. The promising outcomes suggest a need for further studies into long-term effects and evaluation of higher dosages.",
+   "identificadores": {
+    "pmid": "42830078"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Comparative Study"
+   ],
+   "periodico": "Georgian medical news",
+   "consulta": "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR de",
+   "id": "68292aa6b300df4b",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "conteudo_antigo": true,
+   "nivel_fonte": 2,
+   "tipo_evidencia": "ensaio clínico randomizado",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Toxina botulínica"
+   ],
+   "assunto": "Toxina botulínica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": false,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 4,
+   "justificativa_relevancia": [
+    "evidência: ensaio clínico randomizado (+3)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Sem relação dermatológica direta."
+   ],
+   "resumo": "Um estudo prospectivo, randomizado e comparativo realizado em uma clínica neurológica privada em Mosul, Iraque, avaliou 106 pacientes com enxaqueca crônica, divididos em dois grupos: um recebeu 200 unidades de onabotulinumtoxina A e outro recebeu 155 unidades, com aplicações no início do estudo e após 12 semanas. Foram avaliados frequência mensal de cefaleia, gravidade das crises, duração das dores de cabeça e incapacidade, nos momentos basal, semana 12 e semana 24. Ambos os esquemas de tratamento mostraram melhora estatisticamente significativa em todos os desfechos, com ganhos mais expressivos no grupo de dose mais alta (200 U).",
+   "titulo": "Comparação entre 200 unidades e 155 unidades de onabotulinumtoxina A para enxaqueca crônica",
+   "limitacoes": [
+    "Estudo realizado em um único centro (clínica neurológica privada em Mosul, Iraque), o que pode limitar a generalização dos resultados",
+    "O texto não detalha os valores numéricos dos desfechos nem os intervalos de confiança",
+    "Não há informações sobre cegamento dos avaliadores ou dos pacientes",
+    "Os próprios autores recomendam estudos adicionais sobre efeitos de longo prazo e doses mais altas, indicando que os achados ainda não são definitivos"
+   ],
+   "modo_analise": "ia",
+   "por_que_importa": "O texto trata do uso de toxina botulínica para tratamento de enxaqueca crônica, uma condição neurológica, e não de uma aplicação dermatológica. Embora a toxina botulínica seja amplamente utilizada em Dermatologia (para fins estéticos e hiperidrose, por exemplo), este estudo específico não aborda essas indicações, portanto sua relevância direta para a prática dermatológica não foi estabelecida pelo texto.",
+   "relevancia_ia": "baixa",
+   "justificativa_ia": "O conteúdo versa sobre tratamento neurológico (enxaqueca crônica) e não possui relação direta com a prática dermatológica, que é o escopo deste radar. Embora a substância (toxina botulínica) seja relevante em Dermatologia, a aplicação e o contexto clínico descritos no texto não dizem respeito a essa especialidade.",
+   "alerta_ia": false
+  },
+  {
+   "titulo_original": "Pfizer’s Litfulo significantly improved skin pigment measures",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTRXVk9VVDE0d1pNaGhRUmxKNklERkJaek8yT2N5Q29uZTZycFJDdFJYMmtKX2VVX0tBZmhxX1VGS29VLWhleDBDeXJlVUJsNzY1WEFfSzgydWg0ZWpqZkFKN2tNQVZneU5rNlE0RTVBQkx4WklHMGJ3Wm5VakJLamVyNkc2bDlTdUh4NGRZS0g1bERnV3ItSDhoRFBUSnlkelJ3Nlk4VjZTQQ?oc=5",
+   "url_veiculo": "https://www.thepharmaletter.com",
+   "fonte": "The Pharma Letter",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T08:26:15+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pfizer’s Litfulo significantly improved skin pigment measures The Pharma Letter",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "1775d944c6733d74",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Pfizer’s Litfulo significantly improved skin pigment measures The Pharma Letter",
+   "titulo": "Pfizer’s Litfulo significantly improved skin pigment measures",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "52-week Data: Litifilimab Shows Durable Skin Clearance in Cutaneous Lupus",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHJkZVBfWGFneFkxaGNwbWRSUWJjRkR1ZjB4WTZSd2NfOE1taFZqS2hyS0F2QUFBSFlQZUx0WjJ6dm8teVNmN1Q2Rkk1Z1FPaWZtLVNTbUZJZUNkRkVFOEllbl92ZEdoVTVnTUhINDk0WmNkRko3aEVkdGtFZUZ0UElKMWlKWjNWUVFxdEhFc2pOR1JkZm5NVWE1dzRzUzhs?oc=5",
+   "url_veiculo": "https://thedermdigest.com",
+   "fonte": "The Dermatology Digest",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T16:24:27+00:00",
+   "atualizado_em": null,
+   "resumo_original": "52-week Data: Litifilimab Shows Durable Skin Clearance in Cutaneous Lupus The Dermatology Digest",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "2db27a4c8b7f7868",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças autoimunes"
+   ],
+   "assunto": "Doenças autoimunes",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "52-week Data: Litifilimab Shows Durable Skin Clearance in Cutaneous Lupus The Dermatology Digest",
+   "titulo": "52-week Data: Litifilimab Shows Durable Skin Clearance in Cutaneous Lupus",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Racial disparities in psoriasis treatment",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMUtkdGpBZmxPZndxNGNPWTM1c1RhZmROdndXbmpiV2pVUi1nTVEyMzhmMHpXb2FxTU5qVUY2dzZ2b2JOT3MxcTdKRGZXT0E3eTVOaEE1R2pOdjdBcDBmVHR5R29JNVZnVXpuNkpfV2tZVVBNcnV3NHROSlFTT3FWZVhB?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-02T13:21:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Racial disparities in psoriasis treatment Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "724f32a4c56d7be4",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Racial disparities in psoriasis treatment Dermatology Times",
+   "titulo": "Racial disparities in psoriasis treatment",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Zasocitinib Bests Deucravacitinib in Phase 3 Psoriasis Trial",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFgzQXBzRDNlREp0cXdkOXdURlJ4d0RmeDVXZVNRMXpzN2tOVGVsREJYSHRmZGhFY1hweVVFVllzSEpodzNmLWhYaXdzUmV3R1ljV2c5ZEJ3anlXbzhXaWZ6bWpZM0N0LVh1SW0tR0pfZ0k5dnBKbEJHZEw0bjlQMGd4bGNDbHIzbXNaMV9MRVRpM04xRzhyY2dWb3N3TVQ1S21CdElFSWNDckE?oc=5",
+   "url_veiculo": "https://www.medscape.com",
+   "fonte": "Medscape",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-05T07:20:18+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Zasocitinib Bests Deucravacitinib in Phase 3 Psoriasis Trial Medscape",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "1e106dd3d44db714",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Zasocitinib Bests Deucravacitinib in Phase 3 Psoriasis Trial Medscape",
+   "titulo": "Zasocitinib Bests Deucravacitinib in Phase 3 Psoriasis Trial",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "c56576ef914384b6",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/42772643/",
+   "fonte_primaria_titulo": "Deucravacitinib in Hidradenitis Suppurativa: An Open Label Proof of Concept Study."
+  },
+  {
+   "titulo_original": "EADV 2026 Day 4: Precision Medicine, Real-World Evidence, and the Future of Dermatologic Care",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUS1SSXZtNGZsaUJtUFY2QmpPczYwSngtZG90U3NmRlYtMkc3NmlsNGN2SUJtRDN1ZzYxYjVOakU4R00yV0hKYVh0RVBOOENhYldKTmFvU3BlUzMxZmM1YVFmdC1SYlZyQkR1WXdnWUMxYjFpY19KWXhJU1RGanlMTjRGNTFGQUY3SGE1OTlsYkozdFpLWkRLaFQwUDVCWEFRUjhGaEZ2VW9FNTRLNzBBdTl1VWNtOEIxQ09GeGR2aDE?oc=5",
+   "url_veiculo": "http://dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T15:55:30+00:00",
+   "atualizado_em": null,
+   "resumo_original": "EADV 2026 Day 4: Precision Medicine, Real-World Evidence, and the Future of Dermatologic Care Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "6c5834691784d672",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [
+    {
+     "fonte": "Dermatology Times",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd256SVVueWJGTTliSC1lT21fMmQyT0lINmNqZEx3RF9wY1BmX2Vxd2JodUJUaGN5cEw0RXc4Qy1sbmp4N1NFb0Q2RXUyZC1YMURpTnRCVGI0QUxibWtxQ25pZnBYSE94R2Q5Wkx6TWhTUV9IUTl3cTRHM2h0N24wUWpkbERSRmtVMDN6eEZGTjJpNVhkOHIxT3NTWTFULWNWakM1YjRQcjdfMWZSNEJoYlRWZ2dORXZxeTFCQXlzM3l6UUFzTHFn",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "EADV 2026 Day 4: Precision Medicine, Real-World Evidence, and the Future of Dermatologic Care Dermatology Times",
+   "titulo": "EADV 2026 Day 4: Precision Medicine, Real-World Evidence, and the Future of Dermatologic Care",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "The drugstore staple dermatologists swear by for dry, cracked skin",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ0puZzhtYXIzdkRwS0hiVVQycUE0Sl9aTXVlQ2t5NkNoZzVuMUNmWDNaQWtrZ0dhVkhXTm1NMUJ4czJxZmM4NHlxUnVIN2JSSmJXZDJXbkdPV0dMbmJuWG11bEE4ckY4Z09CN052VXc2ODU1cHF5cHpJcnVobXlWTVZzek5QaHQ1dEg3Sy1Oc0J5R25KVk9RUWJGYllFNnpzQVBnR0JGMlN4RzNqaHc?oc=5",
+   "url_veiculo": "https://www.washingtonpost.com",
+   "fonte": "The Washington Post",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-10-04T16:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "The drugstore staple dermatologists swear by for dry, cracked skin The Washington Post",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "820008d74ed3cb41",
+   "encontrado_em": "2026-10-05T09:12:47+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "The drugstore staple dermatologists swear by for dry, cracked skin The Washington Post",
+   "titulo": "The drugstore staple dermatologists swear by for dry, cracked skin",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
   {
    "titulo_original": "Cosméticos artesanais: Anvisa aprova normas para produção no Brasil",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vWUlVY2FPOTNPWW91YjduUVAyMEJZdXg5LXlLS180ZldicHl5d3JTcl9fdVBQMm5oeFVXcDgzdFpBU2hwMC11R2F3ZllFeU5KVXk5WjJDakFqQWlXMGJCa2xEM0xkdklsVGRycEJkbUxvcmlnRExweHpCNWFET28?oc=5",
@@ -963,7 +2450,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "ThePrint",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa214b1F2bS1lVmh4eUp3U0ZBRUNpQzZHSzFlUGJhZE9VLUpudS0xTjlfQVQ0N3VOUl9hME1NS1NWa2ROSmxLU0ZZWjk4aFd5WVVHdEtyN3RDYU1iX2lRdTBCN2NhT2toYkRKUWRKdnhVSERwYUlCekhqUy0tMndvLXgyWmNQQ2p5eEHSAYoBQVVfeXFMTWtteG9Rdm0tZVZoeHlKd1NGQUVDaUM2R0sxZVBiYWRPVS1KbnUtMU45X0FUNDd1TlJfYTBNTUtTVmtkTkpsS1NGWVo5OGhXeVlVR3RLcjd0Q2FNYl9pUXUwQjdjYU9raGJESlFkSnZ4VUhEcGFJQnpIalMtLTJ3by14MlpjUENqeXhB",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -1540,7 +3035,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "FODMAP Everyday",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd3hPZ1ZJcXRKNS10bTlHZ1JqaTRVLVl5UkFiYWhwTWpSS1B1eXhialp0azIwZThpRXZHQ0pMSXlRdnN5OUFyaTVrenVDX1BWUGNVb3I5Qkg2NVoxejRWRzlVeExZMzEwWi04ZmxQVzhjbGl1Rm1ESjN1Z1FzMGJNcnlwRnV0NEN4a2FHQzhCZWpxazd4M04za0xETHJheWpFODdQanJxeFFCdnhIWmRSZi1nQnpvbWdGbFln",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -1873,7 +3376,9 @@
    "consulta": "Anvisa cosmético alerta",
    "id": "45dfc544ebd71ab5",
    "encontrado_em": "2026-10-04T15:56:22+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -1986,7 +3491,9 @@
    "consulta": "periódico Br J Dermatol",
    "id": "a392c21d88ef00ce",
    "encontrado_em": "2026-10-04T15:56:21+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Suspender o tratamento da dermatite atópica é seguro?",
     "formato": "Carrossel",
@@ -1997,7 +3504,7 @@
     "fonte_medica": "The British journal of dermatology (2026-10-03). DOI: 10.1093/bjd/ljag436 https://pubmed.ncbi.nlm.nih.gov/42827390/",
     "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-10-05",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -2198,7 +3705,9 @@
    "consulta": "periódico J Eur Acad Dermatol Venereol",
    "id": "17374dff3c216608",
    "encontrado_em": "2026-10-04T15:56:21+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -2260,7 +3769,9 @@
    "consulta": "periódico Lasers Surg Med",
    "id": "a114258befd143f1",
    "encontrado_em": "2026-10-04T15:56:21+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Lasers e tecnologias: Estudo compara laser de CO2 fracionado e radiofrequência por micro-plasma no tratamento de cicatrizes…",
     "formato": "Reel",
@@ -2334,7 +3845,9 @@
    "consulta": "(psoriasis[ti]) AND (phase 3[tiab] OR randomized[tiab] OR gu",
    "id": "70064af3432e2bc6",
    "encontrado_em": "2026-10-04T15:56:21+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Como os tratamentos biológicos avaliam a melhora da psoríase",
     "formato": "Carrossel",
@@ -2703,7 +4216,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Dermatology Times",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaDN5THZJOGNsZm81bGdjMnJhYndFNkZqOFNBQ3pubFlhMkR3ZVhDbE5OaGwyRVd5OS12Z01TWGd4QVkyLVpmMHJXSFZQZExKZmRKSnNyQXlRRVY3X0pDYWZ4d1U3UXRqNC1kd0hVSU02aWFxdkh1TmlnR2ZSTjZNRmhlaUZUd1hna1RkdUJwMmMwamtFcW1sUzE0dWdJbDgtUHZfWmh4MmhIdmVBV3pabnFCX2RINGNoZlVhQ0l5VVpkSWt0ZWl6VEYxeDVHZw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:47+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 3,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -2892,7 +4413,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdGVkR3FCUDVTdmdwXy01Wlp5TE9kcm01YnNkTV8xSjFHOEJVNUE3bERpS05jbTd0NkxCNUIySDRETFFwa2Mwc05jSDVYUVVBLXE1dzdXdUZXTGpuM0FHNXdYSDYzajlBVHA0UWc4RmpaZ1d5X0NCejhMWGItX1JZU3BxR0hDTXc2RE1Pa1ZVeFdaZnRnLUZDamduMk1KNDFuNG1OWlJFS1NkZw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": "em estudo",
@@ -3178,7 +4707,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcDNBUlVsM2xYX0NBaEJXTTVLR2ZNWkhDTkFkU1dNRkVyYmtzM3V6eXVDTXVJUEpkM0R3OC1waXZwQTJFbEJPX1pxMlphNnNzcGQ1UGRwZzBjY1h0N1ZBcWhZdUd4TlgxM25RWEhYc1V6eURPNUFUdEdsUENvcjU4M0VuVkJWZV9DR0pZUFUzWGZiTDg",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -3394,7 +4931,9 @@
    "consulta": "periódico Br J Dermatol",
    "id": "b0041e9836f21aac",
    "encontrado_em": "2026-10-04T15:56:20+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Psoríase e saúde mental: além da pele",
     "formato": "Carrossel",
@@ -3405,7 +4944,7 @@
     "fonte_medica": "The British journal of dermatology (2026-10-03). DOI: 10.1093/bjd/ljag435 https://pubmed.ncbi.nlm.nih.gov/42828417/",
     "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-10-05",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -3656,7 +5195,9 @@
    "consulta": "Anvisa cosmético alerta",
    "id": "ec04492e6d14f3f1",
    "encontrado_em": "2026-10-03T09:11:47+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -3680,6 +5221,13 @@
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPckl6UzExd191YldrUW9sZnpwWlNHeFB0czFUbzNoMlNha050X09mZ0xNNk1lY2IzZW9qbHItUEJYNWZWZURXTkd6czVycXVoUW9Ob0ktMmE5OXBrT3FBclRuWnRMY0o3TkZicDBDVE5HVWZEMVIwUVlLN3JYdDg4bFZUaWV0N0RIQTJGVk42V1BmSUpoekRhdkNjXzB6UWxo0gGmAUFVX3lxTE83SEI1X1RfLXB4eDdoWGI4cks1azRVMkFqQXRoYVV4MFd5WFMyV1hpY2wwNjJCVUNka2QtZnFZQ0hEWHU5Rm1RaEtrWGJ2b0tRSWNTNzBOQXM5b1lxRk8yQ1lrbnR0X3FjZWN4MlJSWHROUS1WbW1DMmVOYlY1MWp0Y2JkUXA5d0RBTElJWFhDZENwbHY1NjJZNFhqRm15dUhHNGJDamc",
      "tipo_fonte": "noticia",
      "visto_em": "2026-10-03T09:11:47+00:00",
+     "motivo": "título equivalente"
+    },
+    {
+     "fonte": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjlJdWI4akxBNGx1YWZnNGpOb29CUHZpZ3FhcmxPM25qYl9hN2xsZktpRDdCajVSOWNveklXRWZEdlk3ZnA5MzZKZFgtel9QQkxjMWpzS2NQNDlkcWpaZE54dFZMLTl1Nk52Z2JjTlBUZkY3elRzZlpLaHhmRWF6alRTblhNZzR2Q3g3WHgzTmtiTUMyeFhuNzA3MlZHMEdRYmQzWTVLNGJWZFNtdVRxM3prQVVpbmxWaTVDclVB",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:49+00:00",
      "motivo": "título equivalente"
     }
    ],
@@ -5209,6 +6757,13 @@
      "tipo_fonte": "noticia",
      "visto_em": "2026-10-04T15:56:22+00:00",
      "motivo": "título equivalente"
+    },
+    {
+     "fonte": "uk.finance.yahoo.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUW9HcmJuY0dEOTAxc19mNkpBeDVJaHFnYklJaVBCcUsxOTNFX2ZHQWJpdmVzSndzMHJYaWk1VU1FTFVrc0M3TEJpRlhJR3cybXNjTWlYZDM3TTdCc1h2N09NelhWOWd5MjlqR01YVWtoZHh5U2lCTGpSZVNLZXFDVTlyRGV3dw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:48+00:00",
+     "motivo": "título equivalente"
     }
    ],
    "nivel_fonte": 4,
@@ -5359,7 +6914,9 @@
    "consulta": "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR de",
    "id": "4c2641f370ff5f20",
    "encontrado_em": "2026-10-03T09:11:44+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Toxina botulínica: Laser fracionado de CO₂ combinado à toxina botulínica intralesional mostra melhores resultados em cicatrizes…",
     "formato": "Reel",
@@ -5545,7 +7102,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Medical Dialogues",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUHlyTUl4b3QySFNvUWw3MVd2LXU2UDk3NXFESGxVTFctT0VpN01IcEpOR29qNUxzREVnS2YzU2dUX0R3NUNsTDJyRnV2WHJiMzZocVRRb2llcnZyLW55YnZFSDhsUGxNbWlOZTF3dGJ1Ti01VWNUU3V5R1NteGhGMzVJY1NVai1oaUdweE9KcmNHTW1sLWFCRm5GWnM2NFhwclN3T0dmWDc2bktBcmVUWVVkNzJNQm1YelZkSzl4NWJDeWo5aFlCdjVrN0JiQjVU0gHQAUFVX3lxTE9QeXJNSXhvdDJIU29RbDcxV3YtdTZQOTc1cURIbFVMVy1PRWk3TUhwSk5Hb2o1THNERWdLZjNTZ1RfRHc1Q2xMMnJGdXZYcmIzNmhxVFFvaWVydnItbnlidkVIOGxQbE1taU5lMXd0YnVOLTVVY1RTdXlHU214aEYzNUljU1VqLWhpR3B4T0pyY0dNbWwtYUJGbkZaczY0WHByU3dPR2ZYNzZuS0FyZVRZVWQ3Mk1CbVh6VmRLOXg1YkN5ajloWUJ2NWs3QmJCNVQ",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:49+00:00",
+     "motivo": "repercussão na imprensa"
+    }
+   ],
    "nivel_fonte": 2,
    "tipo_evidencia": "relato de caso",
    "status_terapia": null,
@@ -7166,7 +8731,9 @@
    "consulta": "ClinicalTrials.gov: alopecia areata",
    "id": "4340611801d30c40",
    "encontrado_em": "2026-10-02T09:12:07+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Alopecia androgenética e novas pesquisas em tratamentos tópicos",
     "formato": "Carrossel",
@@ -7177,7 +8744,7 @@
     "fonte_medica": "ClinicalTrials.gov (2026-10-01). https://clinicaltrials.gov/study/NCT03742518",
     "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-10-05",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -10477,7 +12044,9 @@
    "consulta": "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR de",
    "id": "cf382c060f653350",
    "encontrado_em": "2026-10-02T09:12:03+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Complicações de preenchedores faciais: por que é importante saber qual produto foi usado em você",
     "formato": "Carrossel",
@@ -10488,7 +12057,7 @@
     "fonte_medica": "Aesthetic surgery journal. Open forum (2026-09-30). DOI: 10.1371/journal.pmed.1004326 https://pubmed.ncbi.nlm.nih.gov/42819331/",
     "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-10-05",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -11386,7 +12955,9 @@
    "consulta": "periódico J Am Acad Dermatol",
    "id": "75988c872c43ef7f",
    "encontrado_em": "2026-10-02T09:12:02+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Hidradenite supurativa: novidades em pesquisa e tratamento",
     "formato": "Carrossel",
@@ -11397,7 +12968,7 @@
     "fonte_medica": "Journal of the American Academy of Dermatology (2026-10-01). DOI: 10.1016/j.jaad.2026.09.099 https://pubmed.ncbi.nlm.nih.gov/42822776/",
     "origem": "ia"
    },
-   "ideia_usada_em": null,
+   "ideia_usada_em": "2026-10-05",
    "alerta_enviado_em": null,
    "mencoes": [],
    "nivel_fonte": 2,
@@ -12170,7 +13741,9 @@
    "consulta": "periódico J Eur Acad Dermatol Venereol",
    "id": "2da47e52114f87ac",
    "encontrado_em": "2026-10-02T09:12:02+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Infecções cutâneas: Consenso IADVL sobre infecções por Trichophyton indotineae: recomendações via método Delphi modificado",
     "formato": "Carrossel",
@@ -12239,7 +13812,9 @@
    "consulta": "periódico J Eur Acad Dermatol Venereol",
    "id": "7244e892ae4efea1",
    "encontrado_em": "2026-10-02T09:12:02+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Vitiligo e saúde mental: existe conexão?",
     "formato": "Carrossel",
@@ -12591,7 +14166,9 @@
    "consulta": "periódico Br J Dermatol",
    "id": "4fceffc1c1df686a",
    "encontrado_em": "2026-10-02T09:12:01+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -12763,7 +14340,9 @@
    "consulta": "periódico Br J Dermatol",
    "id": "cb678c249abf381f",
    "encontrado_em": "2026-10-02T09:12:01+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -15766,7 +17345,9 @@
    "consulta": "feed JAMA Dermatology — Online First",
    "id": "59cc10944dbc38c9",
    "encontrado_em": "2026-10-01T09:12:12+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Alopecias: Consenso internacional sobre uso de minoxidil oral em baixa dose para distúrbios capilares pediátricos",
     "formato": "Carrossel",
@@ -17424,7 +19005,9 @@
    "consulta": "periódico JAMA Dermatol",
    "id": "f75702c77f9eb997",
    "encontrado_em": "2026-10-01T09:12:10+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": {
     "tema": "Alopecias: Consenso internacional sobre uso de minoxidil oral em baixa dose para distúrbios capilares pediátricos",
     "formato": "Carrossel",
@@ -17633,7 +19216,9 @@
    "consulta": "periódico JAMA Dermatol",
    "id": "b6338d6ad7d2c231",
    "encontrado_em": "2026-10-01T09:12:10+00:00",
-   "relatorios": [],
+   "relatorios": [
+    "2026-10-05"
+   ],
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
@@ -29425,7 +31010,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Içara News",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZlU1OXJGV1k1ZElNaHF1VVpMS0YwNDc2eWpvQ0tCSll6ekpZT2g5YWNqZFRlbGsyQ2hDSnEyZUtfcnV0Tm5oOHFTMWdvdVdHVUpDQWFzWXBPWXFpRUVMTVc4UEFReUczaGdobjNlYlBXYmZmeldobVM1eVlCaDhYU1ZMbVlUa1ozeVdNM01QN0FzRzJ0b0drSGRBSmd2Yjh6MWk0cFV0V0s",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:49+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -29714,7 +31307,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Gazeta Digital",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV2x4c1NsbC1HUHlneWdfWUN6bU1TZEZIRWI3dFlpR2RCNm4zcmdjTm5Ib2xlVzN0X1Q2d2lmLTFZT2JoalMwS2JDLTRJTlNCdWdkS0xFdXlhODk0am9PSFV1SEI3VV9sUUtBQlo4VWdnMmp2d01BUTl6cUNSTkI0TEVBd3VJR1VQYWVBX3hNSGxpZ3RldWxXNkxJLUxaWUwyY3NxZUtTTXVDaC0zb2tfWS1oVVBYY0NseUo3M04tYw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:49+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -44099,6 +45700,13 @@
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdUlKQ21hN3ZkY2VQWjBtRHlCZnlKSFVXOEd0bHBtSjNtLVA4eUVYOVdJb1c3dFpKNHdlQkM1WmFkbG5ndjdaRmFBOUp4RExvVVZHT0lHS0dvTEVXR2U0UHdDLU5jWUhxbWF1NzVKbnRUYmpIb091WGthbElyWmRkMzdQSUZFR2lpTnhpTlg2YmF5dmhRS2h0RGFHbjl6VVU4TkxBd040UVRQQmlsQlg3SjV4Z3NLUlZNbGZGcExNSGVLZXp5YVdrWFNRQUc",
      "tipo_fonte": "noticia",
      "visto_em": "2026-10-03T09:11:48+00:00",
+     "motivo": "repercussão na imprensa"
+    },
+    {
+     "fonte": "Medscape",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFgzQXBzRDNlREp0cXdkOXdURlJ4d0RmeDVXZVNRMXpzN2tOVGVsREJYSHRmZGhFY1hweVVFVllzSEpodzNmLWhYaXdzUmV3R1ljV2c5ZEJ3anlXbzhXaWZ6bWpZM0N0LVh1SW0tR0pfZ0k5dnBKbEJHZEw0bjlQMGd4bGNDbHIzbXNaMV9MRVRpM04xRzhyY2dWb3N3TVQ1S21CdElFSWNDckE",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-10-05T09:12:49+00:00",
      "motivo": "repercussão na imprensa"
     }
    ],
