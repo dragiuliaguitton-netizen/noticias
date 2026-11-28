@@ -1,7 +1,7 @@
 {
  "versao": 1,
- "atualizado_em": "2026-11-27T18:41:18+00:00",
- "total_itens": 5412,
+ "atualizado_em": "2026-11-28T17:22:12+00:00",
+ "total_itens": 5478,
  "execucoes": [
   {
    "tipo": "diaria",
@@ -2632,9 +2632,3357 @@
     "interessante": 5,
     "baixa": 58
    }
+  },
+  {
+   "tipo": "diaria",
+   "inicio": "2026-11-28T17:21:30+00:00",
+   "fim": "2026-11-28T17:22:12+00:00",
+   "modo": "heuristico",
+   "stats": {
+    "brutos": 272,
+    "novos": 66,
+    "duplicados": 203,
+    "nao_dermatologicos": 3,
+    "atualizacoes": 0,
+    "antigos": 0,
+    "analisados_ia": 0,
+    "fontes_primarias_localizadas": 0,
+    "alertas": 0
+   },
+   "por_fonte": {
+    "PubMed": 114,
+    "FDA — Press Releases": 0,
+    "FDA — MedWatch Safety Alerts": 0,
+    "FDA — Recalls": 2,
+    "EMA — News": 0,
+    "JAMA Dermatology — Online First": 7,
+    "JAMA Dermatology — Current Issue": 0,
+    "Google News (en)": 113,
+    "Google News (pt)": 36,
+    "ClinicalTrials.gov": 0
+   },
+   "erros": [],
+   "relevancia": {
+    "muito_relevante": 0,
+    "relevante": 0,
+    "interessante": 7,
+    "baixa": 59
+   }
   }
  ],
  "itens": [
+  {
+   "titulo_original": "Dermatite atópica no verão: por que calor e suor agravam a pele idosa",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORnBSTDBpNzNzRThRWDFxVzU4bFlqZF9IRjJZcm40UWV6TUxuUmQ0VENJcmx2RUVpaGJxQnJLdjEydGRtZHFGQ1JBdXZtNzlNdTZ1akZtcWtNV2pZbWdBUnJKeFRoLVlKTmhYYk1TSmhsMUxSblNNNXk3QlJiRjZLMXRiNlhuX2lORWVxN0RKdEN3QXVvbWZKbXF5a0xKUU9Ub2hFV2xxc3NzdkN1OEpLaQ?oc=5",
+   "url_veiculo": "https://viva.com.br",
+   "fonte": "viva.com.br",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-27T11:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Dermatite atópica no verão: por que calor e suor agravam a pele idosa viva.com.br",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "câncer de pele estudo",
+   "id": "a7d3d33f760c2866",
+   "encontrado_em": "2026-11-28T17:22:11+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica",
+    "Dermatologia geriátrica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Dermatite atópica no verão: por que calor e suor agravam a pele idosa viva.com.br",
+   "titulo": "Dermatite atópica no verão: por que calor e suor agravam a pele idosa",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Cientistas estudam a pele humana e descobrem uma resposta inesperada à exposição controlada à radiação UV",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRVUzQ3lQeHpXMy1oZVpVSmo1cHFqSWc5NWVlOExnNnVjQXlCbS1IY0NfTEhjUVNnOV9qb0huWjJSa3ltM0sxeUlDdGtLekNaTS1uNmwxRXF6ZW0xV3oteWZDdl82RVlqeEJwbmNpaHc4X3E1SjZfckxVY3Nxc295VG5BTlpDOVlVb3RPWWRzd2FUNFF2TnZ1MGo4NUNWcklFeVZWX0JZellMTzlPMFJNdFZOVUg1czI5MjVZSFhvNVpueUQzT3JJWDh2VFZOQWhWa0otS2ppSF9ZQTg4QTl4Q2FwQWZ5X0dra0pNRlJpNEhHc3hucWdMVWNZUVpGdw?oc=5",
+   "url_veiculo": "https://www.diariodepernambuco.com.br",
+   "fonte": "Diario de Pernambuco",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-25T22:22:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Cientistas estudam a pele humana e descobrem uma resposta inesperada à exposição controlada à radiação UV Diario de Pernambuco",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "câncer de pele estudo",
+   "id": "1959b0c1f87ab289",
+   "encontrado_em": "2026-11-28T17:22:11+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Cientistas estudam a pele humana e descobrem uma resposta inesperada à exposição controlada à radiação UV Diario de Pernambuco",
+   "titulo": "Cientistas estudam a pele humana e descobrem uma resposta inesperada à exposição controlada à radiação UV",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Família faz campanha para custear tratamento de mulher com câncer de pele agressivo",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTEtxZlhBY1VSTl9yUmlFcGkxWWZQVklXNUQ1QllIUjlPV1ZLYXlqZ2dibkNKVlc3SnM2c3pUa2ZMdm13ZHVJUnlhVU90cjZrMDhmX21sOWJ5R3VkWFFEMXNQR0d6T2R1SFBCb1JtREJtOHQzOEFOMXlDbjQ5TEdvWWtEcWtiM3VLLXNLS1Y4WXY1amtxLTNwMXRKOVBpSTREMGFSelBlRVJJUlgzWk1NRXA2aUhUNFR4VXlaWjRiTDlpT2hRMktxdy1IRFNXZXRWSWVMUGJUQnBJUmh5aXM0?oc=5",
+   "url_veiculo": "https://www.7segundos.com.br",
+   "fonte": "7Segundos",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-27T20:04:25+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Família faz campanha para custear tratamento de mulher com câncer de pele agressivo 7Segundos",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma tratamento",
+   "id": "09e655b397acef7e",
+   "encontrado_em": "2026-11-28T17:22:11+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "anúncio de evento/curso institucional (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Família faz campanha para custear tratamento de mulher com câncer de pele agressivo 7Segundos",
+   "titulo": "Família faz campanha para custear tratamento de mulher com câncer de pele agressivo",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Estresse na pele: as doenças que pioram e os cuidados que ajudam",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQU1sVTg2emdsWlZvQ2hBM1Z6ZXV0ZlFabHRHTDdiSkFieGhENUdoZU5JMWNEMjRSU2lPSW0xeHROR2p3SUtHamlYU2hGSWNRODRzekF2Um95b0lIRkdBWVhXY1BwV05sMGlJRU1GTzctaUxEZDYwTE9ibUdFYkp2QnRER1NkNVNhUGpCd1g4WUdtZlAyNWx3?oc=5",
+   "url_veiculo": "https://rede98.com.br",
+   "fonte": "Rede 98",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-26T17:22:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Estresse na pele: as doenças que pioram e os cuidados que ajudam Rede 98",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatite atópica tratamento",
+   "id": "478e19c5a40f4c3d",
+   "encontrado_em": "2026-11-28T17:22:11+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Estresse na pele: as doenças que pioram e os cuidados que ajudam Rede 98",
+   "titulo": "Estresse na pele: as doenças que pioram e os cuidados que ajudam",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Dezembro Laranja alerta que brasileiros conhecem riscos do sol, mas ainda falham na prevenção do câncer de pele",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSFhicHV0ZzlHR1FMYmJ5R0syY3hEVkFDdUlLQ3ZfSVJXbVd1aG50bFB6QXljdGdPMVVKakhzU21UOTFlekV2Y1g0aUN4dmUtbjJlRDczdEpxWk4wV1o4TG5GMms2MUxFUXFnbnE4YU1SWVUwM1RXU2RiRWpqZGRncmdPUGhOVEJNV3FXVEdZUl91X0kzS3IxSHQ4cC1VVmFzSWhnOUVWZ3hjdnItTDI0T1JfdHVHcDlrNkF5bGhJU3lpUzIzYWxtRElVVkNhMkZ4TEdIN0RSdDktek41SW9oN3VzakdRajFraUI3ODhRVEc?oc=5",
+   "url_veiculo": "https://gazetadasemana.com.br",
+   "fonte": "Gazeta da Semana",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-27T22:50:25+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Dezembro Laranja alerta que brasileiros conhecem riscos do sol, mas ainda falham na prevenção do câncer de pele Gazeta da Semana",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "Sociedade Brasileira de Dermatologia",
+   "id": "0faf08ca26592fff",
+   "encontrado_em": "2026-11-28T17:22:10+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [
+    {
+     "fonte": "Gazeta da Semana",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZVc0alNrQ29UejB0RnBLX1pDMFo5bnVtQnpjaVM1c3otSm1EQTczcjZOU2NDTzBSMnlmM2RTNVpidVhvWFZtS3ZTYTFvcWFhbHpUZV9zNEQ1aUFmYTd0YlF3S2NPRjlfbjJ2V296ZXRzZEdnLS1DWEVjNjBCRmEyR0VxQ2liTDA0MTNzMnlEekJqWlMwUEdzOWZtRUhOa0t1SkxpZzVEazR6ODJacDI2MlE4RlQwYlVHQjBNdFFJb2hNYTNibk01XzlZclVOTEFtSDBiRHQ5d3lOU2d6UFE5eTFwTGVCQTFLZXpz",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:10+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": true,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "tema de segurança (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Dezembro Laranja alerta que brasileiros conhecem riscos do sol, mas ainda falham na prevenção do câncer de pele Gazeta da Semana",
+   "titulo": "Dezembro Laranja alerta que brasileiros conhecem riscos do sol, mas ainda falham na prevenção do câncer de pele",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Protetor solar: a regra da colher de chá, parte a parte",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iYWNjMXRvVE05ZVM2QTVpRjc2X2dkRDhnQ0kzbzRaNUhOczBoNjFTMVF6LXB2bU1CM0pmZmdVT2RNdzRGb2FvUVpHM254NkRGQzRlSFJXZDhEX2lodlZUak12OU5hNmhDdTBOMTB0bw?oc=5",
+   "url_veiculo": "https://esbrasil.com.br",
+   "fonte": "ES Brasil",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-28T11:32:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Protetor solar: a regra da colher de chá, parte a parte ES Brasil",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "Sociedade Brasileira de Dermatologia",
+   "id": "7443ba42bc5fd078",
+   "encontrado_em": "2026-11-28T17:22:10+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Protetor solar: a regra da colher de chá, parte a parte ES Brasil",
+   "titulo": "Protetor solar: a regra da colher de chá, parte a parte",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Virginia gastaria R$ 250 mil por mês com beleza; dermatologista alerta para riscos de excessos",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWpfWXhYQ042aW1JckJuUk9CdktlUG8xN2tFMU9FVlN3QVh3Q2FpM3pCeGdrTlgweC11N00wODhpejNRMzAwUDZTX1hrSUpCM1VQYjR0aFoyTzNiV3NlNkd3Z0pGWW9OQkxOMEtkY3ppY3gzSF9aeFNZbXpHNWd2QmFMLVJaek4xQk5QZ0phV3NucHQwV21JSGtGVS1HdUNHRzBpR2hWUVZudTRSdWhnWWxrVnBMTmk1ZFRDd3gtMzFJd3lLbUE?oc=5",
+   "url_veiculo": "https://www.itatiaia.com.br",
+   "fonte": "Rádio Itatiaia",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-28T10:01:54+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Virginia gastaria R$ 250 mil por mês com beleza; dermatologista alerta para riscos de excessos Rádio Itatiaia",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "Sociedade Brasileira de Dermatologia",
+   "id": "25031e02847bb55b",
+   "encontrado_em": "2026-11-28T17:22:10+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": true,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "tema de segurança (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Virginia gastaria R$ 250 mil por mês com beleza; dermatologista alerta para riscos de excessos Rádio Itatiaia",
+   "titulo": "Virginia gastaria R$ 250 mil por mês com beleza; dermatologista alerta para riscos de excessos",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Apollo Clinic, Sri Vijayapuram Welcomes Renowned Dermatologist Dr. Arisha Salam",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vOE9EWWlqaWQ3em05VWFEQmxCTzRzbWdITnpwQnBZT0V4RVNvRFNYT0xlZk9TRmtMQ2ZmLVliYWJvQVZNem4zUzBn?oc=5",
+   "url_veiculo": "https://andamansheekha.com",
+   "fonte": "ANDAMAN SHEEKHA",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T18:16:20+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Apollo Clinic, Sri Vijayapuram Welcomes Renowned Dermatologist Dr. Arisha Salam ANDAMAN SHEEKHA",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "vitiligo new treatment",
+   "id": "a353ab5298a8f112",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Apollo Clinic, Sri Vijayapuram Welcomes Renowned Dermatologist Dr. Arisha Salam ANDAMAN SHEEKHA",
+   "titulo": "Apollo Clinic, Sri Vijayapuram Welcomes Renowned Dermatologist Dr. Arisha Salam",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Social Media Mythbusters: Can Liquid Facelifts Replace Surgery?",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOemRRaEhuTWxQVEtCcGRFZ0Zvb1piMlZfeFFxckNoMDdKYndSd0YxRVhldmgwUm9zd3NlQm9zcGdxdWVpNVA2TVd3NGJXZ2w2N3pNc19wVDZfQ29UemRmRUhoaTY1REJCVzlXUEJTTEVVTGtod0ZUdnY5V0FrdjZOWFE1RkhUZUN5RG53TnFTZk44bG5EMkpFUnRDNA?oc=5",
+   "url_veiculo": "http://dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T14:11:02+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Social Media Mythbusters: Can Liquid Facelifts Replace Surgery? Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermal filler complications",
+   "id": "20d6aa3a2f634125",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Social Media Mythbusters: Can Liquid Facelifts Replace Surgery? Dermatology Times",
+   "titulo": "Social Media Mythbusters: Can Liquid Facelifts Replace Surgery?",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Global Digital Dermatology Atlas Reveals Marked Gaps in Skin Tone Datasets",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQkVKVjJnNGtscjdVLXZKeEZUX2tPVTdyX3VyaFJaVFBZMGJZbVIwOFNkSGkxaVBaOFFuQUMxY3FHak1ORVNzYzRDRFkwZzN5VHJUeUg0amxMX2JGSk9DM200STJ4YUFjZ0ppMm5CQTFMdjRwbjdyTlVfQ09ZOFlCTmQtcFBOR0FGa3ZaSnN1V2FTZkI2bUp6czEyU29rWkh3?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T16:30:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Global Digital Dermatology Atlas Reveals Marked Gaps in Skin Tone Datasets Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology artificial intelligence",
+   "id": "146a7e5f9e58ba96",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Global Digital Dermatology Atlas Reveals Marked Gaps in Skin Tone Datasets Bioengineer.org",
+   "titulo": "Global Digital Dermatology Atlas Reveals Marked Gaps in Skin Tone Datasets",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Skin in Deep Space: Dermatological Challenges of Long-Duration Lunar and Mars Exploration Missions",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZjFwcGxwMmp4bkNvUjJwb01zQWdFU0dNQ0p2ZGQxc042SWhXSDU0QkFkUWZxQUhTT0M4MENsZ00taGY1UVlRVEVsaVZiZFBuY0NzLUdFdG1iRmhzaUpiTmlwQ1lTN2FVWFR5NnpoRjhsTEFVQnlkUXl2TFFDSU00UzViOUppeXRnQmNfRloxQ0JpLVpFMGZGVnU1WUtZR3NuYmJHQ2VneExlVllDUjJHNE9PS2IzTWhnRVFlRkV5cWFaLUkwRVY0bUhnUXB2MHh0LUE?oc=5",
+   "url_veiculo": "https://www.cureus.com",
+   "fonte": "Cureus",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T04:22:46+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Skin in Deep Space: Dermatological Challenges of Long-Duration Lunar and Mars Exploration Missions Cureus",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology artificial intelligence",
+   "id": "6bc168cadeb2175a",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Skin in Deep Space: Dermatological Challenges of Long-Duration Lunar and Mars Exploration Missions Cureus",
+   "titulo": "Skin in Deep Space: Dermatological Challenges of Long-Duration Lunar and Mars Exploration Missions",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Dermatologista revela cuidado básico para ter uma pele belíssima e com glow",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHlWeW52TVhUcUNfM01pSzV5MC11M0VsMm5VMHhBUi1rbTJ1SDBISXpFSzNQSWRSNWZiZFV6dXRCM0JYT0VaVW8xOGRITGRxMkQ2bUd3TFVKOEcxYlFlRDY2N0hyMGRTc1p5dlR6YUI5ZWFWUUhXMW41bkR4REQ0TUU4Y25vWHU2akRqTE41THZvUlcya0t1SlBMUXBVazJnOFVPNXY2dzYtelE3MWFhcExyLUh1dU0?oc=5",
+   "url_veiculo": "https://www.metropoles.com",
+   "fonte": "Metrópoles",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-28T00:03:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Dermatologista revela cuidado básico para ter uma pele belíssima e com glow Metrópoles",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatologia novidade",
+   "id": "b49c10bf7dd5cadd",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [
+    {
+     "fonte": "BossaNews Brasil",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGZVdnR1M1RTd2JBVVo1NFhoQ1NHUmZ5NFV0cUR1cl9rbWdPajFIQmVySzd4UHY0UmlZcEc3c3JWR1plMWJGaDByV2hrbi1GRkttSWo1UFhNVE9RSWh4WjFmQWpQOGREY1k1ZkVHcUtWa3JsenRjOGtHWVlSMjdLMU53NThBbnJEWlpNcVFfS0NJVkw5ajI5Nw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:10+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Dermatologista revela cuidado básico para ter uma pele belíssima e com glow Metrópoles",
+   "titulo": "Dermatologista revela cuidado básico para ter uma pele belíssima e com glow",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Datafolha: 58% dos brasileiros não usam protetor solar facial diariamente",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc29pMDFoWUpqLUFQcmVNRGp5ZHo0NENXQ1FiWHZCYW4wXy03WFF1Z1VSRmw5MUZxLXUwd3YxLXVhZjBIM1J6OXhYMktsR3ZRSzd5Vk9OWGhSeUlFRnU3SDl3UTNvR0lKSC1YcnBwNXQ1WGFub0VGRWxLejNPNVZDUUhvS1FMR05sVEViRmUzWm92NmdIN05sbnpZYzBIYnpNaEp5Tkoya0hYeDJEQVk1ZTF5TUlfbldwRFRZTi11VHhHNF9LY1RMZ1p1Ml8xcEU2RFBzNkJhNi1lOG8?oc=5",
+   "url_veiculo": "https://tv.sbt.com.br",
+   "fonte": "SBT",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "pt",
+   "publicado_em": "2026-11-27T21:24:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Datafolha: 58% dos brasileiros não usam protetor solar facial diariamente SBT",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatologia novidade",
+   "id": "99ddfce007262787",
+   "encontrado_em": "2026-11-28T17:22:09+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Datafolha: 58% dos brasileiros não usam protetor solar facial diariamente SBT",
+   "titulo": "Datafolha: 58% dos brasileiros não usam protetor solar facial diariamente",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "I wrecked my skin barrier with acne treatment - this £16 La Roche-Posay Balm fixed it",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX2lhVU9TV1FTSXRQbW5BRVc4Y0szWFA4MktXenVFb195QWN2SGFCX2MxZXVfOHJaUTFlV3k2ZXZPT0FPeVJTTnZHMEVWVElfdkFJMVB5c1FMU3VTYlpPQXlQVDlsX3lyUDl2aGVLdmNVZ2V4VFlwTTNjREJFN0tMMw?oc=5",
+   "url_veiculo": "https://www.tyla.com",
+   "fonte": "Tyla",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T02:27:26+00:00",
+   "atualizado_em": null,
+   "resumo_original": "I wrecked my skin barrier with acne treatment - this £16 La Roche-Posay Balm fixed it Tyla",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "720a9090c789278b",
+   "encontrado_em": "2026-11-28T17:22:08+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne",
+    "Cosméticos / dermocosméticos"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "I wrecked my skin barrier with acne treatment - this £16 La Roche-Posay Balm fixed it Tyla",
+   "titulo": "I wrecked my skin barrier with acne treatment - this £16 La Roche-Posay Balm fixed it",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Kymera Therapeutics’ Oral Eczema Drug Meets Phase 2b Goal, Setting Up Phase 3 Push",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQlVDNGh2QUY2LUJ0M2dwOUw2Q1V6aEJ0NUx1X2xQb0ZXRl9JTjNDRnp1Vmw0aUNsTWx3cnZUMnU5WncxbjVXRElIM0ZBZWlUQlA3Uno3dG5FLXJ4alN1UW1HRVpQZmpmOVk4WXZfQWEwckxTTHY4N00xa3lIcklzTWtyc25UQ1ZRamFrOEZUZkZKRXAybEdMVUdJZnFxdzJZYk11YzFzY2hTZUJjRjVMZXRFbTZQY1UxNEN1WmdTYWtrVDZaUmwwemFhVnI5cFVGTl9FOEZsWFY?oc=5",
+   "url_veiculo": "https://www.tradingview.com",
+   "fonte": "TradingView",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T14:12:07+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Kymera Therapeutics’ Oral Eczema Drug Meets Phase 2b Goal, Setting Up Phase 3 Push TradingView",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "9776e7067d75f990",
+   "encontrado_em": "2026-11-28T17:22:08+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Kymera Therapeutics’ Oral Eczema Drug Meets Phase 2b Goal, Setting Up Phase 3 Push TradingView",
+   "titulo": "Kymera Therapeutics’ Oral Eczema Drug Meets Phase 2b Goal, Setting Up Phase 3 Push",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Gemini Achieves Higher Quality While ChatGPT Leads Readability in Pediatric Eczema Study",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOXE2ZEkxN1RJejdtVnZRcGJoMFJ3TmVJQUpITk1Ed1dQQXRjbEoxS2w0dmhtN2dkLTA0ejlsU3BQX25RQUphLWp2Z1VCd3pkRjlPQWg5S0tyZndXOHJMVkNNS1p1bTJ5TjJZbUdKdkd1SFR4dk5kVHVBOVprVXdoRElRNlhsajNhV0ppaVBKQzM5TDcya01RTU5vRlh5V0xJQ2VyZFBfM2pabUFKRjhGZ3huNA?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T05:53:36+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Gemini Achieves Higher Quality While ChatGPT Leads Readability in Pediatric Eczema Study Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "atopic dermatitis latest research",
+   "id": "9ccae973f942dbef",
+   "encontrado_em": "2026-11-28T17:22:08+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica",
+    "Dermatologia pediátrica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Gemini Achieves Higher Quality While ChatGPT Leads Readability in Pediatric Eczema Study Bioengineer.org",
+   "titulo": "Gemini Achieves Higher Quality While ChatGPT Leads Readability in Pediatric Eczema Study",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Is “Ozempic Face” Real? New Review Reveals What GLP-1s Actually Do To Skin",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMWJKUkwzSy1Iem5mazRUSWlrMXpBZV9wZGhKUjFjTzJhWHlLNUJXTjVSbWc0SmhGM0tVVHdOZnF2djBpc0lkMWEtYVFNRzlkRHZVc2R1bEtyN2NqTXJPS3BNdjZvcHBHVVRuSWd1dWZxWnlUQlZGTi16UjFEY2xnMUMzX0QwTmM0WEVTQzBFMFd3LXBlUnc?oc=5",
+   "url_veiculo": "https://www.mindbodygreen.com",
+   "fonte": "MindBodyGreen",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T10:21:17+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Is “Ozempic Face” Real? New Review Reveals What GLP-1s Actually Do To Skin MindBodyGreen",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "hidradenitis suppurativa latest research",
+   "id": "3162ac83f922bbc3",
+   "encontrado_em": "2026-11-28T17:22:08+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Is “Ozempic Face” Real? New Review Reveals What GLP-1s Actually Do To Skin MindBodyGreen",
+   "titulo": "Is “Ozempic Face” Real? New Review Reveals What GLP-1s Actually Do To Skin",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "FDA approves Rinvoq for nonsegmental vitiligo from age 12",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdjFRb2ZmUDE1MmlLMHVuVXZxUVdtc1lYY3NBLTJWRGctYkVDc2lRdFZtd2dtY3VFLXdCSFVDRDhnei0zVUwwNDFwSnhzaU5xSHJOYXNwVFk3Zkt3UGp3MlloQ01nZjI0UGFIbXhRX21LS1JfekM5VmxzR3B5WjBzUTZSVFJTcmpkX3ZVOFNJZGVhWXpBaWZr?oc=5",
+   "url_veiculo": "https://denkstrom.org",
+   "fonte": "Denkstrom",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T13:51:26+00:00",
+   "atualizado_em": null,
+   "resumo_original": "FDA approves Rinvoq for nonsegmental vitiligo from age 12 Denkstrom",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "vitiligo new treatment",
+   "id": "f2eaa656c4dfa677",
+   "encontrado_em": "2026-11-28T17:22:08+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Vitiligo"
+   ],
+   "assunto": "Vitiligo",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "FDA approves Rinvoq for nonsegmental vitiligo from age 12 Denkstrom",
+   "titulo": "FDA approves Rinvoq for nonsegmental vitiligo from age 12",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Can Dermatologist-Led Total Body Skin Exams Identify Early-Stage Skin Cancers? | Derm Immuno Today",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT0JTR2M4ejdRZUgzY3VLNzVaYlAtVVpYWHhmNHBIQ0hza2pOR1M3ZS1KSW1NRFp2SVZZc1VXV1Z0WnU3Z3BvX2NmUE81OG54WU5LZnUxS2pKamRTUDdJVi1YRmM3c1hoLUtRT2RPQWFkYjJiSnlrWFJHdU95bWVzOUw4RDZoa04yaFFEbnF1ckczVEd3V0pvX2YzbG5sdzJGYy1uLVRtaHJDQkVHNEV5V1VBQQ?oc=5",
+   "url_veiculo": "https://www.docwirenews.com",
+   "fonte": "DocWireNews",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T19:24:06+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Can Dermatologist-Led Total Body Skin Exams Identify Early-Stage Skin Cancers? | Derm Immuno Today DocWireNews",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "013351857e5455db",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Can Dermatologist-Led Total Body Skin Exams Identify Early-Stage Skin Cancers? | Derm Immuno Today DocWireNews",
+   "titulo": "Can Dermatologist-Led Total Body Skin Exams Identify Early-Stage Skin Cancers? | Derm Immuno Today",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "SciBase presents at the Skin cancer: What’s new in 2026 congress in Bologna",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd012WUFhNTdab25fTFFUN2lqbkxhY0R1bWpqLVFhMEF4WmRqbVpRVFhGQ3BmLWJrSHB5enZvM1NRRm1GNGxTYjc3Q0xrX2l0Wi1MR1ZidC0xV2NmYnU5b1ZJZ1V1VWdUWUZ1WDJnelYwaWMyTGNUZUxCWFhNd3hfT1M3MHV0MXk3RmZNZTZUeldYN1Nnczctb1ozNTVHLTRZOUk2Mk1SWlVnODRaY2pDWE93RDI2TTNSZkE?oc=5",
+   "url_veiculo": "https://news.cision.com",
+   "fonte": "Cision News",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T14:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "SciBase presents at the Skin cancer: What’s new in 2026 congress in Bologna Cision News",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "08abe6d5d37ef5bf",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "anúncio de evento/curso institucional (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "SciBase presents at the Skin cancer: What’s new in 2026 congress in Bologna Cision News",
+   "titulo": "SciBase presents at the Skin cancer: What’s new in 2026 congress in Bologna",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Skin cancer patients’ immune systems reprogrammed to fight disease",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlQxbkZTalZudTBHa1FURVVGX1RvMnBiLS05WjhBc2tMT0VkRWxRSjF2VDFKU3JuZng2RE0xU2N2Q2lQT1czc1hGTHJvRWl3a0lQT2ladTFlVjRjNkxUYlhhZVBQVjFfbVR0Z0ViYmRsT3BGYlNtc2hnbGRpblowX0pjc0RIQ1U2MW85VDNwYTRCajBPdTdFVQ?oc=5",
+   "url_veiculo": "https://www.telegraph.co.uk",
+   "fonte": "The Telegraph",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T07:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Skin cancer patients’ immune systems reprogrammed to fight disease The Telegraph",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "a33608db3c29238b",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Skin cancer patients’ immune systems reprogrammed to fight disease The Telegraph",
+   "titulo": "Skin cancer patients’ immune systems reprogrammed to fight disease",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Blemish & Acne Treatments Market To 2035: Premiumization and Clinical Claims Drive Growth - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUmxmTEVpMnpLbGVDZDFHSkwxWlpvN20ybnRNNUE2VGthNVNsRkkxSTBzVGFXb3BIaWoyR2dRMXN0c2xuZURUdlBsTkhhLW5qWkFzR1Y3cHdEdXNYTi1rTzk1bWRDR0dOZkFTQVA0Y3c5SktrVHVUTnRaRDNjdzFCQWNvYlpTNVZtZkJvYWlCS2NsMFN0ZjdNZnVoc0o3VWdvN1hZSFEzaGMtVlhyQUwxZldRa05oSzhpa1JWZk5RdVMzazBrNGxn?oc=5",
+   "url_veiculo": "https://www.indexbox.io",
+   "fonte": "IndexBox",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T00:41:04+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Blemish & Acne Treatments Market To 2035: Premiumization and Clinical Claims Drive Growth - News and Statistics IndexBox",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "49920d0b4c76d6d1",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Blemish & Acne Treatments Market To 2035: Premiumization and Clinical Claims Drive Growth - News and Statistics IndexBox",
+   "titulo": "Blemish & Acne Treatments Market To 2035: Premiumization and Clinical Claims Drive Growth - News and Statistics",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "This LED Face Mask Targets Acne and Fine Lines—and It’s 59% Off for Black Friday",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3NGYWZwWFBfN1JjTVhSU1NPcExmbEVxWmM2SlJBcnRaWjM2cFlXWnFrZHRpZFdzNjB0X2JIdnl6NkRHcGRCX3NoRzRKSS1BZWpqLWxpdVRhTUVyYTg2aUZzaDhDSEQ2dTFfT2Z0LXpxb2ZzVWN2eDNiNExRcUdINEYxVDU1T051?oc=5",
+   "url_veiculo": "https://www.womenshealthmag.com",
+   "fonte": "Women's Health",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T13:27:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "This LED Face Mask Targets Acne and Fine Lines—and It’s 59% Off for Black Friday Women's Health",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "7170b46e8cac70e0",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Acne"
+   ],
+   "assunto": "Acne",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "This LED Face Mask Targets Acne and Fine Lines—and It’s 59% Off for Black Friday Women's Health",
+   "titulo": "This LED Face Mask Targets Acne and Fine Lines—and It’s 59% Off for Black Friday",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Cosmeticorexia: The obsession with flawless skin",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSFBiQ1pRR0puUGRLbGM4WHhrVkVyckRwcUNZd0JnRV9uZWRmVEZrRlVlLWdKa0doN2FteXp2N1hQZ2xYb1lqMEM5LVhlNnp5R2I5THdRd0hPRk1lTlRsVElnR1dpUW4yLVhmVE1xMnRJWllGY183cXl6Q0Jyckp2WVlfMEhpbkgxNmdpMV9IRlFhQmRBSEE?oc=5",
+   "url_veiculo": "https://www.herworld.com",
+   "fonte": "Her World Singapore",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T08:26:15+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Cosmeticorexia: The obsession with flawless skin Her World Singapore",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "acne new treatment",
+   "id": "6c6e7d09b8988ce0",
+   "encontrado_em": "2026-11-28T17:22:07+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Cosméticos / dermocosméticos"
+   ],
+   "assunto": "Cosméticos / dermocosméticos",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Cosmeticorexia: The obsession with flawless skin Her World Singapore",
+   "titulo": "Cosmeticorexia: The obsession with flawless skin",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Mechanical Stress Promotes Damaging Feedback Loop Between Melanoma Cells and Fibroblasts",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVXpOTFRmZ0lMcEZFdjUzZnNzUTJ6UFU4aWJSalZpeE5IUFJQMGhLdnlOYzBoaEVlUDZDLWs5TnNJYUR4c21tWFBNdGZmUlpUbDdTeU5ybE02WjN3amlzOEJkYUVUWm1FZEJRMlI5aVR5V3R6dDdZN3c3T2JTWUplaElRWjVrUlY5T1BkUUhFdG90cW5hdUFYLUM1Y19XMVFXYVVucXRPNEo4RUZ1czdkWFFvRQ?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T01:07:21+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Mechanical Stress Promotes Damaging Feedback Loop Between Melanoma Cells and Fibroblasts Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "030693ce39fdc8aa",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": true,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -4,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)",
+    "tom publicitário (−3)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡.",
+    "Conteúdo com características de publicidade — não é evidência científica."
+   ],
+   "resumo": "Mechanical Stress Promotes Damaging Feedback Loop Between Melanoma Cells and Fibroblasts Bioengineer.org",
+   "titulo": "Mechanical Stress Promotes Damaging Feedback Loop Between Melanoma Cells and Fibroblasts",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Engineered BCG Strain Overexpressing Ag85A Restricts Melanoma Progression in Mice",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORkRqcE5aTFA1eERsdE44UnEwVWhNRUFtUHlObnhzaWFuV0NzWUpCV3lZTWYxTTJuU2xkRld5c0c5eHI3NUJBM1JhNmktYWNTbDlYRndrbUJlUEU5cGliYW9zeXkzMEhuc3lQdGU3N3NrWXdKSDlxdXM4Um9Pak4tV2s1eEZoeHk5X1J5dXhxbThqMHVVWmE0N0tGVWJfVF9wa3JybFRsb0xRUQ?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T12:16:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Engineered BCG Strain Overexpressing Ag85A Restricts Melanoma Progression in Mice Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "6a5980e77e4aeca3",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Engineered BCG Strain Overexpressing Ag85A Restricts Melanoma Progression in Mice Bioengineer.org",
+   "titulo": "Engineered BCG Strain Overexpressing Ag85A Restricts Melanoma Progression in Mice",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Melanoma Patients Exhibit Higher Serum Eosinophil-Derived Neurotoxin Than Healthy Controls",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTkFCdlJzZWZJLXJ3SEx5YnNkQnE1SENvNm9qVUViVzRtTGd5ZzNidlZPQl9nWkViakM2TUJjaHNCNEZiaUlpNlFIaGprWEdvRk9XSDRpTUN1djBUcTNpcDRRc2tJOFBQQzVEYVlNb2tYckRmcjhIRnBwRVdfRF85VFdtYnNBUm5TTTQxMGkwSmlvRFdQbVFrRjFVby12Yjh0WEhPa01sQ2JNY2dUSFZBVXEta1Vadw?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T19:36:55+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Melanoma Patients Exhibit Higher Serum Eosinophil-Derived Neurotoxin Than Healthy Controls Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "b5b9ae732613574d",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma",
+    "Toxina botulínica"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Melanoma Patients Exhibit Higher Serum Eosinophil-Derived Neurotoxin Than Healthy Controls Bioengineer.org",
+   "titulo": "Melanoma Patients Exhibit Higher Serum Eosinophil-Derived Neurotoxin Than Healthy Controls",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Melanoma Tissues Exhibit Higher ICAM-1 Protein and Gene Expression Than Benign Nevi",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY2VkM3VRbjlmTUI5aDhTOTNuUjVwTnVvRkJfY1BHQ204MGgzamEyYVpyWkUyeGdKYWswamtyZWx0UDBxeUR3VE0wcjVQb3NGWXVkVG5hdExTUGE3S19ZbE1uajAxbm81aWFRSFNMVTNqVWxkSHVyLWdLQTNiQmFFazREb1lITUdlNks4NVFjMlFaZTFWUFNEQ1dRR0VvX2x0czRmOVFucXFtWGlz?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T22:32:47+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Melanoma Tissues Exhibit Higher ICAM-1 Protein and Gene Expression Than Benign Nevi Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "a762c0e2cff0e68a",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Melanoma Tissues Exhibit Higher ICAM-1 Protein and Gene Expression Than Benign Nevi Bioengineer.org",
+   "titulo": "Melanoma Tissues Exhibit Higher ICAM-1 Protein and Gene Expression Than Benign Nevi",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "AXL and CD274 Support Acquired Radiation Resistance in Melanoma Cells",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzc4bC03WVZVVmhZcWNub18wb0tiY0NsY0FoaVdGMmV2d2pZZTk2eVJUY19SQ0VxQXJSS0NZYzlGVnhjazhtR0IweFUtVElpUVBRZFlyR0FCN2RKdnpkLVRUZ3kxdzdBT2RUc1l4UFdORjBraUlIMmFDWEhYSDNlX1ZWQWlDSXlINWE1dkM4RnhyWEJOd05weE5R?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T03:07:36+00:00",
+   "atualizado_em": null,
+   "resumo_original": "AXL and CD274 Support Acquired Radiation Resistance in Melanoma Cells Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "melanoma latest research",
+   "id": "e3b07e7e87b622d4",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "AXL and CD274 Support Acquired Radiation Resistance in Melanoma Cells Bioengineer.org",
+   "titulo": "AXL and CD274 Support Acquired Radiation Resistance in Melanoma Cells",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Southeast Asia Faces Hidden Skin Cancer Burden Amid Underreporting and Misperceptions",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmFZSU9VekhxcUlyREIyLWxzcGh5b2tQdGxOY0VsRkJwcFlhdmVFLTNQeFdwU05GeENZNmJDNEpCS3E2aVFxWUpTWlZ4Q21waG5DdmxtQkF2ZUY5UHNoNTVBeDJzb29TclMtc2lveF9jb3RKc000OS0tXzZDTE1sMHY3RHlScmRVVVlXVUNGbXdWaWpVY2g3UFFNdlVxQ2dYcFdQQlczMXVULUx6YVBV?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T08:53:18+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Southeast Asia Faces Hidden Skin Cancer Burden Amid Underreporting and Misperceptions Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "skin cancer latest research",
+   "id": "43ec79a30b84ced2",
+   "encontrado_em": "2026-11-28T17:22:06+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Câncer de pele (geral)"
+   ],
+   "assunto": "Câncer de pele (geral)",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Southeast Asia Faces Hidden Skin Cancer Burden Amid Underreporting and Misperceptions Bioengineer.org",
+   "titulo": "Southeast Asia Faces Hidden Skin Cancer Burden Amid Underreporting and Misperceptions",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Localized Pemphigus Vulgaris Confined to the Nose in a Young Male: A Case Report",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUFNTdGVGR3Z2NVNnVEJ4WTFaSDBjRHJxMXBkdHp2ejhJbFoxUWh3WUFSSjVaaWliLXFKZEk1TkJfVlZQRjlUNUx0M2xkZ3hiYnN4ZS0yVWozYUNqekJoclkwblV3MU5PdnZKbWVPQklrSFFGZi1ueDYwOHRCV3lvUVhEakpQTGEyNG1xMkdpTFJ2RHZmUUx2dzJZWWFzM2xIN1JNYTRWc2VGdUlRbkZ6YU5GcFRUTmo5b0x0T1VkcURCT1JkTUJodnZ6X0o?oc=5",
+   "url_veiculo": "https://www.dovepress.com",
+   "fonte": "Dove Medical Press",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T06:26:11+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Localized Pemphigus Vulgaris Confined to the Nose in a Young Male: A Case Report Dove Medical Press",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "a71132a940e35edd",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Localized Pemphigus Vulgaris Confined to the Nose in a Young Male: A Case Report Dove Medical Press",
+   "titulo": "Localized Pemphigus Vulgaris Confined to the Nose in a Young Male: A Case Report",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Long-Term Ruxolitinib Cream Demonstrates Safety and Efficacy in Adolescents with Eczema",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNemEzUlRzNHFEalgwT05zMFJxaGpQR2Nna1ZJN2VveEtNaWttQTlNQ0RXSU1UbjQ4Q19BTy1rSUFkNHJ0eE9VT09wcVQ1cUpnWXNkYWMyNnFHZGx0SEdwUXhzSnpvaVpZX0V4ODdfdzM5WGJOelFPRGNUZHR4TWxSWU1wRmoybE5ybjRiM2c3azFxclBOUUVlVXNUeExwZV9hVzZ5enpNRUxrS0Rod1hONUln?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T03:42:30+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Long-Term Ruxolitinib Cream Demonstrates Safety and Efficacy in Adolescents with Eczema Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "b342e085f230a3f1",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Long-Term Ruxolitinib Cream Demonstrates Safety and Efficacy in Adolescents with Eczema Bioengineer.org",
+   "titulo": "Long-Term Ruxolitinib Cream Demonstrates Safety and Efficacy in Adolescents with Eczema",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "ad8c346c90b04024",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/43036038/",
+   "fonte_primaria_titulo": "Postoperative Hemorrhage After Mohs Micrographic Surgery in a Patient on Ruxolitinib."
+  },
+  {
+   "titulo_original": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOb0FzN1JMR1NCOHBTUGNIMEd6M0VhX1J0TnVYWUNjTENaa3kzb1ExN1hIVUhGcDc4Ynh4ejRqOW9EWUhydl9iSHNkc29uQk83dXJRa3dXc1JNLXlTTFk3RG5Zd2VxN3FSeG5QQ2RQa2t2TGRKVk5EZHRtMkJZY3VIbUg3TjlBUlBlaERCWWY2OGZWd2hFVVRLU3JTNXZlS0FMUkt5cmVaX1ZEa2o2M2RNMERxRWZ3UEZKQVFkcUdHbDkzN2xjYkpHaTFtUUR4N3dmMVFuVDNOSUw0VjZUVGdibEVHZllpUQ?oc=5",
+   "url_veiculo": "https://www.cureus.com",
+   "fonte": "Cureus",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T10:22:58+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study Cureus",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "b0a910178a4e403e",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Inteligência artificial"
+   ],
+   "assunto": "Inteligência artificial",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study Cureus",
+   "titulo": "Artificial Intelligence-Personalized Skincare Regimen for Skin Aging: A 12-Week Clinical Study",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Is it worth paying £500 for an LED face mask? A dermatologist gives her verdict",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQejJIbGVyMzdEcjNQbHJkRWFYMkI4UDRZcTZiTW42Rm8xbkRyZ2JVSXNPWXE0LW8xM190OFpZTF8zbmE0anFtQTdRX2ZLc2ZzZmNMU2hXaHFOMlRlMUVPTkJVRUI1d2I5SFF2N21CTEpYSW1pNXlGcm5PVG9iVzI0YXRwMkFtZllmd2dhTFFTOA?oc=5",
+   "url_veiculo": "https://www.telegraph.co.uk",
+   "fonte": "The Telegraph",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T15:05:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Is it worth paying £500 for an LED face mask? A dermatologist gives her verdict The Telegraph",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "83f1990a7e921d8b",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Is it worth paying £500 for an LED face mask? A dermatologist gives her verdict The Telegraph",
+   "titulo": "Is it worth paying £500 for an LED face mask? A dermatologist gives her verdict",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Review Proposes Defining Disease Modification in Atopic Dermatitis as Sustained Off-Therapy Remission",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRE5sRUxSUHdJVXhnMzFTQ3BIUmxfRFVJcldEeUtrMTg2YjBoaDJtaVFDS2xERjk4YVpKWG9BZUZxTDNJRzM2LTE2NXp4VWJhT1lnU2xzV3d5NDJBNjFwbWpKRjhZZ0dlWFBwdHRPU3AxYmc2V3NBTklDODQ5YjI5dmQ2SmcwQW5RUjNObEowdTdZQ0dzbGF4N2pBUFNIbXdvTmpVVmdwNEhvLTUzdkQ2ekNCaGR5TWI4NnJYZHNNeDNLeHJx?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T21:12:17+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Review Proposes Defining Disease Modification in Atopic Dermatitis as Sustained Off-Therapy Remission Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "4e66f5ad08bac88d",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Review Proposes Defining Disease Modification in Atopic Dermatitis as Sustained Off-Therapy Remission Bioengineer.org",
+   "titulo": "Review Proposes Defining Disease Modification in Atopic Dermatitis as Sustained Off-Therapy Remission",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Twenty-Year Analysis Reveals Therapeutic Access Gaps in Psoriasis Care | Derm Immuno Today",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3ZudWQ0YjFYSUE5emdPbFpjakVwUDFFRjVPTHNtSW9LdWZmaWJrQUNKNXRQNkZQOXNMeFJmWVF1R2FXUU45SEVLNFAwQTFIOHRyMVA0WFFubEk3QTFDUmJfNmZJdjZtcVhyZVRVblhjSDNaSnpXOWVwM01YWUYwbllnTUEzTXdXTVZvcGlRMTlRb3Y1VXRTUENQM1ZpbzBvLVZwVG0yYw?oc=5",
+   "url_veiculo": "https://www.docwirenews.com",
+   "fonte": "DocWireNews",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T20:19:08+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Twenty-Year Analysis Reveals Therapeutic Access Gaps in Psoriasis Care | Derm Immuno Today DocWireNews",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "03dbf4032f52407b",
+   "encontrado_em": "2026-11-28T17:22:05+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Twenty-Year Analysis Reveals Therapeutic Access Gaps in Psoriasis Care | Derm Immuno Today DocWireNews",
+   "titulo": "Twenty-Year Analysis Reveals Therapeutic Access Gaps in Psoriasis Care | Derm Immuno Today",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Simcere Eczema Drug SIM0278 Meets Phase 2 Goal; 75% Skin Improvement Rate Shows Only Numerical Gain",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZkd0UVhDaE9LWDJHUDZCS2ozS3FCYXpyZ1VrQm1jaEJSMTQzSEdmeHlKWFVjZHBBWkRWOUliRnB5Qlh0d2pIci1ZNkRqQS14bEJXNG5LeVMxdUNocUtNNGNMazhSME9VQ0M0dlpDZFk0UWJGMUJpdkY5emNocHo5ak1UYzNzcjJqWFhoVm5ZQk93NlpyWVZDMTFFRUswZ2JmRlF2R1RCa3RabEdlQnctbWRsaUZsbC1iMmdmRUFzaU9ZNjZGcEpxYnhWajVYU3QwdF80aUdiQVJJQmt5SDNpM0RhbFdTTjA?oc=5",
+   "url_veiculo": "https://www.techtimes.com",
+   "fonte": "Tech Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T01:33:21+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Simcere Eczema Drug SIM0278 Meets Phase 2 Goal; 75% Skin Improvement Rate Shows Only Numerical Gain Tech Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "5355e801cd30eb55",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Dermatite atópica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Simcere Eczema Drug SIM0278 Meets Phase 2 Goal; 75% Skin Improvement Rate Shows Only Numerical Gain Tech Times",
+   "titulo": "Simcere Eczema Drug SIM0278 Meets Phase 2 Goal; 75% Skin Improvement Rate Shows Only Numerical Gain",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "The Real Skin Effects Of GLP-1 Weight Loss Drugs, According To New Research",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb1ZSTEM1TnhWNEpvSlZXMXpKb2UtVV9GSHU5bGE4elBWaDJSREIzZ1BTdC1NSWVvcmRmUkl5cElNSm1lWEJzRXVvQWNLNEVQN2VYU1J3bWxxakUzNVRadk9nWGVFZFgxZWdvNjRYVFctZmJDNEpBM0pqT3FjLXB4NU93V2NHcDAySmtjTGpRd0NEODZoVEZtaXRR?oc=5",
+   "url_veiculo": "https://health.yahoo.com",
+   "fonte": "Yahoo Health",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T10:06:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "The Real Skin Effects Of GLP-1 Weight Loss Drugs, According To New Research Yahoo Health",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology new drug",
+   "id": "0820862be78ef9e2",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "The Real Skin Effects Of GLP-1 Weight Loss Drugs, According To New Research Yahoo Health",
+   "titulo": "The Real Skin Effects Of GLP-1 Weight Loss Drugs, According To New Research",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Consensus Panel Establishes Clinical Protocols for Managing Genital Psoriasis Across Ages",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTZacUN2UUxHa1pNNFI4VmRFbTZKT0V0NmJEdzlpUkdWN2dYbUNuMk51ZngxOXdSb1hDeGlBQ0RZOXEtOU84QmN1TkNveGdkRndaNWZVbUFEWEs5M2tCZThESHVFY19rMERhQjhxSkk4dmhIbGV1bm85NDA2cV9QeWhhZUNNX2xqSDdPNGdseGl0OExpMVZ0Y1FqYmdRN2hNaFlQcXp1WjRxVllpUzc2bExwQmc?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T13:21:53+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Consensus Panel Establishes Clinical Protocols for Managing Genital Psoriasis Across Ages Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology consensus",
+   "id": "6d39a6d792574f88",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Consensus Panel Establishes Clinical Protocols for Managing Genital Psoriasis Across Ages Bioengineer.org",
+   "titulo": "Consensus Panel Establishes Clinical Protocols for Managing Genital Psoriasis Across Ages",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Efficacy, Relapse, and Safety of Topical 2% Tofacitinib vs. 0.1% Betamethasone Valerate Ointment for Alopecia Areata: A Randomized Controlled Trial",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPTjRYVzFMeXd0dlN1ZUdBNWV4VTE4d2o5ZUt4N0RHNVMybW1DZFZLa05FYkZGLWNYakRfOUgzV3pXemF0LWZ3VVZQTmtKUGdnRmZxcmZqRVAxZGpLY29NM3F2a2FxNlhCaV9OUzh1M0FlOU5Jbjd1U1NVMWN4S0ZIdzFGSU41eUdLRnAxOS1MVFNlLWE1SVBlNFF6VjJiLUFTTDZTNGtsS2h5ZXVmN3duMHdGWGVTekVwazNkQ2prVHdPVGJPeURwbXlkMFN0TTB3MmRudWI5d293MHZNV3RZd0JMSHlidVVuM3I1UXZwMUxsQXVvVmZHYUJmVGtzWVBCbVJOczFvb1ctcnM?oc=5",
+   "url_veiculo": "https://www.cureus.com",
+   "fonte": "Cureus",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T15:40:13+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Efficacy, Relapse, and Safety of Topical 2% Tofacitinib vs. 0.1% Betamethasone Valerate Ointment for Alopecia Areata: A Randomized Controlled Trial Cureus",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "f5abfd05c93383c3",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Alopecias"
+   ],
+   "assunto": "Alopecias",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Efficacy, Relapse, and Safety of Topical 2% Tofacitinib vs. 0.1% Betamethasone Valerate Ointment for Alopecia Areata: A Randomized Controlled Trial Cureus",
+   "titulo": "Efficacy, Relapse, and Safety of Topical 2% Tofacitinib vs. 0.1% Betamethasone Valerate Ointment for Alopecia Areata: A Randomized Controlled Trial",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico",
+   "fonte_primaria_id": "fb2c4035fb20f973",
+   "fonte_primaria_url": "https://pubmed.ncbi.nlm.nih.gov/43084314/",
+   "fonte_primaria_titulo": "Rapid Single-Cell Molecular Profiling and Tofacitinib Use in Steroid-Dependent DRESS Myocarditis."
+  },
+  {
+   "titulo_original": "Systemic Therapies Transform Management Strategies for Advanced Basal Cell Carcinoma",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdS0yUEV2QnE1N1FnQUo4Q0o3ay0tbzF2UEV0bGNEQVkyLTlicXVKUnAwRWl4NTRjbTkyU0piY083OWdETTk3dGJaMXpiVlliZ3I5Y0FsWHIxbWhZdmliTTI2UVJxTllPcUpaZk5mZHNUOWJaZzZVS0VCWXJGMVhtOThjaGdKZFZ4UVBXUm4wRVhfTjNKS1hoZERVb0JuY3hmdnhsTlhXRFBVQzZlV3c?oc=5",
+   "url_veiculo": "https://bioengineer.org",
+   "fonte": "Bioengineer.org",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T16:18:52+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Systemic Therapies Transform Management Strategies for Advanced Basal Cell Carcinoma Bioengineer.org",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "57cd83108e6c1413",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Carcinoma basocelular"
+   ],
+   "assunto": "Carcinoma basocelular",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Systemic Therapies Transform Management Strategies for Advanced Basal Cell Carcinoma Bioengineer.org",
+   "titulo": "Systemic Therapies Transform Management Strategies for Advanced Basal Cell Carcinoma",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Giving Thanks to the Dermatology Community",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOW44cmN5aFV3V1ltb3JjSTg1TDV1cW5FVTJNNnBQcklmcWRVY1FGN3Ywd1o1dHVOX0FVTDEtR1ZUSy1yQU1mSzZZMG9oN20wdXQ3bHg4Y2RyeTFiM1hOT0ZVdzktWXdMUVMwZ25FOVgzV2JLWkdvVjJvN25RVW04eUlsSUpFb0k?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T17:40:56+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Giving Thanks to the Dermatology Community Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology clinical trial results",
+   "id": "62a6ad51075ef51c",
+   "encontrado_em": "2026-11-28T17:22:04+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Giving Thanks to the Dermatology Community Dermatology Times",
+   "titulo": "Giving Thanks to the Dermatology Community",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Prognostic Nutritional Index and Overall Survival in Patients With Pemphigus: An Exploratory Retrospective Cohort Study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104253/",
+   "url_doi": "https://doi.org/10.1111/1346-8138.70590",
+   "fonte": "The Journal of dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pemphigus is associated with increased mortality, but readily available biomarkers for long-term prognosis remain limited. The prognostic nutritional index, calculated from serum albumin and peripheral lymphocyte count, has been associated with outcomes in malignancies and inflammatory diseases, but its prognostic significance in pemphigus is unclear. In this secondary analysis of a previously reported retrospective cohort, we evaluated 35 consecutive patients with pemphigus diagnosed at Toyama University Hospital between 2011 and 2026. Four patients who had received systemic glucocorticoids before referral were excluded from the primary analysis, leaving 31 patients. Overall survival was analyzed using Cox proportional hazards regression, with the prognostic nutritional index evaluated per 5-point increase. During a median follow-up of 4.85 years, eight patients died. Higher baseline prognostic nutritional index was associated with lower all-cause mortality (hazard ratio, 0.515; 95% confidence interval, 0.351-0.753; p < 0.001). The association remained after separate adjustment for age, malignancy, and baseline Pemphigus Disease Area Index. Similar associations were observed after excluding paraneoplastic pemphigus and restricting the analysis to pemphigus vulgaris/foliaceus. In exploratory Kaplan-Meier analysis, patients with a prognostic nutritional index below 45 had poorer overall survival than those with values of 45 or higher (p = 0.002). Baseline prognostic nutritional index was associated with overall survival in this exploratory cohort. Larger studies are needed to validate this association and determine whether it provides prognostic information beyond serum albumin alone.",
+   "identificadores": {
+    "pmid": "43104253",
+    "doi": "10.1111/1346-8138.70590"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "The Journal of dermatology",
+   "consulta": "(pemphig*[ti] OR bullous pemphigoid[ti])",
+   "id": "9a3ba54be7dccf59",
+   "encontrado_em": "2026-11-28T17:22:03+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo observacional",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: estudo observacional (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Pemphigus is associated with increased mortality, but readily available biomarkers for long-term prognosis remain limited. The prognostic nutritional index, calculated from serum albumin and peripheral lymphocyte count, has been associated with outcomes in malignancies and inflammatory diseases, but its prognostic significance in pemphigus is unclear. In this secondary analysis of a previously reported retrospective cohort, we evaluated 35 consecutive patients with pemphigus diagnosed at…",
+   "titulo": "Prognostic Nutritional Index and Overall Survival in Patients With Pemphigus: An Exploratory Retrospective Cohort Study.",
+   "limitacoes": [
+    "Estudo observacional: mostra associação, não prova causalidade.",
+    "Amostra pequena (n≈31)."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Why I'm Grateful to be a Derm APP",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85LV9SeHlWbzB1YzJwVHpnc19CcENxVW9kbm1BNHVJc3RtOVlXYzA5bWE2RXhXSGF4VFZQaHFrdUZpQnFKd3dRZEhHelBONWVZQUE4bUZEMjBMVklVNUFDMERmRENZNzhDREVZR2ktSjN6Z1pmdWI3TUdLSUZOdw?oc=5",
+   "url_veiculo": "https://www.dermatologytimes.com",
+   "fonte": "Dermatology Times",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T20:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Why I'm Grateful to be a Derm APP Dermatology Times",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "6a6e90f1f90a90b1",
+   "encontrado_em": "2026-11-28T17:22:03+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 3,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: imprensa médica especializada (+0)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Why I'm Grateful to be a Derm APP Dermatology Times",
+   "titulo": "Why I'm Grateful to be a Derm APP",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Pearl Jam's Eddie Vedder is backing rock-star Stanford and UC Berkeley scientists targeting an ultra-rare skin disease",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHdOTUxPV1gzTnZCYTl4OG9hYlEzdm1CemIyRG5meVA0VEZhNzZ3czBWc21mbDBzY2R6WmtNd2Z0YVlfZnQxMUZILURKRFlTTktRR0J0cS1rdnhvNUgyZ3BIN25xSzVjSmsyQ25qU1ExQkFrU1BKY2x4Ukt2N09sYWxqM2NULURRWTlES1B2dFVzOU5aeEF4NlhwYUMtZk9ScmsxSUhIME96VFRHZ1Riag?oc=5",
+   "url_veiculo": "https://www.bizjournals.com",
+   "fonte": "The Business Journals",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T13:02:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pearl Jam's Eddie Vedder is backing rock-star Stanford and UC Berkeley scientists targeting an ultra-rare skin disease The Business Journals",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "d4ec62ab4e85fe0b",
+   "encontrado_em": "2026-11-28T17:22:03+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "Pearl Jam's Eddie Vedder is backing rock-star Stanford and UC Berkeley scientists targeting an ultra-rare skin disease The Business Journals",
+   "titulo": "Pearl Jam's Eddie Vedder is backing rock-star Stanford and UC Berkeley scientists targeting an ultra-rare skin disease",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "What Is PDRN? Skin Benefits, Risks and Products to Try",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON0RfY19nZ252cnc0SGlWdm8tU0VvQ2J2Mk5aRmdTR2hHRk5icVFWMkg1WE81QWljSnkyeUEwbGU3SjRkbTluS2tSMHdFT2huQTBKdGFDT1dvQVljVGNFUFJVc1hrbi1iTDYtSlRVNm9TVXZLUXVNbVZUUktpNzh5Q1pHZzB1R1hmdDhmNFdOOA?oc=5",
+   "url_veiculo": "https://www.newbeauty.com",
+   "fonte": "NewBeauty",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T19:36:31+00:00",
+   "atualizado_em": null,
+   "resumo_original": "What Is PDRN? Skin Benefits, Risks and Products to Try NewBeauty",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "586af40fca9bf195",
+   "encontrado_em": "2026-11-28T17:22:03+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "What Is PDRN? Skin Benefits, Risks and Products to Try NewBeauty",
+   "titulo": "What Is PDRN? Skin Benefits, Risks and Products to Try",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "What you don’t know might hurt you when it comes to skin-care products",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLTJCVFpic052Uko2Y1BYTHFBSkw1Z0ZvdWk1YnNGZzhpTWY4b0tvd250MkpZZC0zYmF0MTdOY1Jmcmp3MjZjNDRBX1pvZ3RtS0tQckdTSXhYLUd1NURpd3ZINFg2V2lVeVV0aWNDYndTdVhTQzlpd0RYc3NfTnVDUjZkV3NtakVJMThUZzhBZksyVkdvdkZFbmEtXzB6Q1lfVEdYUkZvNUNRU1RFWlQ4NzFIb2ZaSVNK?oc=5",
+   "url_veiculo": "https://news.harvard.edu",
+   "fonte": "Harvard Gazette",
+   "agregador": "Google News",
+   "tipo_fonte": "noticia",
+   "idioma": "en",
+   "publicado_em": "2026-11-25T18:45:33+00:00",
+   "atualizado_em": null,
+   "resumo_original": "What you don’t know might hurt you when it comes to skin-care products Harvard Gazette",
+   "identificadores": {},
+   "tipos_publicacao": [],
+   "periodico": null,
+   "consulta": "dermatology FDA approval",
+   "id": "6aeb21584b2097ca",
+   "encontrado_em": "2026-11-28T17:22:03+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 4,
+   "tipo_evidencia": "notícia",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": false,
+   "pontuacao": -1,
+   "justificativa_relevancia": [
+    "fonte: imprensa geral (-1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Notícia sem fonte primária confirmada: relevância limitada a 🟡."
+   ],
+   "resumo": "What you don’t know might hurt you when it comes to skin-care products Harvard Gazette",
+   "titulo": "What you don’t know might hurt you when it comes to skin-care products",
+   "limitacoes": [
+    "Informação de imprensa — conferir na fonte original antes de usar profissionalmente."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Safety Evidence and Long-Term Surveillance of Current and Emerging Therapies for Chronic Spontaneous Urticaria: A Scoping Review.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104276/",
+   "url_doi": "https://doi.org/10.1002/clt2.70233",
+   "fonte": "Clinical and translational allergy",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-12-01T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Chronic spontaneous urticaria (CSU) often requires prolonged treatment, and its safety evidence spans therapies and source types with different levels of maturity.\nMETHODS: We conducted a PRISMA-ScR scoping review of Embase, Web of Science Core Collection, Ovid MEDLINE and the Cochrane Library for evidence published from 2016 to May 5, 2026. We mapped source type, follow-up, safety outcomes, evidence maturity, withdrawal/retreatment management outcomes and special-population evidence.\nRESULTS: We included 325 evidence sources (290 journal articles, 27 conference abstracts and 8 trial registry records). Omalizumab had the broadest long-term, denominator-based and real-world evidence; H1-antihistamine studies consistently informed tolerability and up-dosing; and recent trials and extensions expanded the safety profiles of remibrutinib, barzolvolimab and other targeted therapies. Evidence gaps were most apparent for rare serious events, special populations and long-term real-world exposure to newer therapies.\nCONCLUSION: Contemporary CSU safety evidence is broad and increasingly mature but remains uneven across therapies. Surveillance should be therapy- and context-specific and should integrate serious events, discontinuation, organ- or mechanism-related outcomes, withdrawal/retreatment management and underrepresented populations.",
+   "identificadores": {
+    "pmid": "43104276",
+    "doi": "10.1002/clt2.70233"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Review"
+   ],
+   "periodico": "Clinical and translational allergy",
+   "consulta": "(urticaria[ti]) AND (trial[tiab] OR guideline[pt])",
+   "id": "7baf8cff8c9bad87",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "revisão narrativa",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Urticária"
+   ],
+   "assunto": "Urticária",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: revisão narrativa (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Contemporary CSU safety evidence is broad and increasingly mature but remains uneven across therapies. Surveillance should be therapy- and context-specific and should integrate serious events, discontinuation, organ- or mechanism-related outcomes, withdrawal/retreatment management and underrepresented populations.",
+   "titulo": "Safety Evidence and Long-Term Surveillance of Current and Emerging Therapies for Chronic Spontaneous Urticaria: A Scoping Review.",
+   "limitacoes": [
+    "Revisão narrativa: seleção de estudos não sistemática."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Treatment of plantar fat pad atrophy: A systematic review of surgical, injectable, and taping interventions.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103324/",
+   "url_doi": "https://doi.org/10.1016/j.foot.2026.102318",
+   "fonte": "Foot (Edinburgh, Scotland)",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Plantar fat pad atrophy is an under-recognised cause of heel pain and metatarsalgia, and the efficacy of its treatments is uncertain. This systematic review evaluated the clinical effectiveness and safety of procedural interventions for plantar fat pad atrophy.\nMETHODS: A PRISMA-compliant systematic review of MEDLINE, EMBASE, and PubMed (inception to January 2026) identified studies of procedural interventions in adults with confirmed plantar fat pad atrophy. Randomised and observational studies were included. Risk of bias was assessed using the RoB 2 and ROBINS-I tools. Findings were synthesised narratively because of heterogeneity.\nRESULTS: Thirteen studies (four randomised controlled trials and nine observational studies; 247 patients, 348 feet) were included. Autologous fat grafting showed the most consistent improvements in pain and function, sustained for up to 24 months despite partial loss of fat pad thickness. Hyaluronic acid fillers provided short-term relief but often required repeat treatment. Evidence for allograft augmentation was limited. No serious adverse events were reported.\nCONCLUSION: The evidence is of low quality and heterogeneous. Autologous fat grafting appears most promising, but high-quality comparative trials are required.\nPROSPERO REGISTRATION NUMBER: CRD420261304287.",
+   "identificadores": {
+    "pmid": "43103324",
+    "doi": "10.1016/j.foot.2026.102318"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Review"
+   ],
+   "periodico": "Foot (Edinburgh, Scotland)",
+   "consulta": "(botulinum toxins[mh] OR hyaluronic acid filler*[tiab] OR de",
+   "id": "38f69c4a5e3b94f0",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "revisão sistemática",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Preenchedores / bioestimuladores",
+    "Complicações de procedimentos"
+   ],
+   "assunto": "Preenchedores / bioestimuladores",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 4,
+   "justificativa_relevancia": [
+    "evidência: revisão sistemática (+3)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "The evidence is of low quality and heterogeneous. Autologous fat grafting appears most promising, but high-quality comparative trials are required.",
+   "titulo": "Treatment of plantar fat pad atrophy: A systematic review of surgical, injectable, and taping interventions.",
+   "limitacoes": [],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Determination of radon concentration and associated radiological parameters in selected commercial sunscreen products using CR-39 detectors.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103132/",
+   "url_doi": "https://doi.org/10.1016/j.apradiso.2026.113125",
+   "fonte": "Applied radiation and isotopes : including data, instrumentation and methods for use in agriculture, industry and medicine",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-23T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "This study assessed radon concentrations and related radiological parameters in some sunscreen samples through track density measurements (CR-39). Notable differences in track density were observed, ranging from 75.44 to 618.34 tracks·mm-2, indicating an inhomogeneous distribution of radium-chain radionuclides in sunscreen formulations. The radon concentration in air (CRnair) ranged from 18.22 to 149.36 Bq·m-3, while the radon concentration in the sample (CRn sample) varied from 669.40 to 5486.45 Bq·m-3. The computed radium activity concentrations (CRa) varied between 2.89 and 23.74 Bq·kg-1. A potential dermal annual effective dose (AEDdermal) was calculated using a sunscreen-specific exposure model, yielding values between 0.02 and 0.20 mSv·y-1. Other radiological parameters (PAEC and CPP) presented a pattern consistent with that observed in track density. A statistical tendency was observed for samples containing mineral-based UV filters (TiO2 and/or ZnO) to exhibit higher track densities compared to mineral-free organic formulations; however, this association is not deterministic, and considerable overlap exists between the two groups. In conclusion, the measured radiological parameters were low under the experimental conditions investigated, and the observed variability among sunscreen products suggests that further characterization of radionuclides in mineral-based ingredients is needed.",
+   "identificadores": {
+    "pmid": "43103132",
+    "doi": "10.1016/j.apradiso.2026.113125"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Applied radiation and isotopes : including data, instrumentation and methods for use in agriculture, industry and medicine",
+   "consulta": "(sunscreening agents[mh] OR sunscreen*[ti] OR photoprotectio",
+   "id": "11c62d1fb6195454",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Fotoproteção / protetor solar"
+   ],
+   "assunto": "Fotoproteção / protetor solar",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "This study assessed radon concentrations and related radiological parameters in some sunscreen samples through track density measurements (CR-39). Notable differences in track density were observed, ranging from 75.44 to 618.34 tracks·mm-2, indicating an inhomogeneous distribution of radium-chain radionuclides in sunscreen formulations. The radon concentration in air (CRnair) ranged from 18.22 to 149.36 Bq·m-3, while the radon concentration in the sample (CRn sample) varied from 669.40 to…",
+   "titulo": "Determination of radon concentration and associated radiological parameters in selected commercial sunscreen products using CR-39 detectors.",
+   "limitacoes": [],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Dynamics of the Humoral Response in Gliptin-Associated Bullous Pemphigoid.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43106213/",
+   "url_doi": "https://doi.org/10.1111/ijd.70794",
+   "fonte": "International journal of dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43106213",
+    "doi": "10.1111/ijd.70794"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "International journal of dermatology",
+   "consulta": "(pemphig*[ti] OR bullous pemphigoid[ti])",
+   "id": "db99ea8aa9b3d636",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Dynamics of the Humoral Response in Gliptin-Associated Bullous Pemphigoid.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Clinical Factors Associated with Severe Complications and Early Relapse in Mucous Membrane Pemphigoid: A Retrospective Cohort Study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43105799/",
+   "url_doi": "https://doi.org/10.2147/jir.s654600",
+   "fonte": "Journal of inflammation research",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-23T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Mucous membrane pemphigoid (MMP) is a rare autoimmune blistering disease that causes irreversible scarring and functional impairment. Severe complications and early relapse represent key adverse outcomes, but their respective risk factors remain poorly defined.\nOBJECTIVE: To explore clinical factors associated with severe complications and 1-year relapse in MMP patients.\nMETHODS: We retrospectively analyzed 94 patients newly diagnosed with MMP at Peking Union Medical College Hospital between January 2018 and February 2026. Associations with severe complications were examined using exploratory univariable analyses in the full cohort. Relapse was evaluated using multivariable logistic regression in 55 patients with evaluable 12-month follow-up after disease control.\nRESULTS: Severe complications occurred in 9 of 94 patients (9.6%). In univariable analyses, age ≥65 years, initial pharyngeal/laryngeal involvement, involvement of ≥3 mucosal sites, selected mucosal locations (lip/nasal/pharyngeal), low peripheral eosinophil counts, low serum albumin levels, and negative anti-BP180 NC16A ELISA results were associated with severe complications. Among the 55 patients included in the relapse analysis, 30 (54.5%) experienced relapse within one year. In the adjusted model, age <50 years (adjusted OR 6.91, 95% CI 1.19-39.94) and buccal mucosal involvement (adjusted OR 5.04, 95% CI 1.34-19.03) were associated with higher odds of relapse, whereas initial ocular involvement was associated with lower odds (adjusted OR 0.14, 95% CI 0.02-0.97).\nCONCLUSION: Severe complications and early relapse in MMP showed partly different patterns of clinical associations in this retrospective cohort. Given the small number of complication events, incomplete follow-up, and potential confounding, these findings should be considered exploratory and require confirmation in larger prospective studies.",
+   "identificadores": {
+    "pmid": "43105799",
+    "doi": "10.2147/jir.s654600"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Journal of inflammation research",
+   "consulta": "(pemphig*[ti] OR bullous pemphigoid[ti])",
+   "id": "1662b44599bd4f86",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo observacional",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas",
+    "Complicações de procedimentos"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "evidência: estudo observacional (+1)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Severe complications and early relapse in MMP showed partly different patterns of clinical associations in this retrospective cohort. Given the small number of complication events, incomplete follow-up, and potential confounding, these findings should be considered exploratory and require confirmation in larger prospective studies.",
+   "titulo": "Clinical Factors Associated with Severe Complications and Early Relapse in Mucous Membrane Pemphigoid: A Retrospective Cohort Study.",
+   "limitacoes": [
+    "Estudo observacional: mostra associação, não prova causalidade."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Desquamative gingivitis as the sole oral manifestation of pemphigus vulgaris: A novel therapeutic approach using platelet-rich fibrin and topical steroid occlusive therapy.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43105642/",
+   "url_doi": "https://doi.org/10.4103/jisp.jisp_497_25",
+   "fonte": "Journal of Indian Society of Periodontology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-10-29T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Pemphigus vulgaris (PV) is a chronic autoimmune mucocutaneous disorder characterized by intraepithelial blister formation due to autoantibodies against desmoglein-3. A 46-year-old female presented with a 2-year history of persistent gingival erythema, swelling, and burning sensation. Based on the clinical findings, a provisional diagnosis of an autoimmune mucocutaneous disorder was considered. Histopathological examination and direct immunofluorescence of a gingival biopsy demonstrated intercellular immunoglobulin G deposition in a characteristic \"fish-net\" pattern, confirming PV. The patient was treated with topical triamcinolone 0.1% and clobetasol propionate 0.05% delivered through a custom-fabricated tray, with platelet-rich fibrin (PRF) as an adjunct to promote mucosal healing. The treatment resulted in marked symptomatic improvement and favorable healing. This case highlights the importance of recognizing desquamative gingivitis as an oral manifestation of PV and suggests a potential supportive role of PRF in promoting gingival healing.",
+   "identificadores": {
+    "pmid": "43105642",
+    "doi": "10.4103/jisp.jisp_497_25"
+   },
+   "tipos_publicacao": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "periodico": "Journal of Indian Society of Periodontology",
+   "consulta": "(pemphig*[ti] OR bullous pemphigoid[ti])",
+   "id": "fce1d9884d133fc3",
+   "encontrado_em": "2026-11-28T17:22:02+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "relato de caso",
+   "status_terapia": null,
+   "assuntos": [
+    "Doenças bolhosas"
+   ],
+   "assunto": "Doenças bolhosas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 0,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "Pemphigus vulgaris (PV) is a chronic autoimmune mucocutaneous disorder characterized by intraepithelial blister formation due to autoantibodies against desmoglein-3. A 46-year-old female presented with a 2-year history of persistent gingival erythema, swelling, and burning sensation. Based on the clinical findings, a provisional diagnosis of an autoimmune mucocutaneous disorder was considered.",
+   "titulo": "Desquamative gingivitis as the sole oral manifestation of pemphigus vulgaris: A novel therapeutic approach using platelet-rich fibrin and topical steroid occlusive therapy.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião)."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Chronic recurrent wheals associated with an MEFV K695R variant.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104669/",
+   "url_doi": "https://doi.org/10.1111/jdv.70876",
+   "fonte": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43104669",
+    "doi": "10.1111/jdv.70876"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "consulta": "periódico J Eur Acad Dermatol Venereol",
+   "id": "7b395f5a2946ca03",
+   "encontrado_em": "2026-11-28T17:22:01+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Chronic recurrent wheals associated with an MEFV K695R variant.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Association of dupilumab treatment with incident vitiligo and alopecia areata in atopic dermatitis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104592/",
+   "url_doi": "https://doi.org/10.1111/jdv.70881",
+   "fonte": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43104592",
+    "doi": "10.1111/jdv.70881"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "consulta": "periódico J Eur Acad Dermatol Venereol",
+   "id": "bb591d3c50c9e4d4",
+   "encontrado_em": "2026-11-28T17:22:01+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica",
+    "Vitiligo",
+    "Alopecias"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Association of dupilumab treatment with incident vitiligo and alopecia areata in atopic dermatitis.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Nurse-performed early-access consultations for alarming skin lesions: Meeting the need for capacity.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104282/",
+   "url_doi": "https://doi.org/10.1111/jdv.70877",
+   "fonte": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43104282",
+    "doi": "10.1111/jdv.70877"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "consulta": "periódico J Eur Acad Dermatol Venereol",
+   "id": "8820cc11c8549cf7",
+   "encontrado_em": "2026-11-28T17:22:01+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Nurse-performed early-access consultations for alarming skin lesions: Meeting the need for capacity.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Celastrol Alleviates IL-17A Inflammatory Positive Feedback in Psoriasis by Targeting PFDN2.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104907/",
+   "url_doi": "https://doi.org/10.1002/exp2.70254",
+   "fonte": "Exploration (Beijing, China)",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-26T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Psoriasis is a prevalent immune-mediated inflammatory disorder characterized by excessive proliferation of keratinocytes (KC). Despite the natural product celastrol (CS) being known for its anti-inflammatory and immunosuppressive pharmacological activities, its specific mechanism in psoriasis remains incompletely elucidated. Here, we identified PFDN2 as the direct target of CS through the proteomic microarray. Analysis of patient lesions confirmed that PFDN2 is primarily upregulated in the psoriatic epidermis. Utilizing conditional Pfdn2 knockout mouse models, we demonstrated that CS ameliorated psoriatic skin inflammation and proliferation by inhibiting PFDN2 in KC. Mechanistically, CS inhibited the direct binding of PFDN2 to S100A7 and promoted the degradation of S100A7 via the proteasome pathway. This led to the down-regulation of IL-17A levels and ultimately impeded the positive feedback loop of IL-17A. Additionally, in a randomized, single-blind, controlled pilot study (n = 64), we found that the favorable therapeutic efficacy of CS in lowering Psoriasis Area and Severity Index (PASI) scores and relapse rates in patients with psoriasis. Overall, this study underscores that PFDN2 is a promising therapeutic target for psoriasis. CS inhibits the PFDN2/S100A7/IL-17A positive feedback loop and attenuates psoriatic inflammation, which effectively improves the lesions in patients with psoriasis.",
+   "identificadores": {
+    "pmid": "43104907",
+    "doi": "10.1002/exp2.70254"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Exploration (Beijing, China)",
+   "consulta": "(psoriasis[ti]) AND (phase 3[tiab] OR randomized[tiab] OR gu",
+   "id": "bc07ffe107f9efe9",
+   "encontrado_em": "2026-11-28T17:22:01+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo experimental (pré-clínico)",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Resultado pré-clínico: não representa tratamento estabelecido."
+   ],
+   "resumo": "Psoriasis is a prevalent immune-mediated inflammatory disorder characterized by excessive proliferation of keratinocytes (KC). Despite the natural product celastrol (CS) being known for its anti-inflammatory and immunosuppressive pharmacological activities, its specific mechanism in psoriasis remains incompletely elucidated. Here, we identified PFDN2 as the direct target of CS through the proteomic microarray.",
+   "titulo": "Celastrol Alleviates IL-17A Inflammatory Positive Feedback in Psoriasis by Targeting PFDN2.",
+   "limitacoes": [
+    "Estudo em laboratório/animais: resultados podem não se repetir em humanos."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Efficacy and safety of topical Janus kinase inhibitors versus topical calcineurin inhibitors for vitiligo: a systematic review and network meta-analysis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43105012/",
+   "url_doi": "https://doi.org/10.3389/fmed.2026.2024058",
+   "fonte": "Frontiers in medicine",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-13T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Topical JAK inhibitors and calcineurin inhibitors (TCIs) are used in vitiligo management; however, their relative efficacy and safety have not been compared within a unified network meta-analysis.\nOBJECTIVE: To compare the efficacy and safety of topical JAK inhibitors and topical calcineurin inhibitors against vehicle placebo in vitiligo.\nMETHODS: Six databases were searched through April 2026. Eight randomized controlled trials (950 participants) were included. Outcomes of interest were ≥50% and ≥75% reductions in Total or Facial Vitiligo Area Scoring Index (T-VASI50/75; F-VASI50/75) and adverse events. A frequentist network meta-analysis was performed using the netmeta and dmetar packages in R software.\nRESULTS: Ruxolitinib 1.5% cream ranked highest for total body repigmentation (T-VASI50: RR = 3.86, 95% CI: 2.24-6.66, p < 0.001; T-VASI75: RR = 3.18, 95% CI: 1.12-9.05, p = 0.030) and was the only intervention significantly superior to placebo for both endpoints. Tacrolimus 0.1% ointment ranked highest for facial repigmentation (F-VASI50/75), though estimates were imprecise since are derived from a single trial and carried wide confidence intervals. Tofacitinib 2% cream demonstrated the most favorable adverse event profile.\nCONCLUSION: Ruxolitinib 1.5% cream demonstrates superior total body repigmentation, while tacrolimus 0.1% ointment shows higher estimated facial efficacy. Tofacitinib 2% cream offered the most favorable safety profile among active interventions. Large head-to-head trials are warranted to optimize clinical guidelines.\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/PROSPERO/view/CRD420261382552, PROSPERO CRD420261382552.",
+   "identificadores": {
+    "pmid": "43105012",
+    "doi": "10.3389/fmed.2026.2024058"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Systematic Review"
+   ],
+   "periodico": "Frontiers in medicine",
+   "consulta": "(vitiligo[ti]) AND (trial[tiab] OR guideline[pt])",
+   "id": "5960dd30e6c84e53",
+   "encontrado_em": "2026-11-28T17:22:01+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "metanálise",
+   "status_terapia": "em estudo",
+   "assuntos": [
+    "Vitiligo",
+    "Complicações de procedimentos"
+   ],
+   "assunto": "Vitiligo",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 4,
+   "justificativa_relevancia": [
+    "evidência: metanálise (+3)",
+    "fonte: fonte científica (periódico/base) (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "Ruxolitinib 1.5% cream demonstrates superior total body repigmentation, while tacrolimus 0.1% ointment shows higher estimated facial efficacy. Tofacitinib 2% cream offered the most favorable safety profile among active interventions. Large head-to-head trials are warranted to optimize clinical guidelines.",
+   "titulo": "Efficacy and safety of topical Janus kinase inhibitors versus topical calcineurin inhibitors for vitiligo: a systematic review and network meta-analysis.",
+   "limitacoes": [],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Corrigendum to 'The Melanoma Toolkit for Early Detection Improves Accuracy but Fails to Improve the Number Needed to Biopsy' Journal of Investigative Dermatology, Volume 146, Issue 1, January 2026, Pages 277-279.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43106221/",
+   "url_doi": "https://doi.org/10.1016/j.jid.2026.04.001",
+   "fonte": "The Journal of investigative dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43106221",
+    "doi": "10.1016/j.jid.2026.04.001"
+   },
+   "tipos_publicacao": [
+    "Published Erratum"
+   ],
+   "periodico": "The Journal of investigative dermatology",
+   "consulta": "periódico J Invest Dermatol",
+   "id": "0de2570f6b9bb289",
+   "encontrado_em": "2026-11-28T17:22:00+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "errata",
+   "status_terapia": null,
+   "assuntos": [
+    "Melanoma"
+   ],
+   "assunto": "Melanoma",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Corrigendum to 'The Melanoma Toolkit for Early Detection Improves Accuracy but Fails to Improve the Number Needed to Biopsy' Journal of Investigative Dermatology, Volume 146, Issue 1, January 2026, Pages 277-279.",
+   "limitacoes": [
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Toward label-free 2-photon excited fluorescence microscopy for studying cellular immune responses in human skin.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43106220/",
+   "url_doi": "https://doi.org/10.1016/j.jid.2026.09.861",
+   "fonte": "The Journal of investigative dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "The skin is a uniquely accessible organ for studying immunity, containing diverse innate and adaptive cells that respond to injury, infection, and autoimmune triggers. Understanding these responses in their native environment requires imaging methods that capture immune activity in situ longitudinally-capabilities that serial tissue biopsies cannot provide. Two-photon excited fluorescence (TPEF) microscopy has enabled real-time visualization of immune cell behavior in living tissues, revealing how cells migrate, interact, and become activated during health and disease. Whereas early intravital studies relied on fluorescent reporters in mouse models, recent advances show that many immune cell states can be identified label free by using the natural fluorescence of metabolic cofactors such as NAD(P)H (nicotinamide adenine dinucleotide [phosphate], reduced form) and flavin adenine dinucleotide. These endogenous signals, combined with morphological and behavioral features, provide multidimensional \"optical fingerprints\" of immune cell types and functional states. This review synthesizes findings from studies of human immune cells in vitro, human skin ex vivo, and intact mouse skin in vivo and recent advances in label-free imaging of immune cells directly in living human skin. Together, these studies define an emerging framework for the optical characterization of immune responses across experimental systems, while highlighting the growing potential of TPEF microscopy for noninvasive, real-time assessment of immune function in patients, with applications in autoimmunity, infection, and monitoring responses to therapy.",
+   "identificadores": {
+    "pmid": "43106220",
+    "doi": "10.1016/j.jid.2026.09.861"
+   },
+   "tipos_publicacao": [
+    "Journal Article",
+    "Review"
+   ],
+   "periodico": "The Journal of investigative dermatology",
+   "consulta": "periódico J Invest Dermatol",
+   "id": "0865f336fddfef40",
+   "encontrado_em": "2026-11-28T17:22:00+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo experimental (pré-clínico)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 2,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [
+    "Resultado pré-clínico: não representa tratamento estabelecido."
+   ],
+   "resumo": "The skin is a uniquely accessible organ for studying immunity, containing diverse innate and adaptive cells that respond to injury, infection, and autoimmune triggers. Understanding these responses in their native environment requires imaging methods that capture immune activity in situ longitudinally-capabilities that serial tissue biopsies cannot provide. Two-photon excited fluorescence (TPEF) microscopy has enabled real-time visualization of immune cell behavior in living tissues, revealing…",
+   "titulo": "Toward label-free 2-photon excited fluorescence microscopy for studying cellular immune responses in human skin.",
+   "limitacoes": [
+    "Estudo em laboratório/animais: resultados podem não se repetir em humanos."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "The clock in the skin: An epithelial rhythm that gates systemic alarmin release.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43106219/",
+   "url_doi": "https://doi.org/10.1016/j.jid.2026.09.860",
+   "fonte": "The Journal of investigative dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43106219",
+    "doi": "10.1016/j.jid.2026.09.860"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "The Journal of investigative dermatology",
+   "consulta": "periódico J Invest Dermatol",
+   "id": "b9e4501eab6229ff",
+   "encontrado_em": "2026-11-28T17:22:00+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "The clock in the skin: An epithelial rhythm that gates systemic alarmin release.",
+   "limitacoes": [
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "CD39 Functionally Interacts with JAK/STAT3 Signaling and Associates with Ruxolitinib Sensitivity in Sézary Syndrome.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103623/",
+   "url_doi": "https://doi.org/10.1016/j.jid.2026.11.723",
+   "fonte": "The Journal of investigative dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "Sézary syndrome (SS) is an aggressive cutaneous T-cell lymphoma characterized by constitutive JAK/STAT3 activation and aberrant expression of the ectonucleotidase CD39/ENTPD1. CD39 contributes to the immunosuppressive phenotype of malignant T cells, however, the relationship between CD39 and STAT3 signaling remains poorly understood. Here, we investigated the functional interplay between CD39 and the JAK/STAT3 signaling in SS and explore its potential as a biomarker of response to JAK1/2 inhibitor ruxolitinib. We demonstrate that STAT3 directly binds to the ENTPD1 promoter, supporting transcriptional regulation of CD39. Moreover, genetic and pharmacological inhibition of CD39 reduced STAT3 phosphorylation, revealing an unrecognized reciprocal relationship between CD39 and JAK/STAT3 signaling. ENTPD1 silencing increased extracellular ATP accumulation, and in CD39-deficient cells exogenous ATP further attenuated STAT3 phosphorylation, implicating altered purinergic signaling in the maintenance of constitutive STAT3 activation. Finally, CD39-high CTCL cell lines displayed enhanced sensitivity to ruxolitinib, suggesting that CD39 expression may be associated with increased sensitivity to JAK/STAT3 pathway inhibition. These findings identify CD39 as a direct transcriptional target of STAT3 that contributes to the maintenance of JAK/STAT3 signaling in SS. Our study provides mechanistic insight into SS biology and supports the further evaluation of CD39 as a candidate biomarker for JAK/STAT-directed therapeutic strategies.",
+   "identificadores": {
+    "pmid": "43103623",
+    "doi": "10.1016/j.jid.2026.11.723"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "The Journal of investigative dermatology",
+   "consulta": "periódico J Invest Dermatol",
+   "id": "5dbccdc21e739419",
+   "encontrado_em": "2026-11-28T17:22:00+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "Sézary syndrome (SS) is an aggressive cutaneous T-cell lymphoma characterized by constitutive JAK/STAT3 activation and aberrant expression of the ectonucleotidase CD39/ENTPD1. CD39 contributes to the immunosuppressive phenotype of malignant T cells, however, the relationship between CD39 and STAT3 signaling remains poorly understood. Here, we investigated the functional interplay between CD39 and the JAK/STAT3 signaling in SS and explore its potential as a biomarker of response to JAK1/2…",
+   "titulo": "CD39 Functionally Interacts with JAK/STAT3 Signaling and Associates with Ruxolitinib Sensitivity in Sézary Syndrome.",
+   "limitacoes": [],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Evolution of patient needs in psoriasis treatment over 15 years: Evidence from the German registry PsoBest.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43104796/",
+   "url_doi": "https://doi.org/10.1111/jdv.70812",
+   "fonte": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-28T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "BACKGROUND: Patient needs in psoriasis have been characterized in cross-sectional studies, yet long-term trends across treatment eras remain unknown. The German National Psoriasis Registry PsoBest has continuously assessed treatment goals using the Patient Needs Questionnaire (PNQ) since 2008.\nOBJECTIVE: To analyse temporal changes and subgroup patterns of patient-reported treatment goals between 2008 and 2023 in relation to patient and disease characteristics.\nMETHODS: Baseline PNQ data of registry participants enrolled between 2008 and 2023 were analysed. The PNQ comprises 25 items grouped into five validated subscales. Temporal trends in PNQ global and subscale scores were examined using multivariable linear regression adjusted for sex, age, BMI, PASI, DLQI, duration of psoriasis, PsA, nail psoriasis and previous biologic treatments.\nRESULTS: Among 21,535 patients (41% female; mean age 48 years), mean PNQ global scores remained descriptively stable over time (2.8-2.9). The most highly endorsed goals were 'Healed of all' (94.7%), 'Better skin quickly' (94.1%), 'Regain disease control' (92.7%) and 'Confidence in therapy' (92.0%). Between 2008/09 and 2022/23, the largest increases were observed for 'No burning' (+0.46) and 'Pain free' (+0.41), whereas 'Fewer out-of-pocket costs' (-0.63) and 'Normal leisure activities' (-0.20) showed the largest decreases. In adjusted analyses, year of enrolment was negatively associated with the PNQ global score (β = -0.008/year) and four subscales (β = -0.023 to -0.005/year), whereas 'Reducing physical impairment' increased (β = 0.021/year; all 95% CIs excluding zero). Tobit sensitivity analyses yielded consistent directions.\nCONCLUSIONS: Over 15 years, patient needs shifted towards greater importance of symptom-related goals and lower importance of several therapy- and cost-related goals. Adjustment revealed a small decline in overall patient needs while confirming the increasing importance of reducing physical impairment. These findings underline the evolving nature of patient priorities and the importance of continuously considering individual patient needs to support patient-centred care and shared decision-making in psoriasis.",
+   "identificadores": {
+    "pmid": "43104796",
+    "doi": "10.1111/jdv.70812"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+   "consulta": "periódico J Eur Acad Dermatol Venereol",
+   "id": "ec89338b65dbd3e4",
+   "encontrado_em": "2026-11-28T17:22:00+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "estudo observacional",
+   "status_terapia": null,
+   "assuntos": [
+    "Psoríase",
+    "Unhas"
+   ],
+   "assunto": "Psoríase",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: estudo observacional (+1)",
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "Over 15 years, patient needs shifted towards greater importance of symptom-related goals and lower importance of several therapy- and cost-related goals. Adjustment revealed a small decline in overall patient needs while confirming the increasing importance of reducing physical impairment. These findings underline the evolving nature of patient priorities and the importance of continuously considering individual patient needs to support patient-centred care and shared decision-making in psoriasis.",
+   "titulo": "Evolution of patient needs in psoriasis treatment over 15 years: Evidence from the German registry PsoBest.",
+   "limitacoes": [
+    "Estudo observacional: mostra associação, não prova causalidade."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Liability Risk Associated with Antifungals in Dermatology.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103537/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.11.091",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43103537",
+    "doi": "10.1016/j.jaad.2026.11.091"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "e80b186df6f2fca5",
+   "encontrado_em": "2026-11-28T17:21:59+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Infecções cutâneas"
+   ],
+   "assunto": "Infecções cutâneas",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Liability Risk Associated with Antifungals in Dermatology.",
+   "limitacoes": [
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Squeeze Don't Scratch! Using Squishy Toys to Reduce Itching in Pediatric Patients with Atopic Dermatitis and Other Pruritic Conditions.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103536/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.11.093",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43103536",
+    "doi": "10.1016/j.jaad.2026.11.093"
+   },
+   "tipos_publicacao": [
+    "Journal Article"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "d28b613024a051f7",
+   "encontrado_em": "2026-11-28T17:21:59+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "artigo científico (tipo não especificado)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatite atópica",
+    "Dermatologia pediátrica"
+   ],
+   "assunto": "Dermatite atópica",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 3,
+   "justificativa_relevancia": [
+    "evidência: artigo científico (tipo não especificado) (+1)",
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "interessante",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Squeeze Don't Scratch! Using Squishy Toys to Reduce Itching in Pediatric Patients with Atopic Dermatitis and Other Pruritic Conditions.",
+   "limitacoes": [
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
+  {
+   "titulo_original": "Balancing Benefit and Risk: Ethical Considerations in Treating DRESS.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43103535/",
+   "url_doi": "https://doi.org/10.1016/j.jaad.2026.11.092",
+   "fonte": "Journal of the American Academy of Dermatology",
+   "agregador": "PubMed",
+   "tipo_fonte": "periodico",
+   "idioma": "en",
+   "publicado_em": "2026-11-27T00:00:00+00:00",
+   "indexado_em": "2026-11-28T00:00:00+00:00",
+   "atualizado_em": null,
+   "resumo_original": "",
+   "identificadores": {
+    "pmid": "43103535",
+    "doi": "10.1016/j.jaad.2026.11.092"
+   },
+   "tipos_publicacao": [
+    "Letter"
+   ],
+   "periodico": "Journal of the American Academy of Dermatology",
+   "consulta": "periódico J Am Acad Dermatol",
+   "id": "10ce943a18b71ad8",
+   "encontrado_em": "2026-11-28T17:21:59+00:00",
+   "relatorios": [],
+   "ideia_conteudo": null,
+   "ideia_usada_em": null,
+   "alerta_enviado_em": null,
+   "mencoes": [],
+   "nivel_fonte": 2,
+   "tipo_evidencia": "carta/editorial (opinião)",
+   "status_terapia": null,
+   "assuntos": [
+    "Dermatologia geral"
+   ],
+   "assunto": "Dermatologia geral",
+   "alerta_seguranca": false,
+   "marketing": false,
+   "dermatologico": true,
+   "fonte_primaria_confirmada": true,
+   "pontuacao": 1,
+   "justificativa_relevancia": [
+    "fonte: fonte científica (periódico/base) (+1)",
+    "periódico de alto impacto (+1)"
+   ],
+   "relevancia": "baixa",
+   "observacoes_validacao": [],
+   "resumo": "",
+   "titulo": "Balancing Benefit and Risk: Ethical Considerations in Treating DRESS.",
+   "limitacoes": [
+    "Baixo nível de evidência (caso isolado/opinião).",
+    "Resumo não disponível no PubMed — leitura do texto completo necessária."
+   ],
+   "modo_analise": "heuristico"
+  },
   {
    "titulo_original": "Pesquisa revela que 58% dos brasileiros não usam protetor solar no rosto diariamente",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYk9GSF9rM3dBVGtIck8yNzJwdElldnc4WXNFbXV3UU5YTFM1MFM4N2pwNWwweWY2XzNUVFlvay1fVUZJQTlhd1VaLXBYU3REYmxyaDc2QmJRQTVIcUJmb1lGZmRqbWRzNWZRY3ZiTGtBVHM1YXZfcEdPUWNVLXkwc3JTSHdsYUpyX0JvYmtmQUU2TFJGTGZUZWpDTThRZUpYRmxQTHBGai1IYUgwYVJ0djlRTWpXLVFsUUxTbGEyTDVVaXBTLWNiRkE1bw?oc=5",
@@ -3881,7 +7229,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "News9live",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeUQ0SHVqbFBXMTJ6RlFuY3JZZDNwMml0cS1wVldPQUxvUFhDajdOXzA0MXU4OTF2VnhUMGRmSDJscFU2R3NuaWhCV3ZXLW9oeGktOWlNUUwwdG9CR2RhcndCYkw3bWYtTjViY3gzclZUUHZ0eHlMbE8zSWFnN3ZucFlMcEN5dVlvTWw4clNJdVBWc2JJSHhmMHREY0Q0cDd5VG5MeVd2Y9IBrAFBVV95cUxPV2pCUm91SDNuVk5yZkpLSDAyUXdBNVI0NWhVbDRPNlBVZi05ZkgwbUdQXzhDODBrS2xZZ2RrcGpzVmVHbVBaNFdfenZtUkVSUVUwM2k3cHpFLWlHdHFrUlg0MW0zREdfSldQSFBKY01FYWxMN0FicVlsRmFpREZQbGNHU2NjV0lRVjdGU0s5VFdqdXJtOEhyVnZ4V1AyZXg1bG00YjhjNXJDcWVj",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:08+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -4186,7 +7542,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Belfast Telegraph",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSFpkMWEwVTFXVXM2Mk50S2ZWWHlVc3c0TW03aEJ3WjNzREJhMzVGUmJhWUVRQ0ZVWkQzN1RUMVI1Y2hzZ1dyc3pCWHNpNlpyQjE0eXItYklkc0RmTVRDMmxocWxqRi1GUWtKb1M2Z2hDMTdEMXYzVmtzNVQ2dkZ5NElHbnFsaGhxTTFoRzJVNGZmVmFPeERwM015VWFsMkxrMzEwRjZFS0Fzei1YQXlPVWNoZUF2a0dDSWx3",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:06+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -4476,7 +7840,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "The News International",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDM1UXROeWIxdWlwNWpocmNTMGhvSDJ1dVMzRHJ2V21wd0lla1NudjU5UHNaUktjWVdPa25qRVgtWEJ2VE5Ibnpvek01dGlUdFR6am1rWkhJbW9zWEF1cmtPZHFuRm1ZSkJ5c0FZZjZJOXJsQWpOUlU5ZVdLOURPcy1nVHJGMllYamoxNDhEUGNKYnpaMm9Tc1VhUUlpQ2xtc3pjU08tdXVOaEFieWIyQWV6X3p2b3pWeHhleUdNTjF5MjRpeUE",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:06+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": "em estudo",
@@ -5081,7 +8453,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Korea Biomedical Review",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vUUtsVzNER242anJvWTFQS0d6bWNnTDFMUzNCbjk1UEFvdHVQdGVBWU5SQl83RXR3bTlxWm1mVm5ucHBfdjlqeUNuRDY5cVhOOEN3X0M1RFpKSGRIU0I4YlljbUROZE5fOExLYlg5OVctd9IBckFVX3lxTE1vUUtsVzNER242anJvWTFQS0d6bWNnTDFMUzNCbjk1UEFvdHVQdGVBWU5SQl83RXR3bTlxWm1mVm5ucHBfdjlqeUNuRDY5cVhOOEN3X0M1RFpKSGRIU0I4YlljbUROZE5fOExLYlg5OVctdw",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:05+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -10481,7 +13861,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Cureus",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPTjRYVzFMeXd0dlN1ZUdBNWV4VTE4d2o5ZUt4N0RHNVMybW1DZFZLa05FYkZGLWNYakRfOUgzV3pXemF0LWZ3VVZQTmtKUGdnRmZxcmZqRVAxZGpLY29NM3F2a2FxNlhCaV9OUzh1M0FlOU5Jbjd1U1NVMWN4S0ZIdzFGSU41eUdLRnAxOS1MVFNlLWE1SVBlNFF6VjJiLUFTTDZTNGtsS2h5ZXVmN3duMHdGWGVTekVwazNkQ2prVHdPVGJPeURwbXlkMFN0TTB3MmRudWI5d293MHZNV3RZd0JMSHlidVVuM3I1UXZwMUxsQXVvVmZHYUJmVGtzWVBCbVJOczFvb1ctcnM",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:11+00:00",
+     "motivo": "repercussão na imprensa"
+    }
+   ],
    "nivel_fonte": 2,
    "tipo_evidencia": "artigo científico (tipo não especificado)",
    "status_terapia": null,
@@ -14798,7 +18186,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "Portal VV8",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOGR4akROS3pKQWc1emlDYUozQlVJOTAxeDN6b3VzRGNFcXVyakstN2YzUUxXUE5HSlFIZU1yVU9NeDlQU0Y4dXNtRl95andfMUNnUDY1Mkl3QWJjVF9semFHVlNoSjFrVjQ0N2F0RWdDNU13dEdQWXBfV2ZkMVppczZUc0xkMm5sV2U1TW9OcVc4dW5Zc25UQ3FWNE9icS1CVkNKa1RkNElXb1dQdFZqSEFCYUlRWDhNc0ROM2ItSWVvUDY1OXRybm84VnFRbTBm",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:09+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
@@ -15570,6 +18966,13 @@
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUJBRkQ1YjktYjBTcTRoVHYxLXFSZnYxUTBsYWlZU0UyM0VZM2VtbGd3WGt1bXYzcWJhcm9BUmlGWm1fNS1mSEpzOU03Rk9LRGtSUTZRVU5zczZ0UFB1aExmWHhEVmlTZGdWMkp4WHBYaUYtSExydnlta1JpT2V4aG1wQVNSb0lBLXh3b0xLZnlYWGZaLUNv",
      "tipo_fonte": "noticia",
      "visto_em": "2026-11-25T18:58:36+00:00",
+     "motivo": "título equivalente"
+    },
+    {
+     "fonte": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObmJYdVVfUlNBWFUwNGJGdzN4MUozVHJfRW1zSThXbzR1c2NmQXB3dV9lTElpbUJ2YVkyMTlPdTJsZXZmSWM1aXFTNzc5RlhzWUxNVDYteV9lS3JFS1NGZU9JUjVVNUkwV1E0S2t3N1IzeTZCZzZ3TWQ0UkVaWTFHZldQeWNYMkpneV9jdVk2ajl2N1hDMkpZWURBUkMxMXZ2V2ttSG1FOVVnSlZfSDVMdXlKa1hkajQzaE9KeEln",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:09+00:00",
      "motivo": "título equivalente"
     }
    ],
@@ -25701,6 +29104,13 @@
      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOR1M1OHA5YWYzQV9FQVVzQ2FVYnFzU1BLdV9jNkl5VV83Slo3bHpHVHhNbFIxOWxRbHI5Vm1jc0c1Rll2ZHFqUTVqb1FzS1Y1eUZBZ0V3VFM3S2QtMVdCNHVnWjhCYmR5RjMxa0VIMlJEMHFxVGxsbUpYemVJTTY3VFlHNWVLV1l1Y01UQnAzTlhNODQxdWd1YUNGYV9YQkI4ZzJBZ3g0VXZVUWVFUTNPTzFRVjRRNHVkemdOMkFqX3JmSE82UFpZbDVtd2dlZDJVc3R2WldUVXNQYnRvM0s1QzVEdjNFTzRvR3BQRHZZUXk3S0JYZ2x2TzdLWDUyMERxTVpXSU5aY0g0YVAxVklqSG1PcXBkS0lSdXdpLUc4azNtWFpfY3c",
      "tipo_fonte": "noticia",
      "visto_em": "2026-11-23T20:52:38+00:00",
+     "motivo": "título equivalente"
+    },
+    {
+     "fonte": "Happi | Household And Personal Products Industry",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMVVxSXQ1OG5VRzBWZ3FMcnp2dFYyV1dzTEpuTVUtQkNEQWJnYXYxUFJZVjVybXNMMHhoam53VTdCMEJoLXRmT2JUZy1UMS1YNDN3UXFVeHRpeDBEMjVzbVdXbF95SGN3ZEphU0pvMFpQd3lGSW9NTkdoeUVsNTZ5SjhuUEkzbDlDSUFNVFVRN0wtUHVrWHdqMS1weHV0bnJHanlObXg4c000QnhTU3V1RzZhUUgzRXBqSXc",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:06+00:00",
      "motivo": "título equivalente"
     }
    ],
@@ -51967,6 +55377,13 @@
      "tipo_fonte": "noticia",
      "visto_em": "2026-11-20T17:32:33+00:00",
      "motivo": "repercussão na imprensa"
+    },
+    {
+     "fonte": "Bioengineer.org",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNemEzUlRzNHFEalgwT05zMFJxaGpQR2Nna1ZJN2VveEtNaWttQTlNQ0RXSU1UbjQ4Q19BTy1rSUFkNHJ0eE9VT09wcVQ1cUpnWXNkYWMyNnFHZGx0SEdwUXhzSnpvaVpZX0V4ODdfdzM5WGJOelFPRGNUZHR4TWxSWU1wRmoybE5ybjRiM2c3azFxclBOUUVlVXNUeExwZV9hVzZ5enpNRUxrS0Rod1hONUln",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:11+00:00",
+     "motivo": "repercussão na imprensa"
     }
    ],
    "conteudo_antigo": true,
@@ -68176,7 +71593,15 @@
    },
    "ideia_usada_em": null,
    "alerta_enviado_em": "2026-11-11T16:53:10+00:00",
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "FDA — Recalls",
+     "url": "http://fda.gov/safety/recalls-market-withdrawals-safety-alerts/laubs-feeding-cubing-inc-expands-recall-grade-mini-hay-cubes-and-mini-3-way-mix-hay-cubes-because",
+     "tipo_fonte": "regulatorio",
+     "visto_em": "2026-11-28T17:22:03+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 1,
    "tipo_evidencia": "comunicado regulatório",
    "status_terapia": null,
@@ -130742,7 +134167,15 @@
    "ideia_conteudo": null,
    "ideia_usada_em": null,
    "alerta_enviado_em": null,
-   "mencoes": [],
+   "mencoes": [
+    {
+     "fonte": "TAG24 NEWS USA INC",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNHdIMVltUEVmaUVNWU5abEpJWFRmUG5DS0RSSzJLVXp1M1JycXctbG00VlJ4c000OEh3RndKYnNxblc2cWx0blI1OTg5Sks0dGdLeHdSLVZTbG9BTTFzMVJpOUpvUDdVZzR3Q2JfSXEzblNaSnlOeVBaLWY0eVdGeXRoU2FBUHBnT3V5UnhjZERzZUwzeXc0SkVucmxUWjU3UV81Nzk5M3BpWlpHSE8zdXhxRFRVOEl2aDJWa1RTaE8zazRiSDQ3a05sS2IyUdIB0wFBVV95cUxQekxLdkR4UjNvdWx0Z05VcXJzQzRiT1FJOEpDNDc3TjhRQ2tHU3hlZW1rUjdKYU1zOHh4LTF1UmQyWU5kRHBoM2RSbE81TmNFRFpoY2ZPQV9LUXBvY0dySjRUNXlOUkUtY0pFWVp5Z2RnRTNpb0RLajE1Q0draS0tYVM1blZoU1kxdFRMcjhxZzBsOEY4YWhlZ3dScHZwVVJqMy1PMFVHb1RaZmVUb2JKeC1sTDE4Z19LMXVodWQ1ajg4bDdGdmQ5aDRXellvaURFZ2NN",
+     "tipo_fonte": "noticia",
+     "visto_em": "2026-11-28T17:22:08+00:00",
+     "motivo": "título equivalente"
+    }
+   ],
    "nivel_fonte": 4,
    "tipo_evidencia": "notícia",
    "status_terapia": null,
